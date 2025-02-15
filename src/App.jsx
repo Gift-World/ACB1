@@ -1,15 +1,25 @@
-import Hero from './components/Hero'
-import Highlights from './components/Highlights'
-import Events from './components/Events'
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import NavBar from "./components/NavBar";
+import About from "./pages/About";
+
 
 function App() {
   return (
-    <div className="min-h-screen bg-black">
-      <Hero />
-      <Highlights />
-      <Events />
+    <div>
+      <NavBar />
+              <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/about" element={<About />} /> 
+              </Routes>
     </div>
   )
 }
 
-export default App
+const RootApp = () => (
+  <Router>
+    <App />
+  </Router>
+);
+
+export default RootApp;

@@ -1,0 +1,149 @@
+import { motion } from "framer-motion";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
+
+const Navbar = () => {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  return (
+    <motion.nav
+      initial={{ y: -100 }}
+      animate={{ y: 0 }}
+      className="fixed w-full z-50"
+    >
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between items-center h-12 md:h-16">
+          <div className="">
+            <Link to="/">
+              <img
+                src="https://i.imgur.com/XcKmpWW.png"
+                alt="logo"
+                className="h-36 object-contain w-auto md:w-56 -ml-5 md:-ml-14 -mt-5 md:-mt-6"
+              />
+            </Link>
+          </div>
+
+          <div className="md:hidden">
+            {isMenuOpen ? (
+              <X
+                className="cursor-pointer text-white"
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              />
+            ) : (
+              <Menu
+                className="cursor-pointer text-white"
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              />
+            )}
+          </div>
+
+          <div className="md:flex hidden space-x-8">
+            <Link
+              to="/"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+            >
+              <span className="relative">
+                Home
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+              </span>
+            </Link>
+            <Link
+              to="/about"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+            >
+              <span className="relative">
+                About Us
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+              </span>
+            </Link>
+            <Link
+              to="/programs"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+            >
+              <span className="relative">
+                Programmes
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+              </span>
+            </Link>
+            <Link
+              to="/blogs"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+            >
+              <span className="relative">
+                News & Insights
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+              </span>
+            </Link>
+            <Link
+              to="/contact"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+            >
+              <span className="relative">
+                Contact
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+              </span>
+            </Link>
+          </div>
+        </div>
+        {isMenuOpen && (
+          <div className="flex md:hidden justify-center items-center flex-col h-[calc(100vh-4rem)] mt-16 bg-black/80 backdrop-blur-sm">
+            <div className="flex flex-col gap-y-8 -mt-16">
+              <Link
+                to="/"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              >
+                <span className="relative">
+                  Home
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                </span>
+              </Link>
+              <Link
+                to="/about"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              >
+                <span className="relative">
+                  About Us
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                </span>
+              </Link>
+              <Link
+                to="/programs"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              >
+                <span className="relative">
+                  Programmes
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                </span>
+              </Link>
+              <Link
+                to="/blogs"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              >
+                <span className="relative">
+                  News & Insights
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                </span>
+              </Link>
+              <Link
+                to="/contact"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              >
+                <span className="relative">
+                  Contact
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                </span>
+              </Link>
+            </div>
+          </div>
+        )}
+      </div>
+    </motion.nav>
+  );
+};
+
+export default Navbar;

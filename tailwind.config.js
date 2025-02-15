@@ -6,6 +6,14 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#FF6B6B",
+        secondary: "#4ECDC4",
+        dark: "#2C3E50",
+      },
+      fontFamily: {
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+      },
       animation: {
         'slide-in': 'slideIn 1s ease-out',
       },

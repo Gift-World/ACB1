@@ -1,0 +1,216 @@
+import { motion } from 'framer-motion';
+import { useInView } from 'react-intersection-observer';
+function About() {
+    const [ref, inView] = useInView({
+        triggerOnce: true,
+        threshold: 0.1,
+      });
+      const fadeIn = {
+        hidden: { opacity: 0, y: 20 },
+        visible: { opacity: 1, y: 0 },
+      };
+  return (
+    <div className="text-white">
+    {/* Hero Section */}
+    <section className="hero-pattern relative">
+      <div className="hero-overlay min-h-screen flex items-center justify-center relative overflow-hidden">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-primary opacity-10 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary opacity-10 rounded-full blur-3xl"></div>
+        
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1 }}
+          className="container mx-auto px-4 text-center"
+        >
+          <motion.div
+            initial={{ scale: 0.5 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 0.5 }}
+            className="text-primary font-bold text-xl mb-4 text-glow float-animation"
+          >
+            SINCE 2014
+          </motion.div>
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-glow">Africa's Campus Battle</h1>
+          <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8 glass-card p-6 rounded-lg">
+            The premier continental stage where young talent from institutions of higher learning becomes a force for change.
+          </p>
+          <p className="text-lg text-gray-200 max-w-2xl mx-auto glass-card p-6 rounded-lg">
+            Through dance, music, spoken word and performing arts, ACB is empowering Africa's Gen Z to transform their creativity into real impact, rewriting the future with unapologetic authenticity.
+          </p>
+        </motion.div>
+      </div>
+    </section>
+
+    {/* Vision & Mission Section */}
+    <section className="py-20 bg-dark/90">
+      <div className="container mx-auto px-4">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+          <motion.div
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            className="glass-card p-8 rounded-xl card-hover"
+          >
+            <h2 className="text-3xl font-bold mb-4 text-primary text-glow">Our Vision</h2>
+            <p className="text-gray-200">
+              To make every campus a stage for change, where Africa's brightest voices shape a sustainable future.
+            </p>
+          </motion.div>
+          <motion.div
+            initial={{ opacity: 0, x: 20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            className="glass-card p-8 rounded-xl card-hover"
+          >
+            <h2 className="text-3xl font-bold mb-4 text-primary text-glow">Our Mission</h2>
+            <p className="text-gray-200">
+              To ignite Africa's campuses with purpose-driven talent, challenging young creatives to use their art as a force for social impact. With the SDGs as our guide, ACB connects brands with a generation dedicated to a brighter future.
+            </p>
+          </motion.div>
+        </div>
+      </div>
+    </section>
+
+    {/* Stats Section */}
+    <section className="stats-pattern relative py-20">
+      <div className="bg-dark/80 absolute inset-0"></div>
+      <div className="container mx-auto px-4 relative">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+          {[
+            { number: "200k+", text: "Students from 28 countries" },
+            { number: "$10k", text: "In scholarships and prizes" },
+            { number: "50k+", text: "Physical event participants" },
+            { number: "10M+", text: "Social media reach" },
+          ].map((stat, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.2 }}
+              className="glass-card text-center p-6 rounded-xl card-hover"
+            >
+              <h3 className="text-4xl font-bold text-primary mb-2 text-glow">{stat.number}</h3>
+              <p className="text-gray-200">{stat.text}</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    {/* Values Section */}
+    <section ref={ref} className="values-pattern relative py-20">
+      <div className="bg-dark/85 absolute inset-0"></div>
+      <div className="container mx-auto px-4 relative">
+        <motion.h2
+          variants={fadeIn}
+          initial="hidden"
+          animate={inView ? "visible" : "hidden"}
+          transition={{ duration: 0.6 }}
+          className="text-4xl font-bold text-center mb-16 text-glow"
+        >
+          Our Values
+        </motion.h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {[
+            {
+              title: "Empowerment",
+              description: "Enabling individuals to grow, shine, and reach their full potential.",
+              icon: "🚀",
+            },
+            {
+              title: "Inclusivity",
+              description: "Creating a diverse, welcoming environment where everyone can succeed and make a difference.",
+              icon: "🤝",
+            },
+            {
+              title: "Integrity",
+              description: "Upholding honesty, fairness, and transparency in all our endeavors.",
+              icon: "⚖️",
+            },
+            {
+              title: "Excellence",
+              description: "Striving for top-tier quality and delivering outstanding experiences.",
+              icon: "⭐",
+            },
+            {
+              title: "Impact",
+              description: "Making a positive, lasting difference in the lives of young people and communities.",
+              icon: "🎯",
+            },
+            {
+              title: "Fun",
+              description: "Creating an electrifying, high-energy space where creativity thrives, talent shines, and every moment is an experience to enjoy, connect, and celebrate.",
+              icon: "🎉",
+            },
+          ].map((value, index) => (
+            <motion.div
+              key={index}
+              variants={fadeIn}
+              initial="hidden"
+              whileInView="visible"
+              transition={{ delay: index * 0.2 }}
+              className="glass-card p-6 rounded-xl card-hover"
+            >
+              <div className="text-4xl mb-4 float-animation">{value.icon}</div>
+              <h3 className="text-xl font-bold mb-2 text-primary">{value.title}</h3>
+              <p className="text-gray-200">{value.description}</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    {/* Team Section */}
+    <section className="team-pattern relative py-20">
+      <div className="bg-dark/80 absolute inset-0"></div>
+      <div className="container mx-auto px-4 relative">
+        <h2 className="text-4xl font-bold text-center mb-16 text-glow">The ACB Powerhouse</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {[
+            {
+              name: "Lamech Ang'ila",
+              role: "Founder & Director",
+              bio: "Lamech Ang'ila is the visionary behind Africa's Campus Battle (ACB), a platform designed to unite university students through performance arts and social impact. His passion for youth empowerment and expertise in building strategic partnerships have shaped ACB into more than just a competition—it's a movement. Lamech continues to drive ACB's expansion, ensuring its impact reaches across Africa and beyond.",
+              image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop",
+            },
+            {
+              name: "Everlyne Mutunga Ang'ila",
+              role: "CEO",
+              bio: "Leading ACB with a strong vision, Everlyne oversees strategy, growth, and partnerships to ensure ACB remains the ultimate platform for young creatives. With a deep passion for youth development and extensive experience in management, she ensures the seamless execution of every season, creating opportunities for students to showcase talent, connect, and thrive.",
+              image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=500&fit=crop",
+            },
+            {
+              name: "Edwin Mutoro",
+              role: "Finance & Admin Director",
+              bio: "Edwin Mutoro ensures ACB runs on a solid financial and operational foundation. With over a decade of experience in financial consulting, he leads the finance and administration team, guaranteeing financial responsibility and efficiency. His strategic financial oversight ensures ACB remains sustainable, growing stronger with every season.",
+              image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=500&h=500&fit=crop",
+            },
+          ].map((member, index) => (
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: index * 0.2 }}
+              className="glass-card p-6 rounded-xl card-hover"
+            >
+              <div className="relative mb-6 mx-auto w-48 h-48 overflow-hidden rounded-full">
+                <img
+                  src={member.image}
+                  alt={member.name}
+                  className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
+                />
+              </div>
+              <h3 className="text-xl font-bold mb-2 text-primary">{member.name}</h3>
+              <p className="text-primary mb-4">{member.role}</p>
+              <p className="text-gray-200 text-sm px-4">{member.bio}</p>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </div>
+  )
+}
+
+export default About
