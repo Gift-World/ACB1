@@ -11,7 +11,7 @@ function About() {
       };
   return (
     <div className="text-white">
-    {/* Hero Section */}
+    
     <section className="hero-pattern relative">
       <div className="hero-overlay min-h-screen flex items-center justify-center relative overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary opacity-10 rounded-full blur-3xl"></div>
@@ -34,8 +34,7 @@ function About() {
           <h1 className="text-5xl md:text-7xl font-bold mb-6 text-glow">Africa's Campus Battle</h1>
           <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8 glass-card p-6 rounded-lg">
             The premier continental stage where young talent from institutions of higher learning becomes a force for change.
-          </p>
-          <p className="text-lg text-gray-200 max-w-2xl mx-auto glass-card p-6 rounded-lg">
+          
             Through dance, music, spoken word and performing arts, ACB is empowering Africa's Gen Z to transform their creativity into real impact, rewriting the future with unapologetic authenticity.
           </p>
         </motion.div>

@@ -6,19 +6,14 @@ import 'swiper/css/effect-cards';
 const highlights = [
   {
     type: 'image',
-    url: 'https://images.unsplash.com/photo-1516450360452-9312f5e86fc7',
+    url: 'https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-pJPLdw6/0/K7c246KsBB24bP2nvzjhPD2823wZ2fLNfqPkkGHDM/S/Sixtyone-729-S.jpg',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
-  {
-    type: 'video',
-    url: 'https://player.vimeo.com/video/824804225',
-    title: 'Best of Season 6',
-    description: 'Relive the magic of our previous season'
-  },
+  
   {
     type: 'image',
-    url: 'https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec',
+    url: 'https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-D5bghX4/0/KjMLgMvsVmMRVD4mLf3fxZxKkTqRR49KrP7w8RQWb/S/Sixtyone-715-S.jpg',
     title: 'Dance Battle Finals',
     description: 'Epic showdown between top performers'
   },
@@ -32,10 +27,10 @@ const highlights = [
 
 function Highlights() {
   return (
-    <section className="py-20 bg-gradient-to-b from-black to-purple-900">
+    <section className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-black text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-          Season Highlights
+        <h2 className="text-5xl font-black text-center mb-16 bg-clip-text text-orange-700">
+          Season 6 Highlights
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
