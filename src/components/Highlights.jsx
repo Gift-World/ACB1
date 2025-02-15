@@ -6,7 +6,7 @@ import 'swiper/css/effect-cards';
 const highlights = [
   {
     type: 'image',
-    url: 'https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-pJPLdw6/0/K7c246KsBB24bP2nvzjhPD2823wZ2fLNfqPkkGHDM/S/Sixtyone-729-S.jpg',
+    url: 'https://i.imgur.com/Hp6jWZK.jpeg',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },

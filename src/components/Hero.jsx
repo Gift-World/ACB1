@@ -7,19 +7,19 @@ import 'swiper/css/effect-fade';
 
 const slides = [
   {
-    image: 'https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-mnCvkGF/0/LsWxLwqDCRbcH34Fk3tmsccMQrCn84gh4CK2sqMXK/S/Sixtyone-738-S.jpg',
+    image: 'https://i.imgur.com/MMDODYb.jpeg',
     title: 'Talent Unleashed',
   },
   {
-    image: 'https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-ttVk2fJ/0/NMPDwbdjQ9XtW9ChCHq9gt3QrQHDsMJ8VLxPxwHBQ/S/Sixtyone-714-S.jpg',
+    image: 'blob:https://imgur.com/371f1479-84f0-47a2-a8f6-cd014d2d76f8',
     title: 'Campus Stars',
   },
   {
-    image: 'https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-dqhNWrT/0/NBmCgbwWdHq9VGLP87WGjLhLcnXL3C4wHzCtzRHwH/S/Sixtyone-689-S.jpg',
+    image: 'blob:https://imgur.com/1090bd43-e5f1-43d8-b571-a343ccf19b0b',
     title: 'Musical Excellence',
   },
   {
-    image: 'https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-NGKVJ6W/0/LVwDc4FRr8JmxGB8WL7wFnwbvxmtKwSjv5NGZqPMm/S/Sixtyone-665-S.jpg',
+    image: 'blob:https://imgur.com/7c6807bb-2df7-450f-bd28-3a04fe5052f3',
     title: 'Dance Revolution',
   },
   {
@@ -27,7 +27,7 @@ const slides = [
     title: 'Performance Art',
   },
   {
-    image: 'https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-NDcnDcG/0/KvTDcSH6j52c5KKW384zjVTGNSRhgGhBdRP8wgx6h/S/Sixtyone-623-S.jpg',
+    image: 'https://i.imgur.com/TJgtJWQ.jpeg',
     title: 'Stage Presence',
   },
 ];
