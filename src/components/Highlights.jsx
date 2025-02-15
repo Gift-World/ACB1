@@ -19,7 +19,7 @@ const highlights = [
   },
   {
     type: 'video',
-    url: 'https://player.vimeo.com/video/824804225',
+    url: 'https://www.youtube.com/embed/SKl-0hV_Zhg',
     title: 'Season 6 Auditions',
     description: 'Where it all began - best moments'
   }
