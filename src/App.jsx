@@ -3,6 +3,9 @@ import Home from "./pages/Home";
 import NavBar from "./components/NavBar";
 import About from "./pages/About";
 import PastSeasons from "./pages/PastSeasons";
+import Season7 from "./pages/Season7"
+
+
 
 
 function App() {
@@ -13,6 +16,9 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} /> 
               <Route path="/pastseasons" element={<PastSeasons />} /> 
+              <Route path="/season7" element ={<Season7 />} />
+
+
 
               </Routes>
     </div>

@@ -33,6 +33,7 @@ function Highlights() {
           Season 6 Highlights
         </h2>
         
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Images Carousel */}
           <div className="space-y-8">

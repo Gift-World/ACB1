@@ -24,7 +24,22 @@ body {
   min-height: 100vh;
   background-color: black;
 }
+.gradient-text {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+}
 
+.timeline-item {
+  @apply relative pl-8 pb-12 before:absolute before:left-0 before:top-2 before:h-full before:w-[2px] before:bg-gradient-to-b before:from-primary before:to-secondary;
+}
+
+.timeline-item::after {
+  content: '';
+  @apply absolute left-[-5px] top-2 h-3 w-3 rounded-full bg-primary;
+}
+
+.card-hover {
+  @apply transition-all duration-300 hover:scale-105 hover:shadow-xl;
+}
 .hero-pattern {
   background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80');
   background-size: cover;
