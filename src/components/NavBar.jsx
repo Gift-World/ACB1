@@ -40,7 +40,7 @@ const Navbar = () => {
           <div className="md:flex hidden space-x-8">
             <Link
               to="/"
-              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-red-500 hover:text-white transition-colors focus:outline-none relative group"
             >
               <span className="relative">
                 Home

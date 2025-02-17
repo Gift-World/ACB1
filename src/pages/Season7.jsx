@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { FaCalendar, FaTrophy, FaYoutube, FaInstagram } from 'react-icons/fa';
+import Footer from '../components/Footer/Footer';
 
 function Season7() {
   const fadeIn = {
@@ -9,7 +10,7 @@ function Season7() {
   };
 
   return (
-    <div className="min-h-screen bg-dark text-white">
+    <div className="min-h-screen bg-white text-black">
       {/* Hero Section */}
       <motion.section 
         className="min-h-screen flex flex-col items-center justify-center text-center p-4 relative"
@@ -139,6 +140,7 @@ function Season7() {
           </motion.a>
         </motion.div>
       </section>
+      <Footer />
     </div>
   );
 }
@@ -158,6 +160,7 @@ function TimelineItem({ date, title, description, icon }) {
           <p className="text-gray-300">{description}</p>
         </div>
       </div>
+      
     </motion.div>
   );
 }
@@ -170,6 +173,7 @@ function Card({ title, description }) {
     >
       <h3 className="text-2xl font-bold mb-4 gradient-text">{title}</h3>
       <p className="text-gray-300">{description}</p>
+      
     </motion.div>
   );
 }

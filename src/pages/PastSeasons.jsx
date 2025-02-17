@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Footer from '../components/Footer/Footer';
 import { useInView } from 'react-intersection-observer';
 
 const PastSeasons = () => {
@@ -109,7 +110,7 @@ const PastSeasons = () => {
   ];
 
   return (
-    <div className="bg-dark text-white py-20">
+    <div className="bg-black text-white ">
       {/* Legacy Section */}
       <div className="container mx-auto px-4">
         <motion.div
@@ -119,7 +120,7 @@ const PastSeasons = () => {
           variants={fadeIn}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-6 text-primary text-glow">The ACB Legacy</h2>
+          <h2 className="text-4xl font-bold mb-3 text-primary text-glow">The ACB Legacy</h2>
           <p className="text-xl max-w-3xl mx-auto">
             Since 2014, we've been the stage where campus creativity meets purpose.
             Six epic seasons of talent, impact, and unforgettable moments.
@@ -218,8 +219,11 @@ const PastSeasons = () => {
             ></iframe>
           </div>
         </motion.div>
+        
       </div>
+      <Footer />
     </div>
+    
   );
 };
 

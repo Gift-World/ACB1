@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
+import Footer from '../components/Footer/Footer';
 function About() {
     const [ref, inView] = useInView({
         triggerOnce: true,
@@ -42,7 +43,7 @@ function About() {
     </section>
 
     {/* Vision & Mission Section */}
-    <section className="py-20 bg-dark/90">
+    <section className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <motion.div
@@ -52,7 +53,7 @@ function About() {
             className="glass-card p-8 rounded-xl card-hover"
           >
             <h2 className="text-3xl font-bold mb-4 text-primary text-glow">Our Vision</h2>
-            <p className="text-gray-200">
+            <p className="text-black">
               To make every campus a stage for change, where Africa's brightest voices shape a sustainable future.
             </p>
           </motion.div>
@@ -63,7 +64,7 @@ function About() {
             className="glass-card p-8 rounded-xl card-hover"
           >
             <h2 className="text-3xl font-bold mb-4 text-primary text-glow">Our Mission</h2>
-            <p className="text-gray-200">
+            <p className="text-black">
               To ignite Africa's campuses with purpose-driven talent, challenging young creatives to use their art as a force for social impact. With the SDGs as our guide, ACB connects brands with a generation dedicated to a brighter future.
             </p>
           </motion.div>
@@ -73,7 +74,7 @@ function About() {
 
     {/* Stats Section */}
     <section className="stats-pattern relative py-20">
-      <div className="bg-dark/80 absolute inset-0"></div>
+      <div className="bg-white absolute inset-0"></div>
       <div className="container mx-auto px-4 relative">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {[
@@ -87,10 +88,10 @@ function About() {
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: index * 0.2 }}
-              className="glass-card text-center p-6 rounded-xl card-hover"
+              className="glass-card text-center p-6  rounded-xl card-hover"
             >
               <h3 className="text-4xl font-bold text-primary mb-2 text-glow">{stat.number}</h3>
-              <p className="text-gray-200">{stat.text}</p>
+              <p className="text-black">{stat.text}</p>
             </motion.div>
           ))}
         </div>
@@ -99,7 +100,7 @@ function About() {
 
     {/* Values Section */}
     <section ref={ref} className="values-pattern relative py-20">
-      <div className="bg-dark/85 absolute inset-0"></div>
+      <div className="bg-black absolute inset-0"></div>
       <div className="container mx-auto px-4 relative">
         <motion.h2
           variants={fadeIn}
@@ -162,9 +163,9 @@ function About() {
 
     {/* Team Section */}
     <section className="team-pattern relative py-20">
-      <div className="bg-dark/80 absolute inset-0"></div>
+      <div className="bg-white absolute inset-0"></div>
       <div className="container mx-auto px-4 relative">
-        <h2 className="text-4xl font-bold text-center mb-16 text-glow">The ACB Powerhouse</h2>
+        <h2 className="text-4xl font-bold text-center  mb-16 text-black text-glow">The ACB Powerhouse</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
@@ -202,12 +203,13 @@ function About() {
               </div>
               <h3 className="text-xl font-bold mb-2 text-primary">{member.name}</h3>
               <p className="text-primary mb-4">{member.role}</p>
-              <p className="text-gray-200 text-sm px-4">{member.bio}</p>
+              <p className="text-black text-sm px-4">{member.bio}</p>
             </motion.div>
           ))}
         </div>
       </div>
     </section>
+    <Footer />
   </div>
   )
 }
