@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import About from "./pages/About";
 import PastSeasons from "./pages/PastSeasons";
 import Season7 from "./pages/Season7"
+import FAQS from "./pages/FAQS"
 
 
 
@@ -17,6 +18,7 @@ function App() {
               <Route path="/about" element={<About />} /> 
               <Route path="/pastseasons" element={<PastSeasons />} /> 
               <Route path="/season7" element ={<Season7 />} />
+              <Route path="/faq" element ={<FAQS />} />
 
 
 
