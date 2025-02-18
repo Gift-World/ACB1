@@ -60,7 +60,7 @@ const PastSeasons = () => {
       image: "https://images.unsplash.com/photo-1547153760-18fc86324498?w=800&h=600&fit=crop",
       description: "Revolutionized urban dance with their fusion of African and contemporary styles",
       quote: "ACB changed our lives forever. We're now professional choreographers!",
-      achievement: "Secured a major dance residency in Paris"
+      // achievement: "Secured a major dance residency in Paris"
     },
     {
       name: "Lyrical Warriors",
@@ -69,7 +69,7 @@ const PastSeasons = () => {
       image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800&h=600&fit=crop",
       description: "Blended traditional African instruments with modern pop sounds",
       quote: "From campus performances to international stages - dreams do come true!",
-      achievement: "Released debut album on major streaming platforms"
+      // achievement: "Released debut album on major streaming platforms"
     },
     {
       name: "Spoken Truth",
@@ -78,7 +78,7 @@ const PastSeasons = () => {
       image: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=600&fit=crop",
       description: "Powerful poetry addressing social justice and youth empowerment",
       quote: "ACB gave us the platform to speak our truth to the world.",
-      achievement: "Published anthology of spoken word poetry"
+      // achievement: "Published anthology of spoken word poetry"
     },
     {
       name: "Urban Fusion",
@@ -87,7 +87,7 @@ const PastSeasons = () => {
       image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800&h=600&fit=crop",
       description: "Pioneered virtual dance performances during global lockdown",
       quote: "Even in a virtual world, we found our rhythm and connection.",
-      achievement: "Launched successful online dance academy"
+      // achievement: "Launched successful online dance academy"
     },
     {
       name: "Melody Makers",
@@ -96,7 +96,7 @@ const PastSeasons = () => {
       image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&h=600&fit=crop",
       description: "Created viral hits combining Afrobeats with social messages",
       quote: "ACB was the launchpad for our music careers. Forever grateful!",
-      achievement: "Music featured in major African film production"
+      // achievement: "Music featured in major African film production"
     },
     {
       name: "Poetic Justice",
@@ -105,12 +105,12 @@ const PastSeasons = () => {
       image: "https://images.unsplash.com/photo-1495374519711-e22c8b4596a0?w=800&h=600&fit=crop",
       description: "First-ever ACB champions who set the bar for excellence",
       quote: "The first season winners - we started a legacy of excellence.",
-      achievement: "Founded youth poetry movement across 5 universities"
+      // achievement: "Founded youth poetry movement across 5 universities"
     }
   ];
 
   return (
-    <div className="bg-black text-white ">
+    <div className="bg-black text-white pt-32">
       {/* Legacy Section */}
       <div className="container mx-auto px-4">
         <motion.div

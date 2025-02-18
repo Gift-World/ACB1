@@ -41,7 +41,7 @@ body {
   @apply transition-all duration-300 hover:scale-105 hover:shadow-xl;
 }
 .hero-pattern {
-  background-image: url('https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&q=80');
+  background-image: url('https://i.imgur.com/BBNnQtX.jpeg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -60,22 +60,22 @@ body {
 }
 
 .values-pattern {
-  background-image: url('https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&q=80');
+  /* background-image: url('https://images.unsplash.com/photo-1517457373958-b7bdd4587205?auto=format&fit=crop&q=80'); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .team-pattern {
-  background-image: url('https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&q=80');
+  /* background-image: url('https://images.unsplash.com/photo-1523580494863-6f3031224c94?auto=format&fit=crop&q=80'); */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
 }
 
 .glass-card {
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
+  background: rgba(29, 28, 28, 0.1);
+  backdrop-filter: blur(1px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }

@@ -22,30 +22,30 @@ function Season7() {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?q=80&w=2940&auto=format&fit=crop")',
+            backgroundImage: 'url("https://i.imgur.com/ozP2vNi.jpeg")',
           }}
         >
-          <div className="absolute inset-0 bg-gradient-to-b from-dark/80 to-dark/95"></div>
+          <div className="absolute inset-0 "></div>
         </div>
 
         {/* Content */}
         <div className="relative z-10">
           <motion.h1 
-            className="text-6xl md:text-8xl font-bold mb-6 gradient-text"
+            className="text-6xl md:text-8xl text-white font-bold mb-6 "
             animate={{ scale: [1, 1.1, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           >
             ACB Season 7
           </motion.h1>
           <motion.p 
-            className="text-xl md:text-2xl mb-8 max-w-2xl mx-auto"
+            className="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto"
             {...fadeIn}
           >
             Own the stage. Show your talent. Make Africa proud.
           </motion.p>
           <motion.a
             href="#apply"
-            className="bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
+            className="bg-orange-700 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
@@ -57,7 +57,7 @@ function Season7() {
       {/* Timeline Section */}
       <section className="py-20 px-4 md:px-8 max-w-6xl mx-auto">
         <motion.h2 
-          className="text-4xl md:text-5xl font-bold mb-12 text-center gradient-text"
+          className="text-4xl md:text-5xl font-bold mb-12 text-center text-orange-700"
           {...fadeIn}
         >
           The Journey
@@ -95,7 +95,7 @@ function Season7() {
       </section>
 
       {/* Why Join Section */}
-      <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-dark to-black">
+      <section className="py-20 px-4 md:px-8 bg-black">
         <motion.div 
           className="max-w-6xl mx-auto"
           initial={{ opacity: 0 }}
@@ -128,11 +128,11 @@ function Season7() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 gradient-text">Ready to Own the Stage?</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-orange-700">Ready to Own the Stage?</h2>
           <p className="text-xl mb-8">Applications are now open for university students across Africa</p>
           <motion.a
             href="#"
-            className="inline-block bg-gradient-to-r from-primary to-secondary text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
+            className="inline-block bg-orange-500 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
