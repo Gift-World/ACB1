@@ -6,14 +6,43 @@ import 'swiper/css/effect-cards';
 const highlights = [
   {
     type: 'image',
-    url: 'https://i.imgur.com/Hp6jWZK.jpeg',
+    url: 'https://i.imgur.com/3eowoXv.jpeg',
+    title: 'Grand Finale 2024',
+    description: 'Jackie takes the crown in an unforgettable performance'
+  },
+  {
+    type: 'image',
+    url: 'https://i.imgur.com/7pPSm8U.jpeg',
+    title: 'Grand Finale 2024',
+    description: 'Jackie takes the crown in an unforgettable performance'
+  },
+  {
+    type: 'image',
+    url: 'https://i.imgur.com/61jZBZb.jpeg',
+    title: 'Grand Finale 2024',
+    description: 'Jackie takes the crown in an unforgettable performance'
+  },
+  {
+    type: 'image',
+    url: 'https://i.imgur.com/qpqEmuW.jpeg',
+    title: 'Grand Finale 2024',
+    description: 'Jackie takes the crown in an unforgettable performance'
+  },
+  {
+    type: 'image',
+    url: 'https://i.imgur.com/D7DlUQd.jpeg',
+    title: 'Grand Finale 2024',
+    description: 'Jackie takes the crown in an unforgettable performance'
+  },
+  {
+    type: 'https://i.imgur.com/RZwJRzr.jpeg',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   
   {
     type: 'image',
-    url: 'https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-D5bghX4/0/KjMLgMvsVmMRVD4mLf3fxZxKkTqRR49KrP7w8RQWb/S/Sixtyone-715-S.jpg',
+    url: 'https://i.imgur.com/p3btRAY.jpeg',
     title: 'Dance Battle Finals',
     description: 'Epic showdown between top performers'
   },
