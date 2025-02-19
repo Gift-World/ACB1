@@ -110,7 +110,7 @@ const PastSeasons = () => {
   ];
 
   return (
-    <div className="bg-black text-white pt-32">
+    <div className="bg-black text-white pt-40">
       {/* Legacy Section */}
       <div className="container mx-auto px-4">
         <motion.div

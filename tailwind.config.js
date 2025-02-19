@@ -13,8 +13,8 @@ export default {
         
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-      },
+        poppins: ['Poppins', 'sans-serif'],
+    },
       animation: {
         'slide-in': 'slideIn 1s ease-out',
       },

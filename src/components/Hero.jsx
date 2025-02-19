@@ -120,10 +120,10 @@ function Hero() {
       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
         <div className="text-center text-white z-10 space-y-6">
           <div className="space-y-2 p-11">
-            <h1 className="text-7xl font-black mb-2 animate-slide-in">
+            <h1 className="text-7xl font-poppins font-black mb-2 animate-slide-in">
               AFRICA'S CAMPUS BATTLE
             </h1>
-            <p className="text-3xl font-bold animate-slide-in" style={{ animationDelay: '0.2s' }}>
+            <p className="text-3xl  font-bold animate-slide-in" style={{ animationDelay: '0.2s' }}>
               UNAPOLOGETICALLY TALENTED
             </p>
           </div>
