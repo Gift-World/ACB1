@@ -102,7 +102,7 @@ function Season7() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center gradient-text">Why Join ACB?</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-orange-700">Why Join ACB?</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card 
@@ -168,10 +168,10 @@ function TimelineItem({ date, title, description, icon }) {
 function Card({ title, description }) {
   return (
     <motion.div 
-      className="bg-dark p-6 rounded-xl border border-gray-800 card-hover"
+      className="bg-orange-700 p-6 rounded-xl border border-gray-800 card-hover"
       whileHover={{ y: -10 }}
     >
-      <h3 className="text-2xl font-bold mb-4 gradient-text">{title}</h3>
+      <h3 className="text-2xl font-bold mb-4 text-white">{title}</h3>
       <p className="text-gray-300">{description}</p>
       
     </motion.div>
