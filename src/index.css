@@ -103,12 +103,12 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #835151;
+  background: #C05621;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #C05621;
+  background: #dbd9d7;
 }
 
 @keyframes float {

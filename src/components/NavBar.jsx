@@ -25,11 +25,11 @@ const Navbar = () => {
       }}
       animate={hidden ? "hidden" : "visible"}
       transition={{ duration: 0.35, ease: "easeInOut" }}
-      className="fixed w-full z-50"
+      className="fixed  bg-transparent w-full z-50"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-12 md:h-16">
-          <div className="">
+          <div className="rounded-full">
             <Link to="/">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNcDtMMJ3o7MH3ndUmJF1X4GI-Czn3fztKw&s"
@@ -65,7 +65,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/about"
-              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
             >
               <span className="relative">
                 About Us
@@ -74,7 +74,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/pastseasons"
-              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+              className="font-montserrat font-semibold text-[17px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
             >
               <span className="relative">
                 Past Seasons
@@ -83,7 +83,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/blogs"
-              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
             >
               <span className="relative">
                 News & Insights
@@ -92,7 +92,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/season7"
-              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
             >
               <span className="relative">
                 Season 7
@@ -101,7 +101,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="faq"
-              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-red-500 hover:text-white transition-colors focus:outline-none relative group"
+              className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
             >
               <span className="relative">FAQ'S
                 
@@ -125,7 +125,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/about"
-                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
                 onClick={() => setIsMenuOpen((prev) => !prev)}
               >
                 <span className="relative">
@@ -135,7 +135,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/pastseasons"
-                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
                 onClick={() => setIsMenuOpen((prev) => !prev)}
               >
                 <span className="relative">
@@ -145,7 +145,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/blogs"
-                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
                 onClick={() => setIsMenuOpen((prev) => !prev)}
               >
                 <span className="relative">
@@ -155,7 +155,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/season7"
-                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
                 onClick={() => setIsMenuOpen((prev) => !prev)}
               >
                 <span className="relative">
@@ -165,7 +165,7 @@ const Navbar = () => {
               </Link>
               <Link
                 to="/faq"
-                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-white transition-colors focus:outline-none relative group"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
                 onClick={() => setIsMenuOpen((prev) => !prev)}
               >
                 <span className="relative">
