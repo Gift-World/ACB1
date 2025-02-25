@@ -141,17 +141,17 @@ const AboutHome = () => {
               transition={{ delay: 0.5 }}
               
             >
-              About us
+              AFRICA'S CAMPUS BATTLE
             </motion.h1>
-            <motion.h1 
-              className=" font-poppins text-3xl font-semibold text-gray-800 mb-6"
+            <motion.h3 
+              className=" font-poppins text-2xl font-semibold text-orange-500 mb-6"
               initial={{ opacity: 0, x: -50 }}
               animate={inView ? { opacity: 1, x: 0 } : {}}
               transition={{ delay: 0.2 }}
             >
-              AFRICA'S CAMPUS BATTLE:
-              <span className="block text-[20px] font-poppins font-medium text-orange-500">SINCE 2014.</span>
-            </motion.h1>
+              UNAPPOLOGETICALLY TALENTED
+              {/* <span className="block text-[20px] font-poppins font-medium text-orange-500">SINCE 2014.</span> */}
+            </motion.h3>
             <motion.p 
               className=" font-poppins font-medium text-[18px] text-black mb-8"
               initial={{ opacity: 0 }}
@@ -184,8 +184,8 @@ More than just a training center—CraftWise Academy is where career advancement
               alt="Professional training session"
               className="rounded-lg shadow-2xl"
             />
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-orange-500 rounded-full opacity-50" />
-            <div className="absolute -top-4 -left-4 w-32 h-32 bg-orange-500 rounded-full opacity-20" />
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gray-500 rounded-full opacity-50" />
+            <div className="absolute -top-4 -left-4 w-32 h-32 bg-gray-500 rounded-full opacity-20" />
           </motion.div>
         </motion.div>
       </div>

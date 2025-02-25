@@ -97,24 +97,32 @@ function Highlights() {
 
           {/* Videos Section */}
           <div className="space-y-8">
-            <h3 className="text-2xl font-bold text-white text-center mb-8">🎥 Featured Videos</h3>
-            <div className="space-y-6">
-              {highlights.filter(h => h.type === 'video').map((video, index) => (
-                <div key={index} className="relative rounded-xl overflow-hidden">
-                  <iframe
-                    src={video.url}
-                    className="w-full aspect-video rounded-xl"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                  ></iframe>
-                  <div className="mt-2">
-                    <h4 className="text-lg font-bold text-white">{video.title}</h4>
-                    <p className="text-gray-300">{video.description}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
+  <h3 className="text-2xl font-bold text-white text-center mb-8">🎥 Featured Videos</h3>
+  <div className="space-y-6">
+    {highlights.filter(h => h.type === 'video').map((video, index) => (
+      <div key={index} className="relative rounded-xl overflow-hidden">
+        {index === 0 ? (
+          <video
+            className="w-full aspect-video rounded-xl"
+            controls
+            src="/videos/acb season 6 experience.mp4" // Replace with the correct server path for your video
+          />
+        ) : (
+          <iframe
+            src={video.url}
+            className="w-full aspect-video rounded-xl"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          ></iframe>
+        )}
+        <div className="mt-2">
+          <h4 className="text-lg font-bold text-white">{video.title}</h4>
+          <p className="text-gray-300">{video.description}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
         </div>
       </div>
     </section>

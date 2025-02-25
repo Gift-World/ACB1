@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import Footer from '../components/Footer/Footer';
+import Stats from '../components/Stats';
 function About() {
     const [ref, inView] = useInView({
         triggerOnce: true,
@@ -28,12 +29,12 @@ function About() {
             initial={{ scale: 0.5 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="text-primary font-bold text-xl mb-4 text-glow float-animation"
+            className="text-orange-500 font-bold text-xl mb-4 text-glow float-animation"
           >
             SINCE 2014
           </motion.div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-glow">Africa's Campus Battle</h1>
-          <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto mb-8 glass-card p-6 rounded-lg">
+          <h1 className="text-5xl text-white font-poppins md:text-7xl font-bold mb-6 text-glow">Africa's Campus Battle</h1>
+          <p className="text-xl md:text-2xl font-poppins text-gray-200 max-w-3xl mx-auto mb-8 glass-card p-6 rounded-lg">
             The premier continental stage where young talent from institutions of higher learning becomes a force for change.
           
             Through dance, music, spoken word and performing arts, ACB is empowering Africa's Gen Z to transform their creativity into real impact, rewriting the future with unapologetic authenticity.
@@ -52,8 +53,8 @@ function About() {
             transition={{ duration: 0.6 }}
             className="glass-card p-8 rounded-xl card-hover"
           >
-            <h2 className="text-3xl font-bold mb-4 text-black text-glow">Our Vision</h2>
-            <p className="text-black">
+            <h2 className="text-3xl font-bold mb-4 font-poppins text-orange-600 text-glow ">Our Vision</h2>
+            <p className="text-black font-poppins">
               To make every campus a stage for change, where Africa's brightest voices shape a sustainable future.
             </p>
           </motion.div>
@@ -63,8 +64,8 @@ function About() {
             transition={{ duration: 0.6 }}
             className="glass-card p-8 rounded-xl card-hover"
           >
-            <h2 className="text-3xl font-bold mb-4 text-black text-glow">Our Mission</h2>
-            <p className="text-black">
+            <h2 className="text-3xl font-bold mb-4 text-orange-600 font-poppins text-glow ">Our Mission</h2>
+            <p className="text-black font-poppins">
               To ignite Africa's campuses with purpose-driven talent, challenging young creatives to use their art as a force for social impact. With the SDGs as our guide, ACB connects brands with a generation dedicated to a brighter future.
             </p>
           </motion.div>
@@ -73,7 +74,8 @@ function About() {
     </section>
 
     {/* Stats Section */}
-    <section className="stats-pattern relative py-20">
+    <Stats />
+    {/* <section className="stats-pattern relative py-20">
       <div className="bg-white absolute inset-0"></div>
       <div className="container mx-auto px-4 relative">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
@@ -96,7 +98,7 @@ function About() {
           ))}
         </div>
       </div>
-    </section>
+    </section> */}
 
     {/* Values Section */}
     <section ref={ref} className="values-pattern relative py-20">
@@ -107,7 +109,7 @@ function About() {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           transition={{ duration: 0.6 }}
-          className="text-4xl font-bold text-center mb-16 text-glow"
+          className="text-4xl font-bold font-poppins text-center mb-16 text-glow"
         >
           Our Values
         </motion.h2>
@@ -153,8 +155,8 @@ function About() {
               className="glass-card p-6 rounded-xl card-hover"
             >
               <div className="text-4xl mb-4 float-animation">{value.icon}</div>
-              <h3 className="text-xl font-bold mb-2 text-orange-700">{value.title}</h3>
-              <p className="text-gray-200">{value.description}</p>
+              <h3 className="text-xl font-poppins font-bold mb-2 text-orange-700">{value.title}</h3>
+              <p className="text-gray-200 font-poppins">{value.description}</p>
             </motion.div>
           ))}
         </div>
@@ -165,7 +167,7 @@ function About() {
     <section className="team-pattern relative py-20">
       <div className="bg-white absolute inset-0"></div>
       <div className="container mx-auto px-4 relative">
-        <h2 className="text-4xl font-bold text-center  mb-16 text-black ">The ACB Powerhouse</h2>
+        <h2 className="text-4xl font-bold text-center font-poppins mb-16 text-black ">The ACB Powerhouse</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
@@ -201,9 +203,9 @@ function About() {
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
                 />
               </div>
-              <h3 className="text-xl font-bold mb-2 text-primary">{member.name}</h3>
-              <p className="text-primary mb-4">{member.role}</p>
-              <p className="text-black text-sm px-4">{member.bio}</p>
+              <h3 className="text-xl font-poppins font-bold mb-2 text-primary">{member.name}</h3>
+              <p className="text-primary font-poppins mb-4">{member.role}</p>
+              <p className="text-black font-poppins text-sm px-4">{member.bio}</p>
             </motion.div>
           ))}
         </div>

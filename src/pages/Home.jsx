@@ -17,11 +17,11 @@ function Home() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-orange-700">Ready to Own the Stage?</h2>
-          <p className="text-xl text-black mb-8">Applications are now open for university students across Africa</p>
+          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-orange-500">Ready to Own the Stage?</h2>
+          <p className="text-xl font-poppins text-black mb-8">Applications are now open for university students across Africa</p>
           <motion.a
             href="#"
-            className="inline-block bg-orange-700 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
+            className="inline-block font-poppins bg-orange-700 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
