@@ -108,7 +108,7 @@ function Hero() {
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-                <h2 className="mb-4 text-2xl font-bold animate-fade-in bg-clip-text text-transparent bg-orange-700">
+                <h2 className="mb-4 text-2xl font-poppins font-bold animate-fade-in bg-clip-text text-transparent bg-orange-700">
                   {slide.title}
                 </h2>
               </div>
@@ -123,14 +123,14 @@ function Hero() {
             <h1 className="text-7xl font-poppins font-black mb-2 animate-slide-in">
               AFRICA'S CAMPUS BATTLE
             </h1>
-            <p className="text-3xl  font-bold animate-slide-in" style={{ animationDelay: '0.2s' }}>
+            <p className="text-3xl  font-bold font-poppins animate-slide-in" style={{ animationDelay: '0.2s' }}>
               UNAPOLOGETICALLY TALENTED
             </p>
           </div>
           
           <div className="max-w-4xl mx-auto mb-16">
             <div className="text-center mt-7">
-              <h3 className="text-2xl font-bold text-white mb-4">Countdown to Season 7</h3>
+              <h3 className="text-2xl font-bold font-poppins text-white mb-4">Countdown to Season 7</h3>
               <CountdownTimer targetDate="2025-05-23" />
             </div>
           </div>

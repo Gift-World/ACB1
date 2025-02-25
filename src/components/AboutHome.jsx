@@ -115,7 +115,7 @@ const AboutHome = () => {
         />
       ))}
 
-      <div className="relative py-20 px-4 sm:px-6 lg:px-8">
+      <div className="relative py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-orange-50 lg:px-8">
         <motion.div
           ref={ref}
           initial={{ opacity: 0 }}
@@ -123,43 +123,74 @@ const AboutHome = () => {
           transition={{ duration: 0.8 }}
           className="text-center max-w-7xl mx-auto"
         >
-          <motion.div
-            className="mb-16"
-            initial={{ opacity: 0, y: -50 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ 
-              delay: 0.2,
-              type: "spring",
-              stiffness: 100
-            }}
-          >
-            <h2 className="font-montserrat font-bold text-6xl text-orange-500 mb-4 tracking-tight">
-              AFRICA'S CAMPUS BATTLE
-            </h2>
-            <motion.h3 
-              className="text-3xl text-orange-300 mb-8"
-              initial={{ scale: 0 }}
-              animate={inView ? { scale: 1 } : {}}
-              transition={{ delay: 0.4, type: "spring" }}
+         
+          <div id='about' className=" bg-gradient-to-b from-white to-orange-80">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <motion.div
+          ref={ref}
+          initial={{ opacity: 0, y: 50 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ duration: 0.8 }}
+          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
+        >
+          <div>
+          <motion.h1 
+              className="text-4xl font-poppins font-bold text-black mb-7  "
+              initial={{ opacity: 0.4, x: -40 }}
+              animate={inView ? { opacity: 1, x: 0 } : {}}
+              transition={{ delay: 0.5 }}
+              
             >
-              Since 2014
-            </motion.h3>
-          </motion.div>
-
-          <motion.div
-            className="max-w-3xl mx-auto mb-20 text-xl text-gray-300 leading-relaxed"
-            initial={{ opacity: 0, y: 50 }}
-            animate={inView ? { opacity: 1, y: 0 } : {}}
-            transition={{ delay: 0.6 }}
-          >
-            <p className='text-black'>
-              We are Africa's Campus Battle, the premier continental stage where young talent 
+              About us
+            </motion.h1>
+            <motion.h1 
+              className=" font-poppins text-3xl font-semibold text-gray-800 mb-6"
+              initial={{ opacity: 0, x: -50 }}
+              animate={inView ? { opacity: 1, x: 0 } : {}}
+              transition={{ delay: 0.2 }}
+            >
+              AFRICA'S CAMPUS BATTLE:
+              <span className="block text-[20px] font-poppins font-medium text-orange-500">SINCE 2014.</span>
+            </motion.h1>
+            <motion.p 
+              className=" font-poppins font-medium text-[18px] text-black mb-8"
+              initial={{ opacity: 0 }}
+              animate={inView ? { opacity: 1 } : {}}
+              transition={{ delay: 0.4 }}
+              
+            >
+ We are Africa's Campus Battle, the premier continental stage where young talent 
               from institutions of higher learning becomes a force for change.
               Through dance, music, spoken word and performing arts, ACB is empowering 
               Africa's Gen Z to transform their creativity into real impact, rewriting 
-              the future with unapologetic authenticity.
-            </p>
+              the future with unapologetic authenticity.   </motion.p>
+            {/* <motion.p 
+              className="font-poppins font-medium text-[18px] text-black mb-8"
+              initial={{ opacity: 0 }}
+              animate={inView ? { opacity: 1 } : {}}
+              transition={{ delay: 0.6 }}
+    
+            >
+More than just a training center—CraftWise Academy is where career advancement and organizational transformation come alive. Say goodbye to uninspired workshops and hello to hands-on experiences that mirror real workplace challenges.  </motion.p> */}
+          </div>
+          <motion.div
+            initial={{ opacity: 0, scale: 0.8 }}
+            animate={inView ? { opacity: 1, scale: 1 } : {}}
+            transition={{ delay: 0.4, duration: 0.6 }}
+            className="relative"
+          >
+            <img 
+              src="https://i.imgur.com/aoQUeG5.jpeg"
+              alt="Professional training session"
+              className="rounded-lg shadow-2xl"
+            />
+            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-orange-500 rounded-full opacity-50" />
+            <div className="absolute -top-4 -left-4 w-32 h-32 bg-orange-500 rounded-full opacity-20" />
           </motion.div>
+        </motion.div>
+      </div>
+    </div>
+          
 
           <motion.h2
             className="text-4xl font-bold text-orange-400 mb-16"
