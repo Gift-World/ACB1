@@ -120,8 +120,8 @@ const PastSeasons = () => {
           variants={fadeIn}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold mb-3 text-primary text-glow">The ACB Legacy</h2>
-          <p className="text-xl max-w-3xl mx-auto">
+          <h2 className="text-4xl font-bold mb-3 text-orange-600 font-poppins">The ACB Legacy</h2>
+          <p className="text-xl font-poppins max-w-3xl mx-auto">
             Since 2014, we've been the stage where campus creativity meets purpose.
             Six epic seasons of talent, impact, and unforgettable moments.
           </p>
