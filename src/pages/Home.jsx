@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 // import Events from '../components/Events'
 import AboutHome from '../components/AboutHome'
 import Footer from '../components/Footer/Footer'
+import ContactSection from '../components/ContactSection'
+
 
 function Home() {
   return (
@@ -30,6 +32,7 @@ function Home() {
         </motion.div>
       </section>
     {/* <Events /> */}
+    <ContactSection />
     
     <Footer />
   </div>
