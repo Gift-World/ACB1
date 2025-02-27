@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaPlay, FaHeart, FaShare, FaComment, FaChevronDown } from 'react-icons/fa';
-
+import { FaPlay, FaChevronDown } from 'react-icons/fa';
+import Footer from './Footer/Footer';
 // Animation variants
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -149,7 +149,7 @@ const videoDataBySeason = {
   6: [
     {
       id: 13,
-      title: "Season 7: Season Highlights",
+      title: "Season 6: Season Highlights",
       thumbnail: "https://i.ytimg.com/vi/jkRcG8xtFeM/maxresdefault.jpg",
       embedId: "jkRcG8xtFeM",
       views: "1.2M",
@@ -158,7 +158,7 @@ const videoDataBySeason = {
     },
     {
       id: 14,
-      title: "Season 7: Behind the Scenes",
+      title: "Season 6: Behind the Scenes",
       thumbnail: "https://i.ytimg.com/vi/fx1mxvxNbaE/maxresdefault.jpg",
       embedId: "fx1mxvxNbaE",
       views: "890K",
@@ -167,7 +167,7 @@ const videoDataBySeason = {
     },
     {
       id: 15,
-      title: "Season 7: Top 10 Plays",
+      title: "Season 6: Top 10 Plays",
       thumbnail: "https://i.ytimg.com/vi/SKl-0hV_Zhg/maxresdefault.jpg",
       embedId: "SKl-0hV_Zhg",
       views: "750K",
@@ -176,7 +176,7 @@ const videoDataBySeason = {
     },
     {
       id: 16,
-      title: "Season 7: All-Star Weekend",
+      title: "Season 6: All-Star Weekend",
       thumbnail: "https://i.ytimg.com/vi/l39ALL3oC2A/maxresdefault.jpg",
       embedId: "l39ALL3oC2A",
       views: "1.5M",
@@ -207,7 +207,7 @@ const VideoGallery = () => {
   };
 
   return (
-    <div className="bg-gray-900 text-light min-h-screen pb-20">
+    <div className="bg-gray-900 text-light min-h-screen ">
       {/* Hero Section */}
       <motion.div 
         initial={{ opacity: 0 }}
@@ -242,7 +242,7 @@ const VideoGallery = () => {
         </div>
       </motion.div>
 
-      <div className="container mx-auto px-4 mt-10">
+      <div className="container mx-auto px-4 mt-10 pb-10">
         {/* Season Selector */}
         <div className="mb-8 relative">
           <div 
@@ -319,12 +319,9 @@ const VideoGallery = () => {
           
           <div className="mt-6 flex justify-between items-center">
             <div>
-              <p className="text-gray-400">{selectedVideo.views} views • {selectedVideo.date}</p>
+              <p className="text-gray-400">{selectedVideo.date} </p>
             </div>
-            <div className="flex items-center space-x-2">
-              <FaComment className="text-gray-400" />
-              <span className="text-gray-400">Join the conversation</span>
-            </div>
+           
           </div>
         </motion.div>
 
@@ -371,7 +368,7 @@ const VideoGallery = () => {
                 <div className="p-4">
                   <h4 className="font-bold text-lg mb-2 line-clamp-2">{video.title}</h4>
                   <div className="flex justify-between text-sm text-gray-400">
-                    <span>{video.views} views</span>
+                    {/* <span>{video.views} views</span> */}
                     <span>{video.date}</span>
                   </div>
                 </div>
@@ -379,8 +376,11 @@ const VideoGallery = () => {
             ))}
           </motion.div>
         </div>
+        
       </div>
+      <Footer />
     </div>
+    
   );
 };
 

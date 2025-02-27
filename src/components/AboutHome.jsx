@@ -77,7 +77,7 @@ const AboutHome = () => {
   ];
 
   return (
-    <div className="w-full min-h-screen bg-white relative overflow-hidden">
+    <div className="w-full min-h-screen bg-white relative overflow-hidden" id='about'>
       {/* Animated Background Patterns */}
       <motion.div
         className="absolute inset-0 opacity-20"

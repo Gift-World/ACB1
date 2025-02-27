@@ -202,7 +202,7 @@ const PastSeasons = () => {
         </div>
 
         {/* Video Section */}
-        <motion.div
+        {/* <motion.div
           initial="hidden"
           whileInView="visible"
           variants={fadeIn}
@@ -218,7 +218,7 @@ const PastSeasons = () => {
               allowFullScreen
             ></iframe>
           </div>
-        </motion.div>
+        </motion.div> */}
         
       </div>
       <Footer />

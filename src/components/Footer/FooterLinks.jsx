@@ -9,10 +9,10 @@ const links = {
     { name: "Youtube", url: "https://www.youtube.com/@africascampusbattle", icon: <FaYoutube /> }
   ],
   "Programs": [
-    { name: "Past Seasons", route: "/rising" },
-    { name: "Season 7", route: "/managers" },
-    { name: "News & Insights", route: "/emerging" },
-    { name: "FAQS", route: "/legacy" }
+    { name: "Past Seasons", route: "/pastseasons" },
+    { name: "Season 7", route: "/season7" },
+    { name: "News & Insights", route: "/magazine" },
+    { name: "FAQS", route: "/faq" }
   ],
   "Company": [
     { name: "About Us", sectionId: "about" },
