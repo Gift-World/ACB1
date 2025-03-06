@@ -108,7 +108,7 @@ function Hero() {
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
               <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-                <h2 className="mb-4 text-2xl font-poppins font-bold animate-fade-in bg-clip-text text-transparent bg-orange-700">
+                <h2 className="mb-4 text-2xl font-poppins font-bold animate-fade-in bg-clip-text text-transparent bg-orange-600">
                   {slide.title}
                 </h2>
               </div>

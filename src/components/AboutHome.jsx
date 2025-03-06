@@ -124,70 +124,52 @@ const AboutHome = () => {
           className="text-center max-w-7xl mx-auto"
         >
          
-          <div id='about' className=" bg-gradient-to-b from-white to-orange-80">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <motion.div
-          ref={ref}
-          initial={{ opacity: 0, y: 50 }}
-          animate={inView ? { opacity: 1, y: 0 } : {}}
-          transition={{ duration: 0.8 }}
-          className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center"
-        >
-          <div>
-          <motion.h1 
-              className="text-4xl font-poppins font-bold text-black mb-7  "
-              initial={{ opacity: 0.4, x: -40 }}
-              animate={inView ? { opacity: 1, x: 0 } : {}}
-              transition={{ delay: 0.5 }}
-              
-            >
-              AFRICA'S CAMPUS BATTLE
-            </motion.h1>
-            <motion.h3 
-              className=" font-poppins text-2xl font-semibold text-orange-500 mb-6"
-              initial={{ opacity: 0, x: -50 }}
-              animate={inView ? { opacity: 1, x: 0 } : {}}
-              transition={{ delay: 0.2 }}
-            >
-              UNAPPOLOGETICALLY TALENTED
-              {/* <span className="block text-[20px] font-poppins font-medium text-orange-500">SINCE 2014.</span> */}
-            </motion.h3>
-            <motion.p 
-              className=" font-poppins font-medium text-[18px] text-black mb-8"
-              initial={{ opacity: 0 }}
-              animate={inView ? { opacity: 1 } : {}}
-              transition={{ delay: 0.4 }}
-              
-            >
- We are Africa's Campus Battle, the premier continental stage where young talent 
-              from institutions of higher learning becomes a force for change.
-              Through dance, music, spoken word and performing arts, ACB is empowering 
-              Africa's Gen Z to transform their creativity into real impact, rewriting 
-              the future with unapologetic authenticity.   </motion.p>
-            {/* <motion.p 
-              className="font-poppins font-medium text-[18px] text-black mb-8"
-              initial={{ opacity: 0 }}
-              animate={inView ? { opacity: 1 } : {}}
-              transition={{ delay: 0.6 }}
-    
-            >
-More than just a training center—CraftWise Academy is where career advancement and organizational transformation come alive. Say goodbye to uninspired workshops and hello to hands-on experiences that mirror real workplace challenges.  </motion.p> */}
+         <div className="relative overflow-hidden bg-white">
+      {/* Decorative background elements */}
+      <div className="absolute top-0 left-0 w-full h-full">
+        <div className="absolute top-0 left-1/4 w-48 h-48 bg-orange-600/20 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-orange-600/20 rounded-full blur-3xl"></div>
+      </div>
+
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-[40px] font-poppins font-bold text-black mb-6">
+            AFRICA'S CAMPUS BATTLE
+          </h2>
+          <div className="inline-block bg-orange-600 font-semibold font-poppins text-black px-6 py-2 rounded-full text-xl mb-8 transform hover:scale-105 transition-transform duration-300">
+            UNAPOLOGETICALLY TALENTED
           </div>
-          <motion.div
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={inView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ delay: 0.4, duration: 0.6 }}
-            className="relative"
-          >
-            <img 
-              src="https://i.imgur.com/aoQUeG5.jpeg"
-              alt="Professional training session"
-              className="rounded-lg shadow-2xl"
-            />
-            <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-gray-500 rounded-full opacity-50" />
-            <div className="absolute -top-4 -left-4 w-32 h-32 bg-gray-500 rounded-full opacity-20" />
-          </motion.div>
-        </motion.div>
+        </div>
+
+        <div className="max-w-4xl mx-auto text-center text-lg text-gray-300 leading-relaxed mb-12">
+          <p className="mb-6 text-gray-800 font-poppins font-light text-[20px]">
+            We are Africa's Campus Battle, the premier continental stage where young talent 
+            from institutions of higher learning becomes a force for change. Through dance, 
+            music, spoken word and performing arts, ACB is empowering Africa's Gen Z to 
+            transform their creativity into real impact, rewriting the future with unapologetic 
+            authenticity.
+          </p>
+        </div>
+
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-orange-500/20 transform hover:-translate-y-2 transition-transform duration-300">
+            <div className="text-orange-500 text-4xl font-bold mb-4">01</div>
+            <h3 className="text-xl font-bold text-black mb-3">Talent Discovery</h3>
+            <p className="text-black">Unearthing and nurturing the next generation of African performers</p>
+          </div>
+
+          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-orange-500/20 transform hover:-translate-y-2 transition-transform duration-300">
+            <div className="text-orange-500 text-4xl font-bold mb-4">02</div>
+            <h3 className="text-xl font-bold text-black mb-3">Cultural Impact</h3>
+            <p className="text-black">Celebrating and amplifying authentic African creative expression</p>
+          </div>
+
+          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-orange-500/20 transform hover:-translate-y-2 transition-transform duration-300">
+            <div className="text-orange-500 text-4xl font-bold mb-4">03</div>
+            <h3 className="text-xl font-bold text-black mb-3">Future Leaders</h3>
+            <p className="text-black">Building tomorrow's creative industry leaders today</p>
+          </div>
+        </div> */}
       </div>
     </div>
           

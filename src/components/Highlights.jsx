@@ -49,7 +49,7 @@ const highlights = [
   {
     type: 'video',
     url: 'https://www.youtube.com/embed/SKl-0hV_Zhg',
-    title: 'Season 6 Auditions',
+    title: 'Season 6 Experience',
     description: 'Where it all began - best moments'
   }
 ];
@@ -58,7 +58,7 @@ function Highlights() {
   return (
     <section className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-black text-center mb-16 bg-clip-text text-orange-700">
+        <h2 className="text-5xl font-black text-center mb-16 bg-clip-text text-orange-600">
           Season 6 Highlights
         </h2>
         
@@ -97,7 +97,7 @@ function Highlights() {
 
           {/* Videos Section */}
           <div className="space-y-8">
-  <h3 className="text-2xl font-bold text-white text-center mb-8">🎥 Featured Videos</h3>
+  <h3 className="text-2xl font-bold text-white text-center mb-8"> Season 6 Experience</h3>
   <div className="space-y-6">
     {highlights.filter(h => h.type === 'video').map((video, index) => (
       <div key={index} className="relative rounded-xl overflow-hidden">

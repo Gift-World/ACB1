@@ -59,14 +59,14 @@ const ContactSection = () => {
 
   return (
     <div>
-      <div className="min-h-screen bg-black py-16">
+      <div className="min-h-screen bg-white ">
         <motion.section
           ref={sectionRef}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
           variants={containerVariants}
           id="contact"
-          className="relative overflow-hidden py-16"
+          className="relative overflow-hidden py-10"
         >
           <motion.div className="absolute top-0 left-0 w-64 h-64 bg-white/5 rounded-full -translate-x-1/2 -translate-y-1/2 animate-gradient" />
 
@@ -80,7 +80,7 @@ const ContactSection = () => {
               </h2>
               <p
                 style={{ fontFamily: "Nexa " }}
-                className="text-white/80 text-2xl"
+                className="text-black/80 font-semibold text-3xl"
               >
                 Get in touch with the Africa's Campus Battle team
               </p>
@@ -88,7 +88,7 @@ const ContactSection = () => {
 
             <div className="grid md:grid-cols-2 gap-8">
               <motion.div
-                className="bg-orange-700 backdrop-blur-lg p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02]"
+                className="bg-orange-600 backdrop-blur-lg p-8 rounded-2xl shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-[1.02]"
                 variants={itemVariants}
               >
                 <form className="space-y-6" onSubmit={handleSubmit}>
@@ -169,7 +169,7 @@ const ContactSection = () => {
               </motion.div>
 
               <motion.div
-                className="bg-orange-700 backdrop-blur-lg p-8 rounded-2xl shadow-xl"
+                className="bg-orange-600 backdrop-blur-lg p-8 rounded-2xl shadow-xl"
                 variants={itemVariants}
               >
                 <div className="space-y-8">
