@@ -82,7 +82,7 @@ const Navbar = () => {
               </span>
             </Link>
             <Link
-              to="/magazine"
+              to="/news-and-insights"
               className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
             >
               <span className="relative">
@@ -153,7 +153,7 @@ const Navbar = () => {
                 </span>
               </Link>
               <Link
-                to="/magazine"
+                to="/news-and-insights"
                 className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
                 onClick={() => setIsMenuOpen((prev) => !prev)}
               >
