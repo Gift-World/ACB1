@@ -15,11 +15,13 @@ import Privacy from "./components/Privacy";
 import Consent from "./components/Consent";
 import DataAccess from "./components/DataAccess";
 import Erasure from "./components/Erasure";
+import ScrollToTop from "./components/ScrollToTop";
 
 
 function App() {
   return (
     <div>
+      <ScrollToTop />
       <NavBar />
               <Routes>
               <Route path="/news-and-insights" element={<Blogs />} />
