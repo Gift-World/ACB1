@@ -28,9 +28,9 @@ function Terms() {
           <p className="mb-4">4.1 To join the competition, the applicant must fill out an application form online at <a href="https://forms.google.com/your-form-url" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-800">APPLY HERE</a></p>
           <p className="mb-4">4.2 All competition entries must be received by the AFRICA'S CAMPUS BATTLE not later than 14th June 11:59 pm EAT.</p>
           <p className="mb-4">4.3 All competition entries received after the Closing Date shall be automatically disqualified.</p>
-          <p className="mb-4">4.4 By filling out the application form, you are consenting to be bound by these terms and conditions. <Link to="/consent-form" className="text-orange-600 hover:text-orange-800">(CONSENT FORM)</Link></p>
-          <p className="mb-4">4.5 The applicant may request for rectification of the information for the accuracy of records. <Link to="/data-access-form" className="text-orange-600 hover:text-orange-800">(REQUEST FOR DATA ACCESS FORM)</Link></p>
-          <p className="mb-4">4.6 An applicant has the right to request the erasure of information as provided by law. ACB respects this right any applicant who wishes that the same be erased shall fill in the erasure form. <Link to="/data-erasure-form" className="text-orange-600 hover:text-orange-800">(DATA ERASURE FORM)</Link></p>
+          <p className="mb-4">4.4 By filling out the application form, you are consenting to be bound by these terms and conditions. <Link to="/consent" className="text-orange-600 hover:text-orange-800">(CONSENT FORM)</Link></p>
+          <p className="mb-4">4.5 The applicant may request for rectification of the information for the accuracy of records. <Link to="/data-access" className="text-orange-600 hover:text-orange-800">(REQUEST FOR DATA ACCESS FORM)</Link></p>
+          <p className="mb-4">4.6 An applicant has the right to request the erasure of information as provided by law. ACB respects this right any applicant who wishes that the same be erased shall fill in the erasure form. <Link to="/erasure" className="text-orange-600 hover:text-orange-800">(DATA ERASURE FORM)</Link></p>
 
           <h2 className="text-2xl font-semibold mb-4">5. ELIGIBILITY AND CRITERIA</h2>
           <p className="mb-4">5.1 The competition is open to all university students currently enrolled in universities in Africa.</p>

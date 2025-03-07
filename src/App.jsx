@@ -10,8 +10,11 @@ import Magazine from "./components/Blogs/Magazine"
 import VideoGallery from "./components/VideoGallery";
 import Blogs from "./components/Blogs/Blogs";
 import Magazine2 from './components/Blogs/Magazine2'
-
-
+import Communications from "./components/Communications";
+import Privacy from "./components/Privacy";
+import Consent from "./components/Consent";
+import DataAccess from "./components/DataAccess";
+import Erasure from "./components/Erasure";
 
 
 function App() {
@@ -20,7 +23,13 @@ function App() {
       <NavBar />
               <Routes>
               <Route path="/news-and-insights" element={<Blogs />} />
+              <Route path="/consent" element={<Consent />} />
+              <Route path="/erasure" element={<Erasure />} />
+              <Route path="/data-access" element={<DataAccess />} />
               <Route path="/terms" element={<Terms />} />
+              <Route path="/communication-notice" element={<Communications />} />
+              <Route path="/privacy-policy" element={<Privacy />} />
+
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} /> 
               <Route path="/pastseasons" element={<PastSeasons />} /> 
