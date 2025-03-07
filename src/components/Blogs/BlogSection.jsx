@@ -47,7 +47,7 @@ function BlogSection({ article, index }) {
           onClick={handleReadMore}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="text-orange-600 pl-10 font-semibold inline-flex items-center group"
+          className="text-customBrown pl-10 font-semibold inline-flex items-center group"
         >
           View Magazine
           <svg 

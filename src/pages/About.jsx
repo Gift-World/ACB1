@@ -29,7 +29,7 @@ function About() {
             initial={{ scale: 0.5 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="text-orange-600 font-bold text-xl mb-4 text-glow float-animation"
+            className="text-customOrange font-bold text-xl mb-4 text-glow float-animation"
           >
             SINCE 2014
           </motion.div>
@@ -53,7 +53,7 @@ function About() {
             transition={{ duration: 0.6 }}
             className="glass-card p-8 rounded-xl card-hover"
           >
-            <h2 className="text-3xl font-bold mb-4 font-poppins text-orange-600 ">Our Vision</h2>
+            <h2 className="text-3xl font-bold mb-4 font-poppins text-customBrown ">Our Vision</h2>
             <p className="text-black text-[18px] font-poppins">
               To make every campus a stage for change, where Africa's brightest voices shape a sustainable future.
             </p>
@@ -64,7 +64,7 @@ function About() {
             transition={{ duration: 0.6 }}
             className="glass-card p-8 rounded-xl card-hover"
           >
-            <h2 className="text-3xl font-bold mb-4 text-orange-600 font-poppins ">Our Mission</h2>
+            <h2 className="text-3xl font-bold mb-4 text-customBrown font-poppins ">Our Mission</h2>
             <p className="text-black text-[18px] font-poppins">
               To ignite Africa's campuses with purpose-driven talent, challenging young creatives to use their art as a force for social impact. With the SDGs as our guide, ACB connects brands with a generation dedicated to a brighter future.
             </p>
@@ -155,7 +155,7 @@ function About() {
               className="glass-card p-6 rounded-xl card-hover"
             >
               <div className="text-4xl mb-4 float-animation">{value.icon}</div>
-              <h3 className="text-xl font-poppins font-bold mb-2 text-orange-600">{value.title}</h3>
+              <h3 className="text-xl font-poppins font-bold mb-2 text-customBrown">{value.title}</h3>
               <p className="text-gray-200 font-poppins">{value.description}</p>
             </motion.div>
           ))}
@@ -203,8 +203,8 @@ function About() {
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
                 />
               </div>
-              <h3 className="text-xl font-poppins font-bold mb-2 text-orange-600">{member.name}</h3>
-              <p className="text-orange-600 font-poppins mb-4">{member.role}</p>
+              <h3 className="text-xl font-poppins font-bold mb-2 text-customBrown">{member.name}</h3>
+              <p className="text-customOrange font-poppins mb-4">{member.role}</p>
               <p className="text-black font-poppins text-sm px-4">{member.bio}</p>
             </motion.div>
           ))}

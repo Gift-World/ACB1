@@ -38,14 +38,14 @@ function Season7() {
             ACB Season 7
           </motion.h1>
           <motion.p 
-            className="text-xl md:text-2xl text-white mb-8 max-w-2xl mx-auto"
+            className="text-xl md:text-2xl font-poppins text-white font-semibold mb-8 max-w-2xl mx-auto"
             {...fadeIn}
           >
             Own the stage. Show your talent. Make Africa proud.
           </motion.p>
           <motion.a
             href="#apply"
-            className="bg-orange-700 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
+            className="bg-customBrown text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
@@ -57,7 +57,7 @@ function Season7() {
       {/* Timeline Section */}
       <section className="py-20 px-4 md:px-8 max-w-6xl mx-auto">
         <motion.h2 
-          className="text-4xl md:text-5xl font-bold mb-12 text-center text-orange-700"
+          className="text-4xl md:text-5xl font-bold mb-12 text-center text-customOrange"
           {...fadeIn}
         >
           The Journey
@@ -102,7 +102,7 @@ function Season7() {
           whileInView={{ opacity: 1 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-orange-700">Why Join ACB?</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-12 text-center text-customOrange">Why Join ACB?</h2>
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Card 
@@ -128,11 +128,11 @@ function Season7() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-8 text-orange-700">Ready to Own the Stage?</h2>
-          <p className="text-xl mb-8">Applications are now open for university students across Africa</p>
+          <h2 className="text-4xl md:text-5xl font-bold font-poppins mb-8 text-customBrown">Ready to Own the Stage?</h2>
+          <p className="text-xl mb-8">Applications will soon be open for university students across Africa</p>
           <motion.a
             href="#"
-            className="inline-block bg-orange-500 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
+            className="inline-block bg-customOrange text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
@@ -155,9 +155,9 @@ function TimelineItem({ date, title, description, icon }) {
     >
       <div className="flex items-start">
         <div className="ml-2">
-          <span className="text-primary font-semibold">{date}</span>
+          <span className="text-customOrange font-semibold">{date}</span>
           <h3 className="text-2xl font-bold mb-2">{title}</h3>
-          <p className="text-gray-300">{description}</p>
+          <p className=" font-poppins font-light text-gray-700">{description}</p>
         </div>
       </div>
       
@@ -168,7 +168,7 @@ function TimelineItem({ date, title, description, icon }) {
 function Card({ title, description }) {
   return (
     <motion.div 
-      className="bg-orange-700 p-6 rounded-xl border border-gray-800 card-hover"
+      className="bg-customBrown p-6 rounded-xl border border-gray-800 card-hover"
       whileHover={{ y: -10 }}
     >
       <h3 className="text-2xl font-bold mb-4 text-white">{title}</h3>

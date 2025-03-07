@@ -84,7 +84,7 @@ const PastSeasons = () => {
       name: "Moses Muya",
       year: "2022",
       category: "Dance",
-      image: "https://i.imgur.com/YO6liOY.jpeg",
+      image: "https://i.imgur.com/qqFhYbi.jpeg",
       description: "Powerful poetry addressing social justice and youth empowerment",
       quote: "ACB gave us the platform to speak our truth to the world.",
       // achievement: "Published anthology of spoken word poetry"
@@ -114,7 +114,7 @@ const PastSeasons = () => {
       <PastHero />
       {/* Legacy Section */}
       <div className="container mx-auto px-4">
-        <motion.div
+        {/* <motion.div
           ref={ref}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
@@ -126,10 +126,10 @@ const PastSeasons = () => {
             Since 2014, we've been the stage where campus creativity meets purpose.
             Six epic seasons of talent, impact, and unforgettable moments.
           </p>
-        </motion.div>
+        </motion.div> */}
 
         {/* Timeline */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
           {seasons.map((season, index) => (
             <motion.div
               key={season.year}
@@ -151,16 +151,16 @@ const PastSeasons = () => {
               <p className="text-gray-300">{season.description}</p>
             </motion.div>
           ))}
-        </div>
+        </div> */}
 
         {/* Hall of Fame */}
         <motion.div
           initial="hidden"
           whileInView="visible"
           variants={fadeIn}
-          className="text-center mb-16"
+          className="text-center mt-10 mb-16"
         >
-          <h2 className="text-4xl font-bold mb-6 text-primary text-glow">Hall of Fame</h2>
+          <h2 className="text-4xl font-bold mb-6 text-customOrange text-glow">Hall of Fame</h2>
           <p className="text-xl max-w-3xl mx-auto mb-12">
             Meet the legends who turned their campus dreams into reality through ACB.
             These champions didn't just win competitions—they started movements.
@@ -184,7 +184,7 @@ const PastSeasons = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent" />
                 <div className="absolute bottom-4 left-4 right-4">
-                  <span className="text-primary font-bold">{winner.year}</span>
+                  <span className="text-customBrown font-bold">{winner.year}</span>
                   <h3 className="text-2xl font-bold mb-1">{winner.name}</h3>
                   <p className="text-gray-200">{winner.category} Champion</p>
                 </div>
@@ -220,7 +220,13 @@ const PastSeasons = () => {
             ></iframe>
           </div>
         </motion.div> */}
-        
+          <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 1 }}
+            className="mt-12 pt-8 border-t border-gray-800 w-full text-center"
+          />
       </div>
       <Footer />
     </div>

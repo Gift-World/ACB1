@@ -10,18 +10,18 @@ function Terms() {
         <div className="prose prose-lg">
           <h2 className="text-2xl font-semibold mb-4">1. BACKGROUND</h2>
           <p className="mb-6">
-            Africa's Campus Battle (AFRICA'S CAMPUS BATTLE) is a captivating talent competition traversing Universities in Africa with the goal of identifying the untapped talents among the students. The mission is to accelerate progress towards the Sustainable Development Goals (SDGs) by mobilizing the talented youth in universities and colleges. Through collaborative problem-solving, AFRICA'S CAMPUS BATTLE aims to launch innovative social and environmental solutions that will contribute to co-creating a sustainable future. The sixth season will be a captivating competition for all university students in Africa. This will culminate in a grand finale event where we will crown the winner of Africa's Campus Battle Season 6. We are confident that this platform will be a success and look forward to seeing the wonderful results.
+            Africa's Campus Battle (AFRICA'S CAMPUS BATTLE) is a captivating talent competition traversing Universities in Africa with the goal of identifying the untapped talents among the students. The mission is to accelerate progress towards the Sustainable Development Goals (SDGs) by mobilizing the talented youth in universities and colleges. Through collaborative problem-solving, AFRICA'S CAMPUS BATTLE aims to launch innovative social and environmental solutions that will contribute to co-creating a sustainable future. The seventh season will be a captivating competition for all university students in Africa. This will culminate in a grand finale event where we will crown the winner of Africa's Campus Battle Season 7. We are confident that this platform will be a success and look forward to seeing the wonderful results.
           </p>
-          <h2 className="text-2xl font-semibold mb-4">TERMS AND CONDITIONS FOR APPLICATIONS TO PARTICIPATE IN THE “AFRICA’S CAMPUS BATTLE SEASON 6”</h2>
+          <h2 className="text-2xl font-semibold mb-4">TERMS AND CONDITIONS FOR APPLICATIONS TO PARTICIPATE IN THE “AFRICA’S CAMPUS BATTLE SEASON 7”</h2>
 
           <h2 className="text-2xl font-semibold mb-4">2. INTRODUCTION</h2>
           <p className="mb-6">
-            This Website is operated by African Campus Battle Limited (ACB), to accept/reject, process, and conduct online assessments in connection with the fourth coming Africa Campus Battle Season 6. <Link to="/communication-notice" className="text-orange-600 hover:text-orange-800">Read our Communication Notice</Link>.
+            This Website is operated by African Campus Battle Limited (ACB), to accept/reject, process, and conduct online assessments in connection with the fourth coming Africa Campus Battle Season 7. <Link to="/communication-notice" className="text-orange-600 hover:text-orange-800">Read our Communication Notice</Link>.
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">3. PRIVACY NOTICE</h2>
           <p className="mb-6">
-            This privacy notice applies to all users who access the site and provide registration information (for instance information that identifies a specific person, such as full name, gender, email address). By accessing this website, you are authorizing ACB to collect, store, and use such information as per the application to participate in the African Campus Battle Season 6. <Link to="/privacy-policy" className="text-orange-600 hover:text-orange-800">Read our Privacy Policy</Link>
+            This privacy notice applies to all users who access the site and provide registration information (for instance information that identifies a specific person, such as full name, gender, email address). By accessing this website, you are authorizing ACB to collect, store, and use such information as per the application to participate in the African Campus Battle Season 7. <Link to="/privacy-policy" className="text-orange-600 hover:text-orange-800">Read our Privacy Policy</Link>
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">4. APPLICATION PROCEDURE</h2>
@@ -43,9 +43,9 @@ function Terms() {
           <p className="mb-4">5.8 Africa's Campus Battle reserves all rights to disqualify the applicant at any stage during the competition if their conduct is contrary to the spirit or intention of the competition.</p>
           <p className="mb-4">5.8 By joining this competition, the applicant confirms and undertakes that they shall be ready, willing, and able to attend and perform at each stage of the competition.</p>
 
-          <h2 className="text-2xl font-semibold mb-4">6. AFRICA'S CAMPUS BATTLE SEASON 6 ROADMAP</h2>
+          <h2 className="text-2xl font-semibold mb-4">6. AFRICA'S CAMPUS BATTLE SEASON 7 ROADMAP</h2>
           <h3 className="text-xl font-semibold mb-3">6.1. CALL FOR SUBMISSIONS</h3>
-          <p className="mb-4">6.1.1 Africa's Campus Battle welcomes talents for its Season 6 under various categories, including singing, dancing, magic, spoken word, and musical performances.</p>
+          <p className="mb-4">6.1.1 Africa's Campus Battle welcomes talents for its 7 under various categories, including singing, dancing, magic, spoken word, and musical performances.</p>
           <p className="mb-4">6.1.2 To participate in the competition, interested individuals need to visit Africa's Campus Battle website and follow the registration instructions provided.</p>
           <p className="mb-4">6.1.3 Participants must submit their entries via the official submission form provided by Africa's Campus Battle.</p>
           <p className="mb-4">6.1.4 Contestants must follow each and every instruction as specified in the "HOW TO FILM YOUR PERFORMANCE" section of the brief.</p>
@@ -61,19 +61,19 @@ function Terms() {
           <p className="mb-4">6.2.4 The decision of the panel of industry experts shall be considered to be fair/impartial/reasonable and shall be final.</p>
 
           <h3 className="text-xl font-semibold mb-3">6.3. THE ACB HEAT</h3>
-          <p className="mb-4">6.3.1 Each week, the selected participants selected for Africa's Campus Battle Season 6 shall receive themed tasks designed to showcase their talents. These performances will be broadcast on the Africa's Campus Battle YouTube page, providing a platform for students to demonstrate their abilities before their peers, and fostering a competitive environment.</p>
+          <p className="mb-4">6.3.1 Each week, the selected participants selected for Africa's Campus Battle Season 7 shall receive themed tasks designed to showcase their talents. These performances will be broadcast on the Africa's Campus Battle YouTube page, providing a platform for students to demonstrate their abilities before their peers, and fostering a competitive environment.</p>
           <p className="mb-4">6.3.2 The performances will be judged by a panel of experts to determine those who will proceed to the next level up to the finals.</p>
           <p className="mb-4">6.3.3 Contestants not selected by the panel of judges will have the opportunity to engage in a public voting process to appeal for their continuation in the competition. The contestant who receives the highest number of votes from the public will be reinstated into the competition, allowing them to proceed further in the contest.</p>
           <p className="mb-4">6.3.4 The ACB finalists will then proceed to the grand finale, where they will compete against champions from other countries.</p>
-          <p className="mb-4">6.3.5 Finalists of Africa's Campus Battle Season 6 will receive logistical support, including travel arrangements to Kenya, and accommodation during their stay in the country, facilitating their participation in the grand finale event.</p>
+          <p className="mb-4">6.3.5 Finalists of Africa's Campus Battle Season 7 will receive logistical support, including travel arrangements to Kenya, and accommodation during their stay in the country, facilitating their participation in the grand finale event.</p>
 
           <h3 className="text-xl font-semibold mb-3">6.4. THE ACB BATTLE</h3>
           <p className="mb-4">6.4.1 The ACB Battle is the final stage of Africa's Campus Battle and will be marked by a prestigious gala event where the Campus Champions from each university will have the extraordinary opportunity to showcase their talents.</p>
           <p className="mb-4">6.4.2 This captivating event will take place in front of a live audience and will be broadcast across the continent, maximizing the reach.</p>
-          <p className="mb-4">6.4.3 The winner of Africa's Campus Battle Season 6 will receive a range of exciting rewards and opportunities. This includes a generous cash prize, scholarship, and gift hampers from our esteemed sponsors.</p>
+          <p className="mb-4">6.4.3 The winner of Africa's Campus Battle Season 7 will receive a range of exciting rewards and opportunities. This includes a generous cash prize, scholarship, and gift hampers from our esteemed sponsors.</p>
 
           <h2 className="text-2xl font-semibold mb-4">7. THE PRIZE</h2>
-          <p className="mb-4">7.1 The Ultimate winner of Africa's Campus Battle Season 6 shall be eligible for a cash award of two thousand five hundred US Dollars (USD 2000).</p>
+          <p className="mb-4">7.1 The Ultimate winner of Africa's Campus Battle Season 7 shall be eligible for a cash award of two thousand five hundred US Dollars (USD 2000).</p>
           <p className="mb-4">7.2 The amount shall be payable as follows;</p>
           <ul className="list-disc pl-8 mb-4">
             <li>500 US Dollars shall be directly paid to the student's fee account as a scholarship (Details of the University account shall provide in writing by the student)</li>
@@ -85,7 +85,7 @@ function Terms() {
           <h2 className="text-2xl font-semibold mb-4">8. WINNER ANNOUNCEMENT</h2>
           <p className="mb-4">8.1 The winner of the competition will be announced at the Finals and shall be posted on Africa's Campus Battle, its agents or distributors' Website and social media pages.</p>
           <p className="mb-4">8.2 The name of the winner of the competition shall be viewable on the Website from the Announcement Date for a period of one year.</p>
-          <p className="mb-4">8.3 Accordingly, the winner agrees that Africa's Campus Battle Shall not pay them any fees or royalties in connection to their participation during Season 6.</p>
+          <p className="mb-4">8.3 Accordingly, the winner agrees that Africa's Campus Battle Shall not pay them any fees or royalties in connection to their participation during Season 7.</p>
           <p className="mb-4">8.4 ACB shall not be responsible for making any payments to the winners when the performance/pictures are posted on Social media or are rebroadcast or exploited in any other form of media.</p>
 
           <h2 className="text-2xl font-semibold mb-4">9. LIMITATION OF LIABILITY</h2>
@@ -95,7 +95,7 @@ function Terms() {
           <p className="mb-4">10.1 By entering the competition, you are granting Africa's Campus Battle, its agents or distributors consent;</p>
           <ul className="list-disc pl-8 mb-4">
             <li>To photograph, portray, make recordings of, and film the Performer, during their performance</li>
-            <li>To record your voice and other sound effects in connection with the portrayal and/or performance of the Role for use in and in connection with Season 6</li>
+            <li>To record your voice and other sound effects in connection with the portrayal and/or performance of the Role for use in and in connection with Season 7</li>
             <li>To use your recorded performances throughout the competition</li>
             <li>To use recordings featuring your image and/or voice in connection with the Programme and/or ancillary rights in the Programme</li>
             <li>To exploit the same in all media throughout the world in perpetuity and shall not be liable to pay any fees or royalties in connection to the performance/pictures posted on Social media or are rebroadcast or exploited in any other form of media</li>
