@@ -19,58 +19,20 @@ const slides = [
     title: 'Musical Excellence',
   },
   {
+    image: 'https://i.imgur.com/mLDCeLX.jpeg',
+    title: 'Owning the Spotlight',
+  },
+  {
     image: 'https://i.imgur.com/Y5jKPPT.jpeg',
     title: 'Dance Revolution',
   },
   {
-    image: 'https://i.imgur.com/tIZPm6W.jpeg',
-    title: 'Performance Art',
+    image: 'https://i.imgur.com/56TaRn0.jpeg',
+    title: 'Unstoppable Talent',
   }
 ];
 
-function CountdownTimer({ targetDate }) {
-  const calculateTimeLeft = () => {
-    const difference = +new Date(targetDate) - +new Date();
-    
-    if (difference <= 0) {
-      return {};
-    }
 
-    return {
-      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
-      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
-      minutes: Math.floor((difference / 1000 / 60) % 60),
-      seconds: Math.floor((difference / 1000) % 60),
-    };
-  };
-
-  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-      setTimeLeft(calculateTimeLeft());
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, [targetDate]);
-
-  if (Object.keys(timeLeft).length === 0) {
-    return <div className="text-white text-2xl">The event has started!</div>;
-  }
-
-  return (
-    <div className="flex gap-4 justify-center">
-      {Object.entries(timeLeft).map(([interval, value]) => (
-        <div key={interval} className="flex flex-col items-center">
-          <div className="text-3xl font-bold bg-orange-700 rounded-lg p-3 min-w-[80px] text-center">
-            {value}
-          </div>
-          <span className="text-sm mt-1 text-gray-300 capitalize">{interval}</span>
-        </div>
-      ))}
-    </div>
-  );
-}
 
 function Hero() {
   const [isVisible, setIsVisible] = useState(true);

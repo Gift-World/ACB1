@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import Footer from '../components/Footer/Footer';
 import { useInView } from 'react-intersection-observer';
-
+import PastHero from '../components/PastHero';
 const PastSeasons = () => {
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -110,7 +110,8 @@ const PastSeasons = () => {
   ];
 
   return (
-    <div className="bg-black text-white pt-40">
+    <div className="bg-black text-white ">
+      <PastHero />
       {/* Legacy Section */}
       <div className="container mx-auto px-4">
         <motion.div
