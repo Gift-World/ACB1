@@ -54,8 +54,7 @@ function Blogs() {
           >
             <h1 className="text-5xl font-montserrat font-bold mb-4">Our News And Insights</h1>
             <p className="text-xl font-montserrat max-w-2xl mx-auto">
-            Dive into exclusive stories, expert analysis, and behind-the-scenes coverage of Africa's Campus Battle Season 6. Get insights into the strategies, standout performances, and inspiring journeys that defined this season's epic showdown. Stay connected and relive the magic with our in-depth features and updates!
-            </p>
+            Discover exclusive stories, behind-the-scenes moments, and talent-packed blogs. Stay updated on ACB’s latest happenings, standout performances, and unforgettable journeys—all in one place!            </p>
           </motion.div>
         </div>
       </div>
