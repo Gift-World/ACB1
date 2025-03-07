@@ -13,9 +13,9 @@ function BlogSection({ article, index }) {
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, delay: index * 0.2 }}
-      className="flex flex-col md:flex-row items-center gap-8 py-16 border-b border-gray-200 last:border-b-0"
+      className="flex flex-col p-6 md:flex-row items-center gap-8 py-20 border-b border-gray-200 last:border-b-0"
     >
-      <div className="w-full md:w-1/2">
+      <div className="h-full md:h-1/2">
         <img 
           src={article.imageUrl} 
           alt={article.title}
@@ -23,7 +23,7 @@ function BlogSection({ article, index }) {
         />
       </div>
       <div className="w-full md:w-1/2 space-y-4">
-        <div className="flex items-center space-x-4 text-gray-600">
+        <div className="flex pl-10 items-center space-x-4 text-gray-600">
           <span className="font-medium">{article.organization}</span>
           <span className="text-sm">{article.followers}</span>
         </div>
@@ -32,23 +32,22 @@ function BlogSection({ article, index }) {
             href={article.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-6 font-montserrat text-[30px] inline-block text-orange-500 px-6 py-3 rounded-lg font-bold text-lg transition-colors duration-300"
+            className="mt-6 pl-10 font-montserrat text-[30px] inline-block text-orange-500 px-6 py-3 rounded-lg font-bold text-lg transition-colors duration-300"
           >
             {article.button}
           </motion.a>
-        <div className="flex items-center text-gray-600 text-sm">
+        <div className="flex pl-10 items-center text-gray-600 text-sm">
           <span>{article.author}</span>
-          <span className="mx-2">•</span>
-          <span>{article.date}</span>
+         
         </div>
-        <p className="text-lg text-gray-600 leading-relaxed line-clamp-6">
+        <p className="text-lg pl-10 text-gray-600 leading-relaxed line-clamp-6">
           {article.excerpt}
         </p>
         <motion.button
           onClick={handleReadMore}
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
-          className="text-orange-600 font-semibold inline-flex items-center group"
+          className="text-orange-600 pl-10 font-semibold inline-flex items-center group"
         >
           View Magazine
           <svg 
