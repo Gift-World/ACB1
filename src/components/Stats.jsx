@@ -16,7 +16,7 @@ const Stats = () => {
   });
 
   return (
-    <section className="py-20 bg-orange-700">
+    <section className="py-20 bg-orange-600">
       <div className="container mx-auto px-4">
         <div ref={ref} className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {stats.map((stat, index) => (

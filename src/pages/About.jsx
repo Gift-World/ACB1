@@ -29,12 +29,12 @@ function About() {
             initial={{ scale: 0.5 }}
             animate={{ scale: 1 }}
             transition={{ duration: 0.5 }}
-            className="text-orange-500 font-bold text-xl mb-4 text-glow float-animation"
+            className="text-orange-600 font-bold text-xl mb-4 text-glow float-animation"
           >
             SINCE 2014
           </motion.div>
-          <h1 className="text-5xl text-white font-poppins md:text-7xl font-bold mb-6 text-glow">Africa's Campus Battle</h1>
-          <p className="text-xl md:text-2xl font-poppins text-gray-200 max-w-3xl mx-auto mb-8 glass-card p-6 rounded-lg">
+          <h1 className="text-5xl text-white font-poppins md:text-7xl font-bold mb-6">Africa's Campus Battle</h1>
+          <p className="text-xl md:text-[18px] font-poppins text-gray-200 max-w-4xl mx-auto mb-8 glass-card p-6 rounded-lg">
             The premier continental stage where young talent from institutions of higher learning becomes a force for change.
           
             Through dance, music, spoken word and performing arts, ACB is empowering Africa's Gen Z to transform their creativity into real impact, rewriting the future with unapologetic authenticity.
@@ -53,8 +53,8 @@ function About() {
             transition={{ duration: 0.6 }}
             className="glass-card p-8 rounded-xl card-hover"
           >
-            <h2 className="text-3xl font-bold mb-4 font-poppins text-orange-600 text-glow ">Our Vision</h2>
-            <p className="text-black font-poppins">
+            <h2 className="text-3xl font-bold mb-4 font-poppins text-orange-600 ">Our Vision</h2>
+            <p className="text-black text-[18px] font-poppins">
               To make every campus a stage for change, where Africa's brightest voices shape a sustainable future.
             </p>
           </motion.div>
@@ -64,8 +64,8 @@ function About() {
             transition={{ duration: 0.6 }}
             className="glass-card p-8 rounded-xl card-hover"
           >
-            <h2 className="text-3xl font-bold mb-4 text-orange-600 font-poppins text-glow ">Our Mission</h2>
-            <p className="text-black font-poppins">
+            <h2 className="text-3xl font-bold mb-4 text-orange-600 font-poppins ">Our Mission</h2>
+            <p className="text-black text-[18px] font-poppins">
               To ignite Africa's campuses with purpose-driven talent, challenging young creatives to use their art as a force for social impact. With the SDGs as our guide, ACB connects brands with a generation dedicated to a brighter future.
             </p>
           </motion.div>
@@ -155,7 +155,7 @@ function About() {
               className="glass-card p-6 rounded-xl card-hover"
             >
               <div className="text-4xl mb-4 float-animation">{value.icon}</div>
-              <h3 className="text-xl font-poppins font-bold mb-2 text-orange-700">{value.title}</h3>
+              <h3 className="text-xl font-poppins font-bold mb-2 text-orange-600">{value.title}</h3>
               <p className="text-gray-200 font-poppins">{value.description}</p>
             </motion.div>
           ))}
@@ -174,13 +174,13 @@ function About() {
               name: "Lamech Ang'ila",
               role: "Founder & Director",
               bio: "Lamech Ang'ila is the visionary behind Africa's Campus Battle (ACB), a platform designed to unite university students through performance arts and social impact. His passion for youth empowerment and expertise in building strategic partnerships have shaped ACB into more than just a competition—it's a movement. Lamech continues to drive ACB's expansion, ensuring its impact reaches across Africa and beyond.",
-              image: "https://alumni.kcau.ac.ke/wp-content/uploads/2023/03/Lamech-Odiwuor-Angila.jpg",
+              image: "https://i.imgur.com/bdtXGKE.jpeg",
             },
             {
               name: "Everlyne Mutunga Ang'ila",
               role: "CEO",
               bio: "Leading ACB with a strong vision, Everlyne oversees strategy, growth, and partnerships to ensure ACB remains the ultimate platform for young creatives. With a deep passion for youth development and extensive experience in management, she ensures the seamless execution of every season, creating opportunities for students to showcase talent, connect, and thrive.",
-              image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&h=500&fit=crop",
+              image: "https://i.imgur.com/gFj5CoQ.jpeg",
             },
             {
               name: "Edwin Mutoro",
@@ -203,8 +203,8 @@ function About() {
                   className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
                 />
               </div>
-              <h3 className="text-xl font-poppins font-bold mb-2 text-primary">{member.name}</h3>
-              <p className="text-primary font-poppins mb-4">{member.role}</p>
+              <h3 className="text-xl font-poppins font-bold mb-2 text-orange-600">{member.name}</h3>
+              <p className="text-orange-600 font-poppins mb-4">{member.role}</p>
               <p className="text-black font-poppins text-sm px-4">{member.bio}</p>
             </motion.div>
           ))}
