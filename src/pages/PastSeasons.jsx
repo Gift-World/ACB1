@@ -75,7 +75,7 @@ const PastSeasons = () => {
       name: "Kizudeh",
       year: "2023",
       category: "Spoken Word",
-      image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800&h=600&fit=crop",
+      image: "https://lh3.googleusercontent.com/pw/AP1GczNxs0nfEuqOEPu0TuY1fJYNYLnUAeu86BFYU0l5aCEBXD6nL1V7qI9vYKdlYDq6GBA3QNzt9YRJmEjD0cyxKecUXyKwPn9GMYn2cr8_ZhxkUDLkAI6qv3ElPLTQMgm8tyTYUmLDP_Vuo8zq9ao4Lb3G=w962-h641-s-no-gm",
       description: "Blended traditional African instruments with modern pop sounds",
       quote: "From campus performances to international stages - dreams do come true!",
       // achievement: "Released debut album on major streaming platforms"
