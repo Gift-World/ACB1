@@ -16,21 +16,21 @@ function Terms() {
 
           <h2 className="text-2xl font-semibold mb-4">2. INTRODUCTION</h2>
           <p className="mb-6">
-            This Website is operated by African Campus Battle Limited (ACB), to accept/reject, process, and conduct online assessments in connection with the fourth coming Africa Campus Battle Season 7. <Link to="/communication-notice" className="text-orange-600 hover:text-orange-800">Read our Communication Notice</Link>.
+            This Website is operated by African Campus Battle Limited (ACB), to accept/reject, process, and conduct online assessments in connection with the fourth coming Africa Campus Battle Season 7. <Link to="/communication-notice" className="text-customOrange hover:text-orange-800">Read our Communication Notice</Link>.
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">3. PRIVACY NOTICE</h2>
           <p className="mb-6">
-            This privacy notice applies to all users who access the site and provide registration information (for instance information that identifies a specific person, such as full name, gender, email address). By accessing this website, you are authorizing ACB to collect, store, and use such information as per the application to participate in the African Campus Battle Season 7. <Link to="/privacy-policy" className="text-orange-600 hover:text-orange-800">Read our Privacy Policy</Link>
+            This privacy notice applies to all users who access the site and provide registration information (for instance information that identifies a specific person, such as full name, gender, email address). By accessing this website, you are authorizing ACB to collect, store, and use such information as per the application to participate in the African Campus Battle Season 7. <Link to="/privacy-policy" className="text-customOrange hover:text-orange-800">Read our Privacy Policy</Link>
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">4. APPLICATION PROCEDURE</h2>
-          <p className="mb-4">4.1 To join the competition, the applicant must fill out an application form online at <a href="https://forms.google.com/your-form-url" target="_blank" rel="noopener noreferrer" className="text-orange-600 hover:text-orange-800">APPLY HERE</a></p>
+          <p className="mb-4">4.1 To join the competition, the applicant must fill out an application form online at <a href="https://forms.google.com/your-form-url" target="_blank" rel="noopener noreferrer" className="text-customOrange hover:text-orange-800">APPLY HERE</a></p>
           <p className="mb-4">4.2 All competition entries must be received by the AFRICA'S CAMPUS BATTLE not later than 14th June 11:59 pm EAT.</p>
           <p className="mb-4">4.3 All competition entries received after the Closing Date shall be automatically disqualified.</p>
-          <p className="mb-4">4.4 By filling out the application form, you are consenting to be bound by these terms and conditions. <Link to="/consent" className="text-orange-600 hover:text-orange-800">(CONSENT FORM)</Link></p>
-          <p className="mb-4">4.5 The applicant may request for rectification of the information for the accuracy of records. <Link to="/data-access" className="text-orange-600 hover:text-orange-800">(REQUEST FOR DATA ACCESS FORM)</Link></p>
-          <p className="mb-4">4.6 An applicant has the right to request the erasure of information as provided by law. ACB respects this right any applicant who wishes that the same be erased shall fill in the erasure form. <Link to="/erasure" className="text-orange-600 hover:text-orange-800">(DATA ERASURE FORM)</Link></p>
+          <p className="mb-4">4.4 By filling out the application form, you are consenting to be bound by these terms and conditions. <Link to="/consent" className="text-customOrange hover:text-orange-800">(CONSENT FORM)</Link></p>
+          <p className="mb-4">4.5 The applicant may request for rectification of the information for the accuracy of records. <Link to="/data-access" className="text-customOrange hover:text-orange-800">(REQUEST FOR DATA ACCESS FORM)</Link></p>
+          <p className="mb-4">4.6 An applicant has the right to request the erasure of information as provided by law. ACB respects this right any applicant who wishes that the same be erased shall fill in the erasure form. <Link to="/erasure" className="text-customOrange hover:text-orange-800">(DATA ERASURE FORM)</Link></p>
 
           <h2 className="text-2xl font-semibold mb-4">5. ELIGIBILITY AND CRITERIA</h2>
           <p className="mb-4">5.1 The competition is open to all university students currently enrolled in universities in Africa.</p>
