@@ -5,6 +5,7 @@ import About from "./pages/About";
 import PastSeasons from "./pages/PastSeasons";
 import Season7 from "./pages/Season7"
 import FAQS from "./pages/FAQS"
+import Terms from "./components/Terms";
 import Magazine from "./components/Blogs/Magazine"
 import VideoGallery from "./components/VideoGallery";
 import Blogs from "./components/Blogs/Blogs";
@@ -19,7 +20,7 @@ function App() {
       <NavBar />
               <Routes>
               <Route path="/news-and-insights" element={<Blogs />} />
-
+              <Route path="/terms" element={<Terms />} />
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} /> 
               <Route path="/pastseasons" element={<PastSeasons />} /> 

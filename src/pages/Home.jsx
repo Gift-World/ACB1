@@ -4,6 +4,7 @@ import AboutHome from '../components/AboutHome'
 import Footer from '../components/Footer/Footer'
 import ContactSection from '../components/ContactSection'
 import Poster from '../components/Poster'
+// import Terms from '../components/Terms'
 
 
 
@@ -11,6 +12,7 @@ function Home() {
   return (
     <div className="min-h-screen bg-black">
     <Hero />
+    {/* <Terms /> */}
     <Poster />
     <AboutHome />
     <Highlights />
