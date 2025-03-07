@@ -23,7 +23,7 @@ function Podcast() {
             />
             
             {/* Coming Soon Badge */}
-            <div className="absolute top-4 font-poppins right-4 bg-orange-500 text-white px-3 py-2 rounded-full font-bold animate-bounce">
+            <div className="absolute top-4 font-poppins right-4 bg-customOrange text-white px-3 py-2 rounded-full font-bold animate-bounce">
               Coming Soon
             </div>
           </div>
@@ -50,13 +50,14 @@ Got a story to share? Send it to us through the link below. Your story could be 
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-orange-500">Ready to share your story?</h2>
+          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-customOrange">Ready to share your story?</h2>
           
           <motion.a
             href="https://docs.google.com/forms/d/e/1FAIpQLSd1D-XeNoVdTeyueSfl9phoLLC_HnjIZvv1NtgbYVdrf1AqyQ/viewform?usp=sharing"
-            className="inline-block font-poppins bg-orange-600 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
+            className="inline-block font-poppins bg-customBrown text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
+            target='blank'
           >
             Upload your story here
           </motion.a>

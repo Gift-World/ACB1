@@ -59,7 +59,7 @@ function Highlights() {
   return (
     <section className="py-20 bg-black">
       <div className="container mx-auto px-4">
-        <h2 className="text-5xl font-black text-center mb-16 bg-clip-text text-orange-600">
+        <h2 className="text-5xl font-black text-center mb-16 bg-clip-text text-customOrange">
           Season 6 Highlights
         </h2>
         

@@ -64,7 +64,7 @@ function Poster() {
             />
             
             {/* Coming Soon Badge */}
-            <div className="absolute top-4 font-poppins right-4 bg-orange-500 text-white px-3 py-2 rounded-full font-bold animate-bounce">
+            <div className="absolute top-4 font-poppins right-4 bg-customOrange text-white px-3 py-2 rounded-full font-bold animate-bounce">
               Coming Soon
             </div>
           </div>
@@ -72,21 +72,21 @@ function Poster() {
 
         {/* Additional Info */}
         <div className="mt-12 text-center">
-        <div className="text-center mt-7">
-              <h3 className="text-2xl font-bold font-poppins text-white mb-4">Countdown to Season 7</h3>
-              <CountdownTimer targetDate="2025-05-1" />
+        <div className="text-center  mt-7">
+              <h3 className="text-2xl  font-bold font-poppins text-white mb-4">Countdown to Season 7</h3>
+              <CountdownTimer  targetDate="2025-05-1" />
             </div>
           
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto text-white">
-            <div className="bg-gray-800 p-6 rounded-lg hover:bg-orange-600">
+            <div className="bg-gray-800 p-6 rounded-lg hover:bg-customBrown">
               <h3 className="text-xl font-bold font-poppins mb-2">New Season</h3>
               <p className="font-poppins">Get ready for an incredible new journey</p>
             </div>
-            <div className="bg-gray-800  p-6 rounded-lg  hover:bg-orange-600">
+            <div className="bg-gray-800  p-6 rounded-lg  hover:bg-customBrown">
               <h3 className="text-xl font-poppins font-bold mb-2">More Talent</h3>
               <p className="font-poppins">Showcasing Africa's finest campus talent</p>
             </div>
-            <div className="bg-gray-800 p-6 rounded-lg  hover:bg-orange-600">
+            <div className="bg-gray-800 p-6 rounded-lg  hover:bg-customBrown">
               <h3 className="text-xl font-poppins font-bold mb-2">Bigger Stage</h3>
               <p className="font-poppins">Taking campus entertainment to new heights</p>
             </div>
@@ -99,11 +99,11 @@ function Poster() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-orange-500">Ready to Own the Stage?</h2>
+          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-customOrange">Ready to Own the Stage?</h2>
           <p className="text-xl font-poppins text-white mb-8">Applications will soon open for university students across Africa on 21st May</p>
           <motion.a
             href="#"
-            className="inline-block font-poppins bg-orange-600 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
+            className="inline-block font-poppins bg-customBrown text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >

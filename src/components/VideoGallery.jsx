@@ -187,15 +187,9 @@ No scripts. No filters. No judgment.
         <div>
           <div className="flex justify-between items-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold">
-              {seasons.find(s => s.id === selectedSeason).name} Videos
+             Podcast Videos
             </h3>
-            {/* <motion.button 
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className="px-4 py-2 bg-secondary rounded-full text-white font-medium"
-            >
-              View All
-            </motion.button> */}
+            
           </div>
 
           <motion.div 

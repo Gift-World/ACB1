@@ -31,7 +31,7 @@ const FooterLinks = () => {
           transition={{ delay: categoryIndex * 0.2 }}
           className="flex flex-col items-center"
         >
-          <h3 className="font-poppins text-2xl font-semibold text-orange-500 mb-4">
+          <h3 className="font-poppins text-2xl font-semibold text-customOrange mb-4">
             {category}
           </h3>
           <ul className="space-y-5">
@@ -51,7 +51,7 @@ const FooterLinks = () => {
                   className={
                     category === "Socials"
                       ? "w-10 h-10 font-poppins rounded-full border border-[#9c6717] hover:bg-[#ea580c] transition duration-500 flex justify-center items-center text-white"
-                      : "text-gray-300 hover:text-orange-600 transition-colors duration-200"
+                      : "text-gray-300 hover:text-customOrange transition-colors duration-200"
                   }
                 >
                   {category === "Socials" ? item.icon : item.name}

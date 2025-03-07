@@ -18,7 +18,7 @@ const StatCard = ({ icon: Icon, number, text, delay }) => {
         scale: 1.05,
         boxShadow: "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)"
       }}
-      className="bg-orange-600 backdrop-blur-md p-8 rounded-xl shadow-xl transform transition-all duration-300"
+      className="bg-customBrown backdrop-blur-md p-8 rounded-xl shadow-xl transform transition-all duration-300"
     >
       <motion.div
         initial={{ scale: 0 }}
@@ -147,7 +147,7 @@ const AboutHome = () => {
           
 
           <h2
-            className="text-4xl text-center font-bold text-orange-400 mb-16"
+            className="text-4xl text-center font-bold text-customOrange mb-16"
             
           >
             Impact over the years

@@ -50,7 +50,7 @@ const ContactForm = () => {
     <div
       className="w-[400px] "
     >
-      <h3 className="font-poppins text-2xl font-semibold text-orange-500 mb-4 text-center">
+      <h3 className="font-poppins text-2xl font-semibold text-customOrange mb-4 text-center">
         Send us a Message
       </h3>
       <form onSubmit={handleSubmit} className="space-y-4">
@@ -90,7 +90,7 @@ const ContactForm = () => {
         <button
           type="submit"
           disabled={isSubmitting}
-          className="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center gap-2"
+          className="w-full bg-customOrange hover:bg-customBrown text-white font-semibold py-2 px-4 rounded-lg transition duration-300 flex items-center justify-center gap-2"
         >
           {isSubmitting ? (
             'Sending...'

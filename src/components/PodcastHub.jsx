@@ -56,8 +56,9 @@ Got a story to share? Send it to us through the link below. Your story could be 
             className="inline-block font-poppins bg-orange-600 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
+            target='blank'
           >
-            Upload your story here
+            Share your story here today!
           </motion.a>
         </motion.div>
       </section>
