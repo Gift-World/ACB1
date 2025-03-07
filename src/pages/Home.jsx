@@ -6,7 +6,7 @@ import Footer from '../components/Footer/Footer'
 import Poster from '../components/Poster'
 // import Terms from '../components/Terms'
 import Partners from  '../components/Partners'
-
+import Podcast from '../components/Podcast'
 
 function Home() {
   return (
@@ -15,6 +15,7 @@ function Home() {
     <AboutHome />
     {/* <Terms /> */}
     <Poster />
+    <Podcast />
     
     <Partners />
     <Highlights />

@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FaPlay, FaChevronDown } from 'react-icons/fa';
+import { FaPlay } from 'react-icons/fa';
 import Footer from './Footer/Footer';
+import PodcastHub from './PodcastHub';
 // Animation variants
 const fadeIn = {
   hidden: { opacity: 0, y: 20 },
@@ -33,11 +34,7 @@ const videoItem = {
 
 // Season data
 const seasons = [
-  { id: 1, name: "Season 1" },
-  { id: 2, name: "Season 2" },
-  { id: 3, name: "Season 3" },
-  { id: 4, name: "Season 4" },
-  { id: 5, name: "Season 5" },
+  
   { id: 6, name: "Season 6" }
   
 ];
@@ -45,107 +42,7 @@ const seasons = [
 // Video data by season
 const videoDataBySeason = {
  
-  1: [
-    {
-        id: 3,
-        title: "Season 6: Opening Tournament",
-        thumbnail: "https://i.ytimg.com/vi/8QRshpycWec/maxresdefault.jpg",
-        embedId: "8QRshpycWec",
-        views: "1.3M",
-        likes: "48K",
-        date: "6 months ago"
-      },
-    {
-        id: 4,
-        title: "Season 6: Opening Tournament",
-        thumbnail: "https://i.ytimg.com/vi/jkRcG8xtFeM/maxresdefault.jpg",
-        embedId: "jkRcG8xtFeM",
-        views: "1.3M",
-        likes: "48K",
-        date: "6 months ago"
-      },
-  ],
-  2: [
-    {
-        id: 5,
-        title: "Season 6: Opening Tournament",
-        thumbnail: "https://i.ytimg.com/vi/jkRcG8xtFeM/maxresdefault.jpg",
-        embedId: "jkRcG8xtFeM",
-        views: "1.3M",
-        likes: "48K",
-        date: "6 months ago"
-      },
-    {
-        id: 6,
-        title: "Season 6: Opening Tournament",
-        thumbnail: "https://i.ytimg.com/vi/jkRcG8xtFeM/maxresdefault.jpg",
-        embedId: "jkRcG8xtFeM",
-        views: "1.3M",
-        likes: "48K",
-        date: "6 months ago"
-      },
-  ],
-  3: [
-    {
-      id: 7,
-      title: "Season 4: Coach's Corner",
-      thumbnail: "https://i.ytimg.com/vi/LElFr1lzJQM/maxresdefault.jpg",
-      embedId: "LElFr1lzJQM",
-      views: "450K",
-      likes: "18K",
-      date: "2 years ago"
-    },
-    {
-      id: 8,
-      title: "Season 4: Draft Night Special",
-      thumbnail: "https://i.ytimg.com/vi/9gAQ30-HQwU/maxresdefault.jpg",
-      embedId: "9gAQ30-HQwU",
-      views: "1.8M",
-      likes: "76K",
-      date: "2 years ago"
-    },
-  ],
-  4: [
-    {
-        id: 9,
-        title: "Season 6: Opening Tournament",
-        thumbnail: "https://i.ytimg.com/vi/jkRcG8xtFeM/maxresdefault.jpg",
-        embedId: "jkRcG8xtFeM",
-        views: "1.3M",
-        likes: "48K",
-        date: "6 months ago"
-      },
-      {
-        id: 10,
-        title: "Season 6: Opening Tournament",
-        thumbnail: "https://i.ytimg.com/vi/jkRcG8xtFeM/maxresdefault.jpg",
-        embedId: "jkRcG8xtFeM",
-        views: "1.3M",
-        likes: "48K",
-        date: "6 months ago"
-      },
-  ],
-  5: [
-    {
-      id: 11,
-      title: "Season 6: Opening Tournament",
-      thumbnail: "https://i.ytimg.com/vi/jkRcG8xtFeM/maxresdefault.jpg",
-      embedId: "jkRcG8xtFeM",
-      views: "1.3M",
-      likes: "48K",
-      date: "6 months ago"
-    },
-    {
-        id: 12,
-        title: "Season 6: Opening Tournament",
-        thumbnail: "https://i.ytimg.com/vi/jkRcG8xtFeM/maxresdefault.jpg",
-        embedId: "jkRcG8xtFeM",
-        views: "1.3M",
-        likes: "48K",
-        date: "6 months ago"
-      },
-   
-  ],
+ 
   6: [
     {
       id: 13,
@@ -188,10 +85,9 @@ const videoDataBySeason = {
 };
 
 const VideoGallery = () => {
-  const [selectedSeason, setSelectedSeason] = useState(6);
+  const [selectedSeason] = useState(6);
   const [selectedVideo, setSelectedVideo] = useState(videoDataBySeason[6][0]);
 //   const [isLiked, setIsLiked] = useState(false);
-  const [isSeasonDropdownOpen, setIsSeasonDropdownOpen] = useState(false);
 
   const handleVideoSelect = (video) => {
     setSelectedVideo(video);
@@ -199,37 +95,26 @@ const VideoGallery = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
-  const handleSeasonChange = (seasonId) => {
-    setSelectedSeason(seasonId);
-    setSelectedVideo(videoDataBySeason[seasonId][0]);
-    // setIsLiked(false);
-    setIsSeasonDropdownOpen(false);
-  };
-
+ 
   return (
     <div className="bg-gray-900 text-light min-h-screen ">
       {/* Hero Section */}
+      <PodcastHub />
       <motion.div 
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        className="relative h-[50vh] overflow-hidden"
+        className="relative overflow-hidden"
       >
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-dark z-10"></div>
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ 
-            backgroundImage: `url(${selectedVideo.thumbnail})`,
-            filter: 'blur(8px) brightness(0.6)'
-          }}
-        ></div>
-        <div className="relative z-20 h-full flex flex-col items-center justify-center px-4">
+        
+        {/* <div className="relative z-20 h-full flex flex-col items-center justify-center px-4">
           <motion.h1 
             initial={{ y: -50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.6 }}
-            className="text-5xl md:text-7xl font-extrabold text-center mb-4"
+            className="text-4xl md:text-7xl font-extrabold text-center mb-4"
           >
-            <span className="text-orange-700 font-poppins">Watch</span> & <span className="text-orange-700 font-poppins">Engage</span>
+            <span className="text-orange-700 text-[50px] font-poppins">The Unapologetic Mic</span>
           </motion.h1>
           <motion.p 
             initial={{ y: 50, opacity: 0 }}
@@ -237,43 +122,16 @@ const VideoGallery = () => {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-xl font-poppins md:text-2xl text-center max-w-2xl"
           >
-            Your ACB Content Hub — Stay Updated, Get Inspired, Join the Conversation
+           This is where stories break free, and voices rise.
+No scripts. No filters. No judgment.
+
           </motion.p>
-        </div>
+        </div> */}
       </motion.div>
 
       <div className="container mx-auto px-4 mt-10 pb-10">
         {/* Season Selector */}
-        <div className="mb-8 relative">
-          <div 
-            className="glass-card p-3 rounded-lg flex justify-between items-center cursor-pointer"
-            onClick={() => setIsSeasonDropdownOpen(!isSeasonDropdownOpen)}
-          >
-            <span className="text-xl font-bold text-primary">
-              {seasons.find(s => s.id === selectedSeason).name}
-            </span>
-            <FaChevronDown className={`transition-transform duration-300 ${isSeasonDropdownOpen ? 'rotate-180' : ''}`} />
-          </div>
-          
-          {isSeasonDropdownOpen && (
-            <motion.div 
-              initial={{ opacity: 0, y: -10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
-              className="absolute z-50 mt-2 w-full glass-card rounded-lg overflow-hidden"
-            >
-              {seasons.map(season => (
-                <div 
-                  key={season.id}
-                  className={`p-3 cursor-pointer hover:bg-primary hover:bg-opacity-20 transition-colors duration-200 ${selectedSeason === season.id ? 'bg-primary bg-opacity-20' : ''}`}
-                  onClick={() => handleSeasonChange(season.id)}
-                >
-                  {season.name}
-                </div>
-              ))}
-            </motion.div>
-          )}
-        </div>
+       
 
         {/* Featured Video */}
         <motion.div
