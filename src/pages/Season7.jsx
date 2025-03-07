@@ -81,7 +81,7 @@ function Season7() {
           <TimelineItem 
             date="June - November 2025"
             title="The Eliminations"
-            description="Four online challenges testing your creativity"
+            description="Online challenges testing your creativity"
             icon={<FaYoutube />}
           />
           
