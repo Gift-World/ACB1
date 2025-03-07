@@ -131,7 +131,7 @@ function Hero() {
           <div className="max-w-4xl mx-auto mb-16">
             <div className="text-center mt-7">
               <h3 className="text-2xl font-bold font-poppins text-white mb-4">Countdown to Season 7</h3>
-              <CountdownTimer targetDate="2025-05-23" />
+              <CountdownTimer targetDate="2025-05-1" />
             </div>
           </div>
         </div>

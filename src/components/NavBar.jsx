@@ -30,13 +30,14 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-12 md:h-16">
           <div className="rounded-full">
-            <Link to="/">
-              <img
-                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNcDtMMJ3o7MH3ndUmJF1X4GI-Czn3fztKw&s"
-                alt="logo"
-                className="h-12 w-12 md:h-16 md:w-16 object-cover rounded-ful"
-              />
-            </Link>
+          <Link to="/">
+  <img
+    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHNcDtMMJ3o7MH3ndUmJF1X4GI-Czn3fztKw&s"
+    alt="logo"
+    className="h-20 w-20 md:h-24 md:w-24 mt-10 object-cover rounded-full border-2 border-orange-600"
+  />
+</Link>
+
           </div>
 
           <div className="md:hidden">
@@ -207,7 +208,7 @@ const Navbar = () => {
                 onClick={() => setIsMenuOpen((prev) => !prev)}
               >
                 <span className="relative">
-                  Terms and Conditions
+                  Terms and Condions
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
                 </span>
               </Link>
