@@ -15,37 +15,37 @@ const PastSeasons = () => {
 
   const seasons = [
     {
-      year: "2023",
+      year: "2024",
       title: "Season 6: Digital Revolution",
       image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
       description: "Breaking barriers with virtual performances and global reach",
     },
     {
-      year: "2022",
+      year: "2023",
       title: "Season 5: Unity in Diversity",
       image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&h=600&fit=crop",
       description: "Celebrating cultural fusion and creative excellence",
     },
     {
-      year: "2021",
+      year: "2022",
       title: "Season 4: Resilience",
       image: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&h=600&fit=crop",
       description: "Adapting and thriving through challenging times",
     },
     {
-      year: "2020",
+      year: "2021",
       title: "Season 3: Digital Transformation",
       image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
       description: "Pioneering virtual performances during global challenges",
     },
     {
-      year: "2019",
+      year: "2020",
       title: "Season 2: Rising Stars",
       image: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&h=600&fit=crop",
       description: "Expanding horizons with new talent and fresh perspectives",
     },
     {
-      year: "2018",
+      year: "2014",
       title: "Season 1: The Beginning",
       image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop",
       description: "Where it all started - launching Africa's biggest campus movement",
@@ -54,58 +54,58 @@ const PastSeasons = () => {
 
   const winners = [
     {
-      name: "Team Dynamix",
-      year: "2023",
-      category: "Dance",
-      image: "https://images.unsplash.com/photo-1547153760-18fc86324498?w=800&h=600&fit=crop",
+      // name: "Who will be the ",
+      year: "2025",
+      // category: "Spoken Word",
+      image: "data:image/jpeg;base64,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",
+      // description: "Revolutionized urban dance with their fusion of African and contemporary styles",
+      // quote: "ACB changed our lives forever. We're now professional choreographers!",
+      // achievement: "Secured a major dance residency in Paris"
+    },
+    {
+      name: "Jackline Malavanu",
+      year: "2024",
+      category: "Spoken Word",
+      image: "https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-5z9F4Mz/0/KQsFmDM33pC4vbSDPQM6GfjSPzQmWRD4f9hmpnQ6C/XL/Sixtyone-75-XL.jpg",
       description: "Revolutionized urban dance with their fusion of African and contemporary styles",
       quote: "ACB changed our lives forever. We're now professional choreographers!",
       // achievement: "Secured a major dance residency in Paris"
     },
     {
-      name: "Lyrical Warriors",
-      year: "2022",
-      category: "Music",
+      name: "Kizudeh",
+      year: "2023",
+      category: "Spoken Word",
       image: "https://images.unsplash.com/photo-1516280440614-37939bbacd81?w=800&h=600&fit=crop",
       description: "Blended traditional African instruments with modern pop sounds",
       quote: "From campus performances to international stages - dreams do come true!",
       // achievement: "Released debut album on major streaming platforms"
     },
     {
-      name: "Spoken Truth",
-      year: "2021",
-      category: "Spoken Word",
-      image: "https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=800&h=600&fit=crop",
+      name: "Moses Muya",
+      year: "2022",
+      category: "Dance",
+      image: "https://i.imgur.com/YO6liOY.jpeg",
       description: "Powerful poetry addressing social justice and youth empowerment",
       quote: "ACB gave us the platform to speak our truth to the world.",
       // achievement: "Published anthology of spoken word poetry"
     },
     {
-      name: "Urban Fusion",
-      year: "2020",
-      category: "Dance",
-      image: "https://images.unsplash.com/photo-1508700115892-45ecd05ae2ad?w=800&h=600&fit=crop",
+      name: "John S. Fille",
+      year: "2021",
+      category: "Music",
+      image: "https://i.imgur.com/tQoiVjV.jpeg",
       description: "Pioneered virtual dance performances during global lockdown",
       quote: "Even in a virtual world, we found our rhythm and connection.",
       // achievement: "Launched successful online dance academy"
     },
     {
-      name: "Melody Makers",
-      year: "2019",
+      name: "John S. Fille",
+      year: "2020",
       category: "Music",
-      image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=800&h=600&fit=crop",
+      image: "https://i.imgur.com/kRLVpUx.jpeg",
       description: "Created viral hits combining Afrobeats with social messages",
       quote: "ACB was the launchpad for our music careers. Forever grateful!",
       // achievement: "Music featured in major African film production"
-    },
-    {
-      name: "Poetic Justice",
-      year: "2018",
-      category: "Spoken Word",
-      image: "https://images.unsplash.com/photo-1495374519711-e22c8b4596a0?w=800&h=600&fit=crop",
-      description: "First-ever ACB champions who set the bar for excellence",
-      quote: "The first season winners - we started a legacy of excellence.",
-      // achievement: "Founded youth poetry movement across 5 universities"
     }
   ];
 
@@ -185,10 +185,10 @@ const PastSeasons = () => {
                 <div className="absolute bottom-4 left-4 right-4">
                   <span className="text-primary font-bold">{winner.year}</span>
                   <h3 className="text-2xl font-bold mb-1">{winner.name}</h3>
-                  <p className="text-gray-200">{winner.category} Champions</p>
+                  <p className="text-gray-200">{winner.category} Champion</p>
                 </div>
               </div>
-              <div className="p-6">
+              {/* <div className="p-6">
                 <p className="text-gray-300 mb-4">{winner.description}</p>
                 <blockquote className="text-primary italic mb-4">"{winner.quote}"</blockquote>
                 <div className="flex items-center space-x-2">
@@ -196,7 +196,7 @@ const PastSeasons = () => {
                     {winner.achievement}
                   </span>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
           ))}
         </div>
