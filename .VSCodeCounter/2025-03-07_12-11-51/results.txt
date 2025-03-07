@@ -1,0 +1,84 @@
+Date : 2025-03-07 12:11:51
+Directory : c:\Users\giftw\ACB1
+Total : 44 files,  10833 codes, 154 comments, 325 blanks, all 11312 lines
+
+Languages
++----------------+------------+------------+------------+------------+------------+
+| language       | files      | code       | comment    | blank      | total      |
++----------------+------------+------------+------------+------------+------------+
+| JSON           |          2 |      7,534 |          0 |          2 |      7,536 |
+| JavaScript JSX |         31 |      3,061 |        143 |        286 |      3,490 |
+| CSS            |          2 |        130 |          9 |         26 |        165 |
+| JavaScript     |          5 |         88 |          2 |          5 |         95 |
+| HTML           |          1 |         13 |          0 |          2 |         15 |
+| Markdown       |          1 |          5 |          0 |          4 |          9 |
+| XML            |          2 |          2 |          0 |          0 |          2 |
++----------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                      | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                         |         44 |     10,833 |        154 |        325 |     11,312 |
+| . (Files)                                                 |          8 |      7,631 |          2 |         13 |      7,646 |
+| public                                                    |          1 |          1 |          0 |          0 |          1 |
+| src                                                       |         35 |      3,201 |        152 |        312 |      3,665 |
+| src (Files)                                               |          4 |        186 |          9 |         35 |        230 |
+| src\assets                                                |          1 |          1 |          0 |          0 |          1 |
+| src\components                                            |         25 |      2,333 |         80 |        231 |      2,644 |
+| src\components (Files)                                    |         16 |      1,937 |         72 |        186 |      2,195 |
+| src\components\Blogs                                      |          5 |        256 |          6 |         26 |        288 |
+| src\components\Footer                                     |          4 |        140 |          2 |         19 |        161 |
+| src\pages                                                 |          5 |        681 |         63 |         46 |        790 |
++-----------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------+----------------+------------+------------+------------+------------+
+| filename                                                  | language       | code       | comment    | blank      | total      |
++-----------------------------------------------------------+----------------+------------+------------+------------+------------+
+| c:\Users\giftw\ACB1\README.md                             | Markdown       |          5 |          0 |          4 |          9 |
+| c:\Users\giftw\ACB1\eslint.config.js                      | JavaScript     |         37 |          0 |          2 |         39 |
+| c:\Users\giftw\ACB1\index.html                            | HTML           |         13 |          0 |          2 |         15 |
+| c:\Users\giftw\ACB1\package-lock.json                     | JSON           |      7,492 |          0 |          1 |      7,493 |
+| c:\Users\giftw\ACB1\package.json                          | JSON           |         42 |          0 |          1 |         43 |
+| c:\Users\giftw\ACB1\postcss.config.js                     | JavaScript     |          6 |          0 |          0 |          6 |
+| c:\Users\giftw\ACB1\public\vite.svg                       | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\giftw\ACB1\src\App.css                           | CSS            |         37 |          0 |          6 |         43 |
+| c:\Users\giftw\ACB1\src\App.jsx                           | JavaScript JSX |         47 |          0 |          7 |         54 |
+| c:\Users\giftw\ACB1\src\assets\react.svg                  | XML            |          1 |          0 |          0 |          1 |
+| c:\Users\giftw\ACB1\src\components\AboutHome.jsx          | JavaScript JSX |        188 |         24 |         18 |        230 |
+| c:\Users\giftw\ACB1\src\components\Blogs\BlogArticle.jsx  | JavaScript JSX |         77 |          0 |         10 |         87 |
+| c:\Users\giftw\ACB1\src\components\Blogs\BlogSection.jsx  | JavaScript JSX |         69 |          0 |          4 |         73 |
+| c:\Users\giftw\ACB1\src\components\Blogs\Blogs.jsx        | JavaScript JSX |         62 |          6 |          6 |         74 |
+| c:\Users\giftw\ACB1\src\components\Blogs\Magazine.jsx     | JavaScript JSX |         24 |          0 |          3 |         27 |
+| c:\Users\giftw\ACB1\src\components\Blogs\Magazine2.jsx    | JavaScript JSX |         24 |          0 |          3 |         27 |
+| c:\Users\giftw\ACB1\src\components\Communications.jsx     | JavaScript JSX |        131 |          1 |         17 |        149 |
+| c:\Users\giftw\ACB1\src\components\Consent.jsx            | JavaScript JSX |         24 |          0 |          2 |         26 |
+| c:\Users\giftw\ACB1\src\components\ContactSection.jsx     | JavaScript JSX |        214 |          0 |         19 |        233 |
+| c:\Users\giftw\ACB1\src\components\DataAccess.jsx         | JavaScript JSX |         24 |          0 |          2 |         26 |
+| c:\Users\giftw\ACB1\src\components\Erasure.jsx            | JavaScript JSX |         24 |          0 |          2 |         26 |
+| c:\Users\giftw\ACB1\src\components\Events.jsx             | JavaScript JSX |        110 |          3 |         13 |        126 |
+| c:\Users\giftw\ACB1\src\components\Footer\Footer.jsx      | JavaScript JSX |         23 |          0 |          6 |         29 |
+| c:\Users\giftw\ACB1\src\components\Footer\Footer2.jsx     | JavaScript JSX |          9 |          0 |          5 |         14 |
+| c:\Users\giftw\ACB1\src\components\Footer\FooterLinks.jsx | JavaScript JSX |         99 |          2 |          8 |        109 |
+| c:\Users\giftw\ACB1\src\components\Footer\scrollUtils.js  | JavaScript     |          9 |          0 |          0 |          9 |
+| c:\Users\giftw\ACB1\src\components\Hero.jsx               | JavaScript JSX |        134 |          0 |         17 |        151 |
+| c:\Users\giftw\ACB1\src\components\Highlights.jsx         | JavaScript JSX |        123 |          2 |          7 |        132 |
+| c:\Users\giftw\ACB1\src\components\NavBar.jsx             | JavaScript JSX |        214 |          0 |          9 |        223 |
+| c:\Users\giftw\ACB1\src\components\Partners.jsx           | JavaScript JSX |         93 |          1 |          4 |         98 |
+| c:\Users\giftw\ACB1\src\components\Poster.jsx             | JavaScript JSX |         60 |          5 |          9 |         74 |
+| c:\Users\giftw\ACB1\src\components\Privacy.jsx            | JavaScript JSX |        114 |          1 |         20 |        135 |
+| c:\Users\giftw\ACB1\src\components\Stats.jsx              | JavaScript JSX |         45 |          0 |          5 |         50 |
+| c:\Users\giftw\ACB1\src\components\Terms.jsx              | JavaScript JSX |        110 |          0 |         19 |        129 |
+| c:\Users\giftw\ACB1\src\components\VideoGallery.jsx       | JavaScript JSX |        329 |         35 |         23 |        387 |
+| c:\Users\giftw\ACB1\src\index.css                         | CSS            |         93 |          9 |         20 |        122 |
+| c:\Users\giftw\ACB1\src\main.jsx                          | JavaScript JSX |          9 |          0 |          2 |         11 |
+| c:\Users\giftw\ACB1\src\pages\About.jsx                   | JavaScript JSX |        183 |         28 |          8 |        219 |
+| c:\Users\giftw\ACB1\src\pages\FAQS.jsx                    | JavaScript JSX |        127 |          0 |          6 |        133 |
+| c:\Users\giftw\ACB1\src\pages\Home.jsx                    | JavaScript JSX |         21 |          2 |          4 |         27 |
+| c:\Users\giftw\ACB1\src\pages\PastSeasons.jsx             | JavaScript JSX |        191 |         27 |         12 |        230 |
+| c:\Users\giftw\ACB1\src\pages\Season7.jsx                 | JavaScript JSX |        159 |          6 |         16 |        181 |
+| c:\Users\giftw\ACB1\tailwind.config.js                    | JavaScript     |         31 |          1 |          1 |         33 |
+| c:\Users\giftw\ACB1\vite.config.js                        | JavaScript     |          5 |          1 |          2 |          8 |
+| Total                                                     |                |     10,833 |        154 |        325 |     11,312 |
++-----------------------------------------------------------+----------------+------------+------------+------------+------------+

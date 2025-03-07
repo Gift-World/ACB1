@@ -129,10 +129,19 @@ function Hero() {
           </div>
           
           <div className="max-w-4xl mx-auto mb-16">
-            <div className="text-center mt-7">
+          <div className="max-w-4xl mx-auto text-center text-lg text-gray-300 leading-relaxed mt-16 ">
+          <p className="mb-6 text-gray-200 font-poppins font-light text-[20px]">
+            We are Africa's Campus Battle, the premier continental stage where young talent 
+            from institutions of higher learning becomes a force for change. Through dance, 
+            music, spoken word and performing arts, ACB is empowering Africa's Gen Z to 
+            transform their creativity into real impact, rewriting the future with unapologetic 
+            authenticity.
+          </p>
+        </div>
+            {/* <div className="text-center mt-7">
               <h3 className="text-2xl font-bold font-poppins text-white mb-4">Countdown to Season 7</h3>
               <CountdownTimer targetDate="2025-05-1" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

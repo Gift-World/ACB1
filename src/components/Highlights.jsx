@@ -2,6 +2,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectCards } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
+import { motion } from 'framer-motion';
 
 const highlights = [
   {
@@ -125,6 +126,13 @@ function Highlights() {
 </div>
         </div>
       </div>
+      <motion.div
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 1 }}
+            className="mt-12 pt-8 border-t border-gray-800 w-full text-center"
+          />
     </section>
   );
 }

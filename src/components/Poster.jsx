@@ -1,5 +1,48 @@
 import { motion } from 'framer-motion';
+import { useEffect, useState } from 'react';
+function CountdownTimer({ targetDate }) {
+  const calculateTimeLeft = () => {
+    const difference = +new Date(targetDate) - +new Date();
+    
+    if (difference <= 0) {
+      return {};
+    }
 
+    return {
+      days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+      hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+      minutes: Math.floor((difference / 1000 / 60) % 60),
+      seconds: Math.floor((difference / 1000) % 60),
+    };
+  };
+
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setTimeLeft(calculateTimeLeft());
+    }, 1000);
+
+    return () => clearInterval(timer);
+  }, [targetDate]);
+
+  if (Object.keys(timeLeft).length === 0) {
+    return <div className="text-white text-2xl">The event has started!</div>;
+  }
+
+  return (
+    <div className="flex gap-4 justify-center">
+      {Object.entries(timeLeft).map(([interval, value]) => (
+        <div key={interval} className="flex flex-col items-center">
+          <div className="text-3xl font-bold bg-orange-700 rounded-lg p-3 min-w-[80px] text-center">
+            {value}
+          </div>
+          <span className="text-sm mt-1 text-gray-300 capitalize">{interval}</span>
+        </div>
+      ))}
+    </div>
+  );
+}
 function Poster() {
   return (
     <div className=" bg-black py-12 px-4 sm:px-6 lg:px-8">
@@ -29,9 +72,10 @@ function Poster() {
 
         {/* Additional Info */}
         <div className="mt-12 text-center">
-          <div className="inline-block font-poppins bg-orange-600 text-white px-6 py-3 rounded-full font-bold text-lg">
-            #UNAPOLOGETICALLYTALENTED
-          </div>
+        <div className="text-center mt-7">
+              <h3 className="text-2xl font-bold font-poppins text-white mb-4">Countdown to Season 7</h3>
+              <CountdownTimer targetDate="2025-05-1" />
+            </div>
           
           <div className="mt-8 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-3xl mx-auto text-white">
             <div className="bg-gray-800 p-6 rounded-lg hover:bg-orange-600">
@@ -56,7 +100,7 @@ function Poster() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-orange-500">Ready to Own the Stage?</h2>
-          <p className="text-xl font-poppins text-white mb-8">Applications are now open for university students across Africa</p>
+          <p className="text-xl font-poppins text-white mb-8">Applications will soon open for university students across Africa on 21st May</p>
           <motion.a
             href="#"
             className="inline-block font-poppins bg-orange-600 text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"

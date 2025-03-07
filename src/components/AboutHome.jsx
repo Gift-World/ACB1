@@ -116,20 +116,10 @@ const AboutHome = () => {
       ))}
 
       <div className="relative py-20 px-4 sm:px-6 bg-gradient-to-b from-white to-orange-50 lg:px-8">
-        <motion.div
-          ref={ref}
-          initial={{ opacity: 0 }}
-          animate={inView ? { opacity: 1 } : {}}
-          transition={{ duration: 0.8 }}
-          className="text-center max-w-7xl mx-auto"
-        >
+        
          
-         <div className="relative overflow-hidden bg-white">
-      {/* Decorative background elements */}
-      <div className="absolute top-0 left-0 w-full h-full">
-        <div className="absolute top-0 left-1/4 w-48 h-48 bg-orange-600/20 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-1/4 w-64 h-64 bg-orange-600/20 rounded-full blur-3xl"></div>
-      </div>
+         {/* <div className="relative overflow-hidden bg-white">
+     
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
@@ -151,43 +141,19 @@ const AboutHome = () => {
           </p>
         </div>
 
-        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-orange-500/20 transform hover:-translate-y-2 transition-transform duration-300">
-            <div className="text-orange-500 text-4xl font-bold mb-4">01</div>
-            <h3 className="text-xl font-bold text-black mb-3">Talent Discovery</h3>
-            <p className="text-black">Unearthing and nurturing the next generation of African performers</p>
-          </div>
-
-          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-orange-500/20 transform hover:-translate-y-2 transition-transform duration-300">
-            <div className="text-orange-500 text-4xl font-bold mb-4">02</div>
-            <h3 className="text-xl font-bold text-black mb-3">Cultural Impact</h3>
-            <p className="text-black">Celebrating and amplifying authentic African creative expression</p>
-          </div>
-
-          <div className="bg-black/30 backdrop-blur-sm p-6 rounded-xl border border-orange-500/20 transform hover:-translate-y-2 transition-transform duration-300">
-            <div className="text-orange-500 text-4xl font-bold mb-4">03</div>
-            <h3 className="text-xl font-bold text-black mb-3">Future Leaders</h3>
-            <p className="text-black">Building tomorrow's creative industry leaders today</p>
-          </div>
-        </div> */}
+        
       </div>
-    </div>
+    </div> */}
           
 
-          <motion.h2
-            className="text-4xl font-bold text-orange-400 mb-16"
-            initial={{ opacity: 0, scale: 0.5 }}
-            animate={inView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ 
-              delay: 0.8,
-              type: "spring",
-              stiffness: 100
-            }}
+          <h2
+            className="text-4xl text-center font-bold text-orange-400 mb-16"
+            
           >
             Impact over the years
-          </motion.h2>
+          </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 max-w-7xl mx-auto px-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2 max-w-1xl mx-10 px-3">
             {stats.map((stat, index) => (
               <StatCard
                 key={index}
@@ -199,7 +165,7 @@ const AboutHome = () => {
               />
             ))}
           </div>
-        </motion.div>
+        
       </div>
 
       {/* Decorative Elements */}
