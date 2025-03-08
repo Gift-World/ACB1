@@ -20,10 +20,10 @@ function Partners() {
     },
     {
       name: "Sanaa Post",
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8_YPzXtXJ-RqjWd9Z9J7H4PxPQ3F3S3gQww&s"
+      logo: "https://news.sanaapost.com/wp-content/uploads/2023/04/SANAAPOST-LOGO-1.png"
     },
     {
-        name: "Legacy Arts and Film",
+        name: "Legacy Arts ",
         logo: "https://africascampusbattle.org/wp-content/uploads/2023/07/Artboard-1-copy-3.jpg"
       },
     {
