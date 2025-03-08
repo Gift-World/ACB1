@@ -39,6 +39,10 @@ function Partners() {
       logo: "https://africascampusbattle.org/wp-content/uploads/2023/07/Artboard-1-copy-6.jpg"
     },
     {
+      name: "SPM BUZZ",
+      logo: "https://i.imgur.com/NJpOfQx.png"
+    },
+    {
       name: "KCC",
       logo: "https://www.kenyaculturalcentre.go.ke/wp-content/uploads/2023/08/KCC-Logo-No-Background-1-1024x470.png"
     },
