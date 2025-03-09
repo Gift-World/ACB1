@@ -53,33 +53,33 @@ const videoDataBySeason = {
       likes: "45K",
       date: "2 weeks ago"
     },
-    {
-      id: 14,
-      title: "Season 6: Behind the Scenes",
-      thumbnail: "https://i.ytimg.com/vi/fx1mxvxNbaE/maxresdefault.jpg",
-      embedId: "fx1mxvxNbaE",
-      views: "890K",
-      likes: "32K",
-      date: "1 month ago"
-    },
-    {
-      id: 15,
-      title: "Season 6: Top 10 Plays",
-      thumbnail: "https://i.ytimg.com/vi/SKl-0hV_Zhg/maxresdefault.jpg",
-      embedId: "SKl-0hV_Zhg",
-      views: "750K",
-      likes: "28K",
-      date: "3 weeks ago"
-    },
-    {
-      id: 16,
-      title: "Season 6: All-Star Weekend",
-      thumbnail: "https://i.ytimg.com/vi/l39ALL3oC2A/maxresdefault.jpg",
-      embedId: "l39ALL3oC2A",
-      views: "1.5M",
-      likes: "67K",
-      date: "1 week ago"
-    },
+    // {
+    //   id: 14,
+    //   title: "Season 6: Behind the Scenes",
+    //   thumbnail: "https://i.ytimg.com/vi/fx1mxvxNbaE/maxresdefault.jpg",
+    //   embedId: "fx1mxvxNbaE",
+    //   views: "890K",
+    //   likes: "32K",
+    //   date: "1 month ago"
+    // },
+    // {
+    //   id: 15,
+    //   title: "Season 6: Top 10 Plays",
+    //   thumbnail: "https://i.ytimg.com/vi/SKl-0hV_Zhg/maxresdefault.jpg",
+    //   embedId: "SKl-0hV_Zhg",
+    //   views: "750K",
+    //   likes: "28K",
+    //   date: "3 weeks ago"
+    // },
+    // {
+    //   id: 16,
+    //   title: "Season 6: All-Star Weekend",
+    //   thumbnail: "https://i.ytimg.com/vi/l39ALL3oC2A/maxresdefault.jpg",
+    //   embedId: "l39ALL3oC2A",
+    //   views: "1.5M",
+    //   likes: "67K",
+    //   date: "1 week ago"
+    // },
    
   ]
 };

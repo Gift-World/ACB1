@@ -49,35 +49,36 @@ function Hero() {
   return (
     <div className="relative h-screen w-full overflow-hidden">
       <Swiper
-        modules={[Autoplay, EffectFade]}
-        effect="fade"
-        speed={1000}
-        autoplay={{
-          delay: 3000,
-          disableOnInteraction: false,
-        }}
-        loop={true}
-        className="h-full w-full"
-      >
-        {slides.map((slide, index) => (
-          <SwiperSlide key={index}>
-            <div className="relative h-full w-full">
-              <img
-                src={slide.image}
-                alt={slide.title}
-                className="h-full w-full object-cover"
-                loading={index === 0 ? 'eager' : 'lazy'}
-              />
-              <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
-              <div className="absolute inset-0 flex flex-col items-center justify-center text-white">
-                <h2 className="mb-4 text-2xl font-poppins font-bold animate-fade-in bg-clip-text text-transparent bg-customOrange">
-                  {slide.title}
-                </h2>
-              </div>
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
+  modules={[Autoplay, EffectFade]}
+  effect="fade"
+  speed={1000}
+  autoplay={{
+    delay: 3000,
+    disableOnInteraction: false,
+  }}
+  loop={true}
+  className="w-full h-screen sm:h-[80vh] md:h-[85vh] lg:h-full"
+>
+  {slides.map((slide, index) => (
+    <SwiperSlide key={index}>
+      <div className="relative w-full h-full">
+        <img
+          src={slide.image}
+          alt={slide.title}
+          className="w-full h-full object-cover"
+          loading={index === 0 ? 'eager' : 'lazy'}
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
+        <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 text-center">
+          <h2 className="mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-poppins font-bold animate-fade-in bg-clip-text text-transparent bg-customOrange">
+            {slide.title}
+          </h2>
+        </div>
+      </div>
+    </SwiperSlide>
+  ))}
+</Swiper>
+
 
       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
         <div className="text-center text-white z-10 space-y-6">
@@ -91,8 +92,8 @@ function Hero() {
           </div>
           
           <div className="max-w-4xl mx-auto mb-16">
-          <div className="max-w-4xl mx-auto text-center text-lg text-gray-300 leading-relaxed mt-16 ">
-          <p className="mb-6 text-gray-200 font-poppins font-light text-[20px]">
+          <div className="max-w-xl mx-auto text-center text-lg text-gray-300 leading-relaxed mt-16 ">
+          <p className="mb-6 text-gray-200 font-poppins font-light text-[17px]">
             We are Africa's Campus Battle, the premier continental stage where young talent 
             from institutions of higher learning becomes a force for change. Through dance, 
             music, spoken word and performing arts, ACB is empowering Africa's Gen Z to 
@@ -100,10 +101,7 @@ function Hero() {
             authenticity.
           </p>
         </div>
-            {/* <div className="text-center mt-7">
-              <h3 className="text-2xl font-bold font-poppins text-white mb-4">Countdown to Season 7</h3>
-              <CountdownTimer targetDate="2025-05-1" />
-            </div> */}
+           
           </div>
         </div>
       </div>
