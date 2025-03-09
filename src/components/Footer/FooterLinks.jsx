@@ -4,7 +4,7 @@ import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import ContactForm from "../ContactForm";
 const links = {
   "Socials": [
-    { name: "Facebook", url: "https://web.facebook.com/profile.php?id=61571583696663", icon: <FaFacebook /> },
+    { name: "Facebook", url: "https://www.facebook.com/share/18HKPq3v6V/", icon: <FaFacebook /> },
     { name: "Instagram", url: "https://www.instagram.com/africacampusbattle/", icon: <FaInstagram /> },
     { name: "Youtube", url: "https://youtube.com/@africascampusbattle?si=8u2QjRRUbspKAIY0", icon: <FaYoutube /> }
   ],
