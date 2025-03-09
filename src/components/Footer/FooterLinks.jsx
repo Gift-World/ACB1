@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 // import { useNavigate, useLocation } from "react-router-dom";
-import { FaFacebook, FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaYoutube } from "react-icons/fa";
 import ContactForm from "../ContactForm";
 const links = {
   "Socials": [
     { name: "Facebook", url: "https://web.facebook.com/profile.php?id=61571583696663", icon: <FaFacebook /> },
     { name: "Instagram", url: "https://www.instagram.com/africacampusbattle/", icon: <FaInstagram /> },
-    { name: "Youtube", url: "https://www.youtube.com/@africascampusbattle", icon: <FaYoutube /> }
+    { name: "Youtube", url: "https://youtube.com/@africascampusbattle?si=8u2QjRRUbspKAIY0", icon: <FaYoutube /> }
   ],
  
   "Contact Info": [
