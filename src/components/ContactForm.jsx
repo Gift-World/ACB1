@@ -26,15 +26,15 @@ const ContactForm = () => {
 
     try {
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_yn6rcxo', // Replace with your EmailJS service ID
+        'template_8eljepo', // Replace with your EmailJS template ID
         {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: 'info@africascampusbattle.org'
+          to_email: 'giftworld325@gmail.com'
         },
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        'YQDuZnxVR3sdRc03Y' // Replace with your EmailJS public key
       );
 
       toast.success('Message sent successfully!');
