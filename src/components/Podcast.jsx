@@ -23,9 +23,9 @@ function Podcast() {
             />
             
             {/* Coming Soon Badge */}
-            <div className="absolute top-4 font-poppins right-4 bg-customOrange text-white px-3 py-2 rounded-full font-bold animate-bounce">
+            {/* <div className="absolute top-4 font-poppins right-4 bg-customOrange text-white px-3 py-2 rounded-full font-bold animate-bounce">
               Coming Soon
-            </div>
+            </div> */}
           </div>
         </div>
 

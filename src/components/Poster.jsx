@@ -116,7 +116,7 @@ function Poster() {
             whileInView={{ opacity: 1 }}
             viewport={{ once: true }}
             transition={{ delay: 1 }}
-            className="mt-12 pt-8 border-t border-gray-800 w-full text-center"
+            className="mt-12 pt-8 border-t border-gray-500 w-full text-center"
           />
     </div>
   )
