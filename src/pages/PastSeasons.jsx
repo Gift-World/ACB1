@@ -66,7 +66,7 @@ const PastSeasons = () => {
       name: "Jackline Malavanu",
       year: "2024",
       category: "Spoken Word",
-      image: "https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-5z9F4Mz/0/KQsFmDM33pC4vbSDPQM6GfjSPzQmWRD4f9hmpnQ6C/XL/Sixtyone-75-XL.jpg",
+      image: "https://i.imgur.com/ZvOVsI5.jpeg",
       description: "Revolutionized urban dance with their fusion of African and contemporary styles",
       quote: "ACB changed our lives forever. We're now professional choreographers!",
       // achievement: "Secured a major dance residency in Paris"

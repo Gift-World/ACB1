@@ -186,7 +186,7 @@ function About() {
               name: "Edwin Mutoro",
               role: "Finance & Admin Director",
               bio: "Edwin Mutoro ensures ACB runs on a solid financial and operational foundation. With over a decade of experience in financial consulting, he leads the finance and administration team, guaranteeing financial responsibility and efficiency. His strategic financial oversight ensures ACB remains sustainable, growing stronger with every season.",
-              image: "https://i.imgur.com/Rg4TFUe.jpeg",
+              image: "https://i.imgur.com/4MJAonH.jpeg",
             },
           ].map((member, index) => (
             <motion.div
