@@ -96,7 +96,7 @@ function Hero() {
           <p className="mb-6 text-gray-200 font-poppins font-light text-[17px]">
             We are Africa's Campus Battle, the premier continental stage where young talent 
             from institutions of higher learning becomes a force for change. Through dance, 
-            music, spoken word and performing arts, ACB is empowering Africa's Gen Z to 
+            music, spoken word and performing arts, ACB is empowering Africa's youth to 
             transform their creativity into real impact, rewriting the future with unapologetic 
             authenticity.
           </p>

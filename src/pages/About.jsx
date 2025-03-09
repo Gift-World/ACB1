@@ -37,7 +37,7 @@ function About() {
           <p className="text-xl md:text-[18px] font-poppins text-gray-200 max-w-4xl mx-auto mb-8 glass-card p-6 rounded-lg">
             The premier continental stage where young talent from institutions of higher learning becomes a force for change.
           
-            Through dance, music, spoken word and performing arts, ACB is empowering Africa's Gen Z to transform their creativity into real impact, rewriting the future with unapologetic authenticity.
+            Through dance, music, spoken word and performing arts, ACB is empowering Africa's youth to transform their creativity into real impact, rewriting the future with unapologetic authenticity.
           </p>
         </motion.div>
       </div>

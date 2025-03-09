@@ -51,7 +51,7 @@ const videoDataBySeason = {
       embedId: "jkRcG8xtFeM",
       views: "1.2M",
       likes: "45K",
-      date: "2 weeks ago"
+      date: "9 months ago"
     },
     // {
     //   id: 14,
@@ -187,7 +187,7 @@ No scripts. No filters. No judgment.
         <div>
           <div className="flex justify-between items-center mb-8">
             <h3 className="text-2xl md:text-3xl font-bold">
-             Podcast Videos
+             ACB Videos
             </h3>
             
           </div>

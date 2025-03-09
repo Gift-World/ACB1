@@ -19,7 +19,7 @@ function Podcast() {
             <img 
               src="https://i.imgur.com/JUyT3bl.jpeg" 
               alt="Africa's Campus Battle Season 7 Podcast" 
-              className="w-[450px] rounded shadow-2xl transform transition-transform duration-300 hover:scale-105"
+              className="w-[500px] rounded shadow-2xl transform transition-transform duration-300 hover:scale-105"
             />
             
             {/* Coming Soon Badge */}
