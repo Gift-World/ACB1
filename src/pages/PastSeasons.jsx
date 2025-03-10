@@ -66,7 +66,7 @@ const PastSeasons = () => {
       name: "Jackline Malavanu",
       year: "2024",
       category: "Spoken Word",
-      image: "https://i.imgur.com/ZvOVsI5.jpeg",
+      image: "/294.jpg",
       description: "Revolutionized urban dance with their fusion of African and contemporary styles",
       quote: "ACB changed our lives forever. We're now professional choreographers!",
       // achievement: "Secured a major dance residency in Paris"
@@ -75,7 +75,7 @@ const PastSeasons = () => {
       name: "Kizudeh",
       year: "2023",
       category: "Spoken Word",
-      image: "https://lh3.googleusercontent.com/pw/AP1GczNxs0nfEuqOEPu0TuY1fJYNYLnUAeu86BFYU0l5aCEBXD6nL1V7qI9vYKdlYDq6GBA3QNzt9YRJmEjD0cyxKecUXyKwPn9GMYn2cr8_ZhxkUDLkAI6qv3ElPLTQMgm8tyTYUmLDP_Vuo8zq9ao4Lb3G=w962-h641-s-no-gm",
+      image: "/kizudeh.jpg",
       description: "Blended traditional African instruments with modern pop sounds",
       quote: "From campus performances to international stages - dreams do come true!",
       // achievement: "Released debut album on major streaming platforms"
@@ -84,7 +84,7 @@ const PastSeasons = () => {
       name: "Moses Muya",
       year: "2022",
       category: "Dance",
-      image: "https://i.imgur.com/qqFhYbi.jpeg",
+      image: "/muya2.jpg",
       description: "Powerful poetry addressing social justice and youth empowerment",
       quote: "ACB gave us the platform to speak our truth to the world.",
       // achievement: "Published anthology of spoken word poetry"
@@ -93,7 +93,7 @@ const PastSeasons = () => {
       name: "John S. Fille",
       year: "2021",
       category: "Music",
-      image: "https://i.imgur.com/tQoiVjV.jpeg",
+      image: "Fille2.jpg",
       description: "Pioneered virtual dance performances during global lockdown",
       quote: "Even in a virtual world, we found our rhythm and connection.",
       // achievement: "Launched successful online dance academy"
@@ -102,7 +102,7 @@ const PastSeasons = () => {
       name: "John S. Fille",
       year: "2020",
       category: "Music",
-      image: "https://i.imgur.com/kRLVpUx.jpeg",
+      image: "/Fille1.jpeg",
       description: "Created viral hits combining Afrobeats with social messages",
       quote: "ACB was the launchpad for our music careers. Forever grateful!",
       // achievement: "Music featured in major African film production"

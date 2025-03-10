@@ -22,7 +22,7 @@ function Season7() {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("https://i.imgur.com/ozP2vNi.jpeg")',
+            backgroundImage: 'url("/761.jpg")',
           }}
         >
           <div className="absolute inset-0 "></div>

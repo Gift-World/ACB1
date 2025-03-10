@@ -174,19 +174,19 @@ function About() {
               name: "Lamech Ang'ila",
               role: "Founder & Director",
               bio: "Lamech Ang'ila is the visionary behind Africa's Campus Battle (ACB), a platform designed to unite university students through performance arts and social impact. His passion for youth empowerment and expertise in building strategic partnerships have shaped ACB into more than just a competition—it's a movement. Lamech continues to drive ACB's expansion, ensuring its impact reaches across Africa and beyond.",
-              image: "https://i.imgur.com/bdtXGKE.jpeg",
+              image: "/lam1.jpg",
             },
             {
               name: "Everlyne Mutunga Ang'ila",
               role: "CEO",
               bio: "Leading ACB with a strong vision, Everlyne oversees strategy, growth, and partnerships to ensure ACB remains the ultimate platform for young creatives. With a deep passion for youth development and extensive experience in management, she ensures the seamless execution of every season, creating opportunities for students to showcase talent, connect, and thrive.",
-              image: "https://i.imgur.com/gFj5CoQ.jpeg",
+              image: "/eve.jpg",
             },
             {
               name: "Edwin Mutoro",
               role: "Finance & Admin Director",
               bio: "Edwin Mutoro ensures ACB runs on a solid financial and operational foundation. With over a decade of experience in financial consulting, he leads the finance and administration team, guaranteeing financial responsibility and efficiency. His strategic financial oversight ensures ACB remains sustainable, growing stronger with every season.",
-              image: "https://i.imgur.com/4MJAonH.jpeg",
+              image: "/eduuuuu.jpg",
             },
           ].map((member, index) => (
             <motion.div

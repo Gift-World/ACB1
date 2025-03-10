@@ -41,7 +41,7 @@ body {
   @apply transition-all duration-300 hover:scale-105 hover:shadow-xl;
 }
 .hero-pattern {
-  background-image: url('https://i.imgur.com/BBNnQtX.jpeg');
+  background-image: url('/662.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

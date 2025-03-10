@@ -11,7 +11,7 @@ const articles = [
     // date: "February 13, 2025",
     excerpt: "Experience the thrill, passion, and jaw-dropping moments of Africa's Campus Battle Season 6! From electrifying performances to inspiring stories of resilience and talent, this edition of the ACB Magazine takes you behind the scenes of the most unforgettable competition yet. Discover the champions, relive the highlights, and uncover the secrets that made this season one for the history books.",
     content: `acb`,
-    imageUrl: "https://i.imgur.com/IAMZiqq.jpeg",
+    imageUrl: "/season6magazine.jpg",
     organization: "Africa's Campus Battle",
     // followers: "18 followers",
     path: "/season-6-magazine"
@@ -23,7 +23,7 @@ const articles = [
     // date: "February 13, 2025",
     excerpt: "Step back into the thrilling world of Africa's Campus Battle Season 5! Discover expert analysis, unforgettable performances, and inspiring success stories that defined the season. From game-changing strategies to standout moments, our coverage brings you the highlights and behind-the-scenes magic of this iconic chapter",
     content: `acb`,
-    imageUrl: "https://i.imgur.com/AkRNb74.jpeg",
+    imageUrl: "/season5magazine.jpg",
     organization: "Africa's Campus Battle",
     // followers: "18 followers",
     path: "/season-5-magazine"
@@ -37,7 +37,7 @@ function Blogs() {
       {/* Hero Section */}
       <div 
         style={{
-          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://photos.smugmug.com/Clients/AfricaCampusBattles/n-ZNpGDb/Season-6-Finale/i-F9Q2Vqq/0/NX7Mwp5VGvwgr2Xg56WqWJXvmTXZGNgv28z8Cw3fm/S/Sixtyone-202-S.jpg')`,
+          backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/262.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           height: '80vh',
