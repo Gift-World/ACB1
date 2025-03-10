@@ -7,45 +7,46 @@ import { motion } from 'framer-motion';
 const highlights = [
   {
     type: 'image',
-    url: 'https://i.imgur.com/3eowoXv.jpeg',
+    url: '/705.jpg',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'image',
-    url: 'https://i.imgur.com/7pPSm8U.jpeg',
+    url: '/714.jpg',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'image',
-    url: 'https://i.imgur.com/61jZBZb.jpeg',
+    url: '/721.jpg',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'image',
-    url: 'https://i.imgur.com/qpqEmuW.jpeg',
+    url: '/737.jpg',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'image',
-    url: 'https://i.imgur.com/D7DlUQd.jpeg',
+    url: '777.jpg',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
-    type: 'https://i.imgur.com/RZwJRzr.jpeg',
+    type: 'image',
+    url: '753.jpg',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   
   {
     type: 'image',
-    url: 'https://i.imgur.com/p3btRAY.jpeg',
-    title: 'Dance Battle Finals',
-    description: 'Epic showdown between top performers'
+    url: '/763.jpg',
+    title: 'Grand Finale 2024',
+    description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'video',
