@@ -23,6 +23,66 @@ const slides = [
     image: 'https://i.imgur.com/1oCDNg4.jpeg',
   },
   {
+    image: 'https://i.imgur.com/4r7Uydn.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/5xJxRys.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/8lsC2un.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/0yWg6GK.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/B1Orr1W.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/oxubX2O.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/yIiE03O.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/Z9TwaHA.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/8JrzodL.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/jX0HlOh.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/ee84ls6.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/LfZXNyf.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/48mXnod.jpeg',
+  },
+  {
+    image: 'https://i.imgur.com/ed8Rkos.jpeg',
+  },
+  // {
+  //   image: 'https://i.imgur.com/1oCDNg4.jpeg',
+  // },
+  // {
+  //   image: 'https://i.imgur.com/1oCDNg4.jpeg',
+  // },
+  // {
+  //   image: 'https://i.imgur.com/1oCDNg4.jpeg',
+  // },
+  // {
+  //   image: 'https://i.imgur.com/1oCDNg4.jpeg',
+  // },
+  // {
+  //   image: 'https://i.imgur.com/1oCDNg4.jpeg',
+  // },
+  {
+    image: 'https://i.imgur.com/BejxQEW.jpeg',
+  },
+  {
     image: 'https://i.imgur.com/0iNc3Rv.jpeg',
   }
 ];
