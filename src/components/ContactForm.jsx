@@ -32,7 +32,7 @@ const ContactForm = () => {
           from_name: formData.name,
           from_email: formData.email,
           message: formData.message,
-          to_email: 'giftworld325@gmail.com'
+          to_email: 'acb.unapologetic@gmail.com'
         },
         'YQDuZnxVR3sdRc03Y' // Replace with your EmailJS public key
       );
