@@ -1,10 +1,12 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
+import ReactGA from "react-ga4";
 import NavBar from "./components/NavBar";
 import About from "./pages/About";
 import PastSeasons from "./pages/PastSeasons";
 import Season7 from "./pages/Season7"
 import FAQS from "./pages/FAQS"
+import { useEffect } from "react";
 import Terms from "./components/Terms";
 import Magazine from "./components/Blogs/Magazine"
 import VideoGallery from "./components/VideoGallery";
@@ -17,12 +19,24 @@ import DataAccess from "./components/DataAccess";
 import Erasure from "./components/Erasure";
 import ScrollToTop from "./components/ScrollToTop";
 
+ReactGA.initialize("G-8J85Q5Q4ME"); // Replace with your GA4 Measurement ID
 
+// Component to track page views
+const AnalyticsTracker = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: location.pathname + location.search });
+  }, [location]);
+
+  return null;
+};
 function App() {
   return (
     <div>
       <ScrollToTop />
       <NavBar />
+      <AnalyticsTracker />
               <Routes>
               <Route path="/news-and-insights" element={<Blogs />} />
               <Route path="/consent" element={<Consent />} />
