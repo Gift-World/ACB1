@@ -13,44 +13,7 @@ const PastSeasons = () => {
     visible: { opacity: 1, y: 0 },
   };
 
-  // const seasons = [
-  //   {
-  //     year: "2024",
-  //     title: "Season 6: Digital Revolution",
-  //     image: "https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=600&fit=crop",
-  //     description: "Breaking barriers with virtual performances and global reach",
-  //   },
-  //   {
-  //     year: "2023",
-  //     title: "Season 5: Unity in Diversity",
-  //     image: "https://images.unsplash.com/photo-1517457373958-b7bdd4587205?w=800&h=600&fit=crop",
-  //     description: "Celebrating cultural fusion and creative excellence",
-  //   },
-  //   {
-  //     year: "2022",
-  //     title: "Season 4: Resilience",
-  //     image: "https://images.unsplash.com/photo-1501281668745-f7f57925c3b4?w=800&h=600&fit=crop",
-  //     description: "Adapting and thriving through challenging times",
-  //   },
-  //   {
-  //     year: "2021",
-  //     title: "Season 3: Digital Transformation",
-  //     image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=600&fit=crop",
-  //     description: "Pioneering virtual performances during global challenges",
-  //   },
-  //   {
-  //     year: "2020",
-  //     title: "Season 2: Rising Stars",
-  //     image: "https://images.unsplash.com/photo-1429962714451-bb934ecdc4ec?w=800&h=600&fit=crop",
-  //     description: "Expanding horizons with new talent and fresh perspectives",
-  //   },
-  //   {
-  //     year: "2014",
-  //     title: "Season 1: The Beginning",
-  //     image: "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=800&h=600&fit=crop",
-  //     description: "Where it all started - launching Africa's biggest campus movement",
-  //   }
-  // ];
+ 
 
   const winners = [
     {
