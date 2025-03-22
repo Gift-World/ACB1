@@ -9,11 +9,11 @@ const links = {
     { name: "Youtube", url: "https://youtube.com/@africascampusbattle?si=8u2QjRRUbspKAIY0", icon: <FaYoutube /> }
   ],
  
-  "Contact Info": [
-    { name: "info@africascampusbattle.org", sectionId: "email" },
-    { name: "+254 715 695 363", sectionId: "phone" },
-    { name: "Nairobi , Kenya", sectionId: "address-2" }
-  ]
+  // "Contact Info": [
+  //   { name: "info@africascampusbattle.org", sectionId: "email" },
+  //   { name: "+254 715 695 363", sectionId: "phone" },
+  //   { name: "Nairobi , Kenya", sectionId: "address-2" }
+  // ]
 };
 
 const FooterLinks = () => {
