@@ -102,7 +102,7 @@ function Partners() {
       <div className="max-w-7xl mx-auto">
         <div className="text-left">
           <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl mb-8">
-            Companies we have worked with:
+            Partners:
           </h2>
         </div>
         
