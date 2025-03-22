@@ -40,7 +40,7 @@ const Navbar = () => {
 
           </div>
 
-          <div className="md:hidden">
+          <div className="md:hidden overflow-hidden">
             {isMenuOpen ? (
               <X
                 className="cursor-pointer text-white"

@@ -10,7 +10,7 @@ import Podcast from '../components/Podcast'
 
 function Home() {
   return (
-    <div className="min-h-screen bg-black">
+    <div className="min-h-screen w-full bg-black overflow-hidden">
     <Hero />
     <AboutHome />
     {/* <Terms /> */}
