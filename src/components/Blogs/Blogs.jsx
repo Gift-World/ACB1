@@ -33,7 +33,7 @@ const articles = [
 
 function Blogs() {
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen overflow-hidden bg-gray-50">
       {/* Hero Section */}
       <div 
         style={{

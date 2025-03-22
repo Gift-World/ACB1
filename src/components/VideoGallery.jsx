@@ -70,7 +70,7 @@ const VideoGallery = () => {
 
  
   return (
-    <div className="bg-gray-900 text-light min-h-screen ">
+    <div className="bg-gray-900 overflow-hidden text-light min-h-screen ">
       {/* Hero Section */}
       <PodcastHub />
       <motion.div 
