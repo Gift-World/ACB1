@@ -72,10 +72,10 @@ function Hero() {
         />
         <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
         <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 text-center">
-          <h2 className="mb-4 text-lg sm:text-xl md:text-2xl lg:text-3xl font-poppins font-bold animate-fade-in bg-clip-text text-transparent bg-customOrange">
-            {slide.title}
-          </h2>
-        </div>
+  <h2 className="text-lg lg:mt-4 md:mt-20 md:pt-10 sm:mt-36 sm:pt-24 mt-16 sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-poppins font-bold animate-fade-in bg-clip-text text-transparent bg-customOrange">
+    {slide.title}
+  </h2>
+</div>
       </div>
     </SwiperSlide>
   ))}
