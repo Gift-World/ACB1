@@ -10,7 +10,7 @@ function Season7() {
   };
 
   return (
-    <div className="min-h-screen bg-white text-black">
+    <div className="min-h-screen overflow-hidden bg-white text-black">
       {/* Hero Section */}
       <motion.section 
         className="min-h-screen flex flex-col items-center justify-center text-center p-4 relative"

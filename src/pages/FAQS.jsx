@@ -102,7 +102,7 @@ function FAQS() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      className="min-h-screen pt-20 px-4 bg-black"
+      className="min-h-screen overflow-hidden pt-20 px-4 bg-black"
     >
       <div className="max-w-4xl mx-auto">
         <motion.div

@@ -12,7 +12,7 @@ function About() {
         visible: { opacity: 1, y: 0 },
       };
   return (
-    <div className="text-white">
+    <div className="text-white overflow-hidden">
     
     <section className="hero-pattern relative">
       <div className="hero-overlay min-h-screen flex items-center justify-center relative overflow-hidden">
