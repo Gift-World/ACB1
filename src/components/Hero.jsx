@@ -93,7 +93,7 @@ function Hero() {
             </p>
           </div>
           
-          <div className="max-w-4xl mx-auto mb-16  hero-overlay flex items-center justify-center relative overflow-hidden">
+          <div className="max-w-4xl mx-auto mb-16  ">
           <div className="max-w-4xl mx-auto text-center text-lg text-gray-300 leading-relaxed mt-16 ">
           <p className="mb-6 text-gray-200 font-poppins font-light text-[17px] md:text-[18px] max-w-4xl mx-auto">
             We are Africa's Campus Battle, the premier continental stage where young talent 
