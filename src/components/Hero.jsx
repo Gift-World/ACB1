@@ -6,12 +6,10 @@ import 'swiper/css';
 import 'swiper/css/effect-fade';
 
 const slides = [
-
   {
-     image: '/talentunleashed.jpg',
-       title: 'Talent Unleashed',
-    },
-  
+    image: '/talentunleashed.jpg',
+    title: 'Talent Unleashed',
+  },
   {
     image: '/698.jpg',
     title: 'Stage Presence',
@@ -34,8 +32,6 @@ const slides = [
   }
 ];
 
-
-
 function Hero() {
   const [isVisible, setIsVisible] = useState(true);
 
@@ -51,36 +47,35 @@ function Hero() {
   return (
     <div className="relative h-screen w-full overflow-hidden">
       <Swiper
-  modules={[Autoplay, EffectFade]}
-  effect="fade"
-  speed={1000}
-  autoplay={{
-    delay: 3000,
-    disableOnInteraction: false,
-  }}
-  loop={true}
-  className="w-full h-screen sm:h-[80vh] md:h-[85vh] lg:h-full"
->
-  {slides.map((slide, index) => (
-    <SwiperSlide key={index}>
-      <div className="relative w-full h-full">
-        <img
-          src={slide.image}
-          alt={slide.title}
-          className="w-full h-full object-cover"
-          loading={index === 0 ? 'eager' : 'lazy'}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
-        <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 text-center">
-  <h2 className="text-lg lg:mt-4 md:mt-20 md:pt-10 sm:mt-36 sm:pt-24 mt-16 sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-poppins font-bold animate-fade-in bg-clip-text text-transparent bg-customOrange">
-    {slide.title}
-  </h2>
-</div>
-      </div>
-    </SwiperSlide>
-  ))}
-</Swiper>
-
+        modules={[Autoplay, EffectFade]}
+        effect="fade"
+        speed={1000}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        loop={true}
+        className="w-full h-screen sm:h-[80vh] md:h-[85vh] lg:h-full"
+      >
+        {slides.map((slide, index) => (
+          <SwiperSlide key={index}>
+            <div className="relative w-full h-full">
+              <img
+                src={slide.image}
+                alt={slide.title}
+                className="w-full h-full object-cover"
+                loading={index === 0 ? 'eager' : 'lazy'}
+              />
+              <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
+              <div className="absolute inset-0 flex flex-col items-center justify-center text-white px-4 text-center">
+                <h2 className="text-lg lg:mt-4 md:mt-20 md:pt-10 sm:mt-36 sm:pt-24 mt-16 sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-poppins font-bold animate-fade-in bg-clip-text text-transparent bg-customOrange">
+                  {slide.title}
+                </h2>
+              </div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
 
       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
         <div className="text-center text-white z-10 space-y-6">
@@ -88,22 +83,21 @@ function Hero() {
             <h1 className="text-7xl font-poppins font-black mb-2 animate-slide-in">
               AFRICA'S CAMPUS BATTLE
             </h1>
-            <p className="text-3xl  font-bold font-poppins animate-slide-in" style={{ animationDelay: '0.2s' }}>
+            <p className="text-3xl font-bold font-poppins animate-slide-in" style={{ animationDelay: '0.2s' }}>
               UNAPOLOGETICALLY TALENTED
             </p>
           </div>
           
-          <div className="max-w-4xl mx-auto mb-16  ">
-          <div className="max-w-4xl mx-auto text-center text-lg text-gray-300 leading-relaxed mt-16 ">
-          <p className="mb-6 text-gray-200 font-poppins font-light text-[17px] md:text-[18px] max-w-4xl mx-auto">
-            We are Africa's Campus Battle, the premier continental stage where young talent 
-            from institutions of higher learning becomes a force for change. Through dance, 
-            music, spoken word and performing arts. ACB is empowering Africa's youth to 
-            transform their creativity into real impact, rewriting the future with unapologetic 
-            authenticity.
-          </p>
-        </div>
-           
+          <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-0 max-w-4xl mx-auto mb-16">
+            <div className="text-center">
+              <p className="text-gray-200 font-poppins font-light text-base sm:text-[17px] md:text-[18px] leading-relaxed sm:leading-relaxed md:leading-relaxed px-4 sm:px-6 md:px-8 lg:px-0">
+                We are Africa's Campus Battle, the premier continental stage where young talent 
+                from institutions of higher learning becomes a force for change. Through dance, 
+                music, spoken word and performing arts. ACB is empowering Africa's youth to 
+                transform their creativity into real impact, rewriting the future with unapologetic 
+                authenticity.
+              </p>
+            </div>
           </div>
         </div>
       </div>
