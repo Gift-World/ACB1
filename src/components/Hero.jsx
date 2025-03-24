@@ -93,12 +93,12 @@ function Hero() {
             </p>
           </div>
           
-          <div className="max-w-4xl mx-auto mb-16">
+          <div className="max-w-4xl mx-auto mb-16  hero-overlay flex items-center justify-center relative overflow-hidden">
           <div className="max-w-4xl mx-auto text-center text-lg text-gray-300 leading-relaxed mt-16 ">
           <p className="mb-6 text-gray-200 font-poppins font-light text-[17px] md:text-[18px] max-w-4xl mx-auto">
             We are Africa's Campus Battle, the premier continental stage where young talent 
             from institutions of higher learning becomes a force for change. Through dance, 
-            music, spoken word and performing arts, ACB is empowering Africa's youth to 
+            music, spoken word and performing arts. ACB is empowering Africa's youth to 
             transform their creativity into real impact, rewriting the future with unapologetic 
             authenticity.
           </p>
