@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import emailjs from '@emailjs/browser';
+// import emailjs from '@emailjs/browser';
 import toast, { Toaster } from 'react-hot-toast';
 import { Send } from 'lucide-react';
 import HCaptcha from '@hcaptcha/react-hcaptcha';
@@ -23,36 +23,44 @@ const ContactForm = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
+
     if (!captchaToken) {
-      toast.error("Please complete the hCaptcha verification.");
-      return;
+        toast.error("Please complete the hCaptcha verification.");
+        return;
     }
 
     setIsSubmitting(true);
 
     try {
-      await emailjs.send(
-        'service_yn6rcxo', 
-        'template_8eljepo',
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          message: formData.message,
-          to_email: 'acb.unapologetic@gmail.com'
-        },
-        'YQDuZnxVR3sdRc03Y'
-      );
+        const response = await fetch('https://contact-backend-acbnode.onrender.com/send-email', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                name: formData.name,
+                email: formData.email,
+                message: formData.message
+            }),
+        });
 
-      toast.success('Message sent successfully!');
-      setFormData({ name: '', email: '', message: '' });
-      setCaptchaToken(null); // Reset CAPTCHA
+        const result = await response.json();
+
+        if (result.success) {
+            toast.success('Message sent successfully!');
+            setFormData({ name: '', email: '', message: '' });
+            setCaptchaToken(null); // Reset CAPTCHA
+        } else {
+            toast.error('Failed to send message. Please try again.');
+        }
     } catch (error) {
-      toast.error('Failed to send message. Please try again.');
+        console.error(error);
+        toast.error('Error sending message.');
     } finally {
-      setIsSubmitting(false);
+        setIsSubmitting(false);
     }
-  };
+};
+
 
   return (
     <div className="w-[400px]">
