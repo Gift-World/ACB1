@@ -90,7 +90,7 @@ const ContactForm = () => {
           name="message"
           value={formData.message}
           onChange={handleChange}
-          placeholder="Your Email and Message"
+          placeholder="Your Message"
           required
           rows="4"
           className="w-full px-4 py-2 bg-gray-900 border border-gray-700 rounded-lg text-white placeholder-gray-400 resize-none"
