@@ -7,8 +7,7 @@ function Podcast() {
     <div className=" bg-black py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
        
-       
-
+      
         {/* Podcast Section */}
         <div className="relative max-w-[500px] mx-auto">
           {/* Decorative elements */}
@@ -38,9 +37,11 @@ function Podcast() {
             </div>
           
           <div className="">
-            <p className='text-xl md:text-[18px] font-poppins text-gray-200 max-w-4xl mx-auto mb-8 glass-card p-6 rounded-lg'>Campus life is a journey—full of highs, lows, and everything in between. We’re here for the raw, real, and untold stories that deserve to be heard. Whether it's struggles, wins, lessons, or unforgettable moments—your voice matters.
-Speak your truth. Own your story.
-Got a story to share? Send it to us through the link below. Your story could be the next conversation that sparks change.</p>
+            <p className='text-xl md:text-[18px] font-poppins text-gray-200 max-w-4xl mx-auto mb-8 glass-card p-6 rounded-lg'>Life is a journey filled with highs, lows and everything in between. The Unapologetic Mic is a
+bold podcast where real, raw stories are brought to life by voices from the community - a mum,
+dad, sister, brother, friend or mentor. Each episode creates space where silence breaks, healing
+begins, and every story is heard.
+</p>
           </div>
         </div>
       </div>
@@ -50,7 +51,8 @@ Got a story to share? Send it to us through the link below. Your story could be 
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-customOrange">Ready to share your story?</h2>
+          <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-customOrange">Got a story to share? </h2>
+          <h3 className='md:text-[20px] font-poppins font-medium mb-8 text-white'> Send it to us through the link below</h3>
           
           <motion.a
             href="https://docs.google.com/forms/d/e/1FAIpQLSeChRXAorGxRyh5Jdxm4OsmSjLtrBK-v1Aln-8zNxos4St7ng/viewform?usp=dialog"
@@ -61,6 +63,9 @@ Got a story to share? Send it to us through the link below. Your story could be 
           >
             Upload your story here
           </motion.a>
+          <h3 className='md:text-[20px] font-poppins font-medium mt-8 text-customOrange'> Catch every episode on the Africa’s Campus Battle YouTube Channel and join a movement
+          that’s unapologetic.</h3>
+
         </motion.div>
       </section>
     </div>
