@@ -92,7 +92,7 @@ const Navbar = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
               </span>
             </Link> */}
-            <Link
+            {/* <Link
               to="/acbhub"
               className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
             >
@@ -100,7 +100,7 @@ const Navbar = () => {
                 ACB Hub
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
               </span>
-            </Link>
+            </Link> */}
             <Link
               to="/news-and-insights"
               className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
@@ -174,7 +174,7 @@ const Navbar = () => {
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
                 </span>
               </Link> */}
-              <Link
+              {/* <Link
                 to="/acbhub"
                 className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
                 onClick={() => setIsMenuOpen((prev) => !prev)}
@@ -183,7 +183,7 @@ const Navbar = () => {
                   ACB Hub
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
                 </span>
-              </Link>
+              </Link> */}
               <Link
                 to="/news-and-insights"
                 className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
