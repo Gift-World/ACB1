@@ -92,7 +92,7 @@ function Hero() {
             <div className="text-center">
               <p className="text-gray-200 font-poppins font-light text-base sm:text-[17px] md:text-[18px] leading-relaxed sm:leading-relaxed md:leading-relaxed px-4 sm:px-6 md:px-8 lg:px-0">
                 We are Africa's Campus Battle, the premier continental stage where young talent 
-                from institutions of higher learning becomes a force for change. Through dance, 
+              becomes a force for change. Through dance, 
                 music, spoken word and performing arts. ACB is empowering Africa's youth to 
                 transform their creativity into real impact, rewriting the future with unapologetic 
                 authenticity.

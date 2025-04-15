@@ -35,7 +35,7 @@ function About() {
           </motion.div>
           <h1 className="text-5xl text-white font-poppins md:text-7xl font-bold mb-6">Africa's Campus Battle</h1>
           <p className="text-xl md:text-[18px] font-poppins text-gray-200 max-w-4xl mx-auto mb-8 glass-card p-6 rounded-lg">
-            The premier continental stage where young talent from institutions of higher learning becomes a force for change.
+            The premier continental stage where young talent becomes a force for change.
           
             Through dance, music, spoken word and performing arts, ACB is empowering Africa's youth to transform their creativity into real impact, rewriting the future with unapologetic authenticity.
           </p>
@@ -55,7 +55,7 @@ function About() {
           >
             <h2 className="text-3xl font-bold mb-4 font-poppins text-customBrown ">Our Vision</h2>
             <p className="text-black text-[18px] font-poppins">
-              To make every campus a stage for change, where Africa's brightest voices shape a sustainable future.
+              To create a stage for change, where Africa's brightest voices shape a sustainable future.
             </p>
           </motion.div>
           <motion.div
@@ -66,7 +66,7 @@ function About() {
           >
             <h2 className="text-3xl font-bold mb-4 text-customBrown font-poppins ">Our Mission</h2>
             <p className="text-black text-[18px] font-poppins">
-              To ignite Africa's campuses with purpose-driven talent, challenging young creatives to use their art as a force for social impact. With the SDGs as our guide, ACB connects brands with a generation dedicated to a brighter future.
+              To ignite Africa with purpose-driven talent, challenging young creatives to use their art as a force for social impact. With the SDGs as our guide, ACB connects brands with a generation dedicated to a brighter future.
             </p>
           </motion.div>
         </div>
