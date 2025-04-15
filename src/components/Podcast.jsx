@@ -65,7 +65,7 @@ begins, and every story is heard.
           >
             Upload your story here
           </motion.a>
-          <h3 className='md:text-[20px] font-poppins font-medium mt-8 text-customOrange'> Catch every episode on the Africa’s Campus Battle YouTube Channel and join a movement
+          <h3 className='md:text-[20px] font-poppins font-medium mt-8 text-white'> Catch every episode on the <a href='https://www.youtube.com/@africascampusbattle' target='_blank' rel='noopener noreferrer' className='underline text-customOrange hover:text-orange-400'>Africa’s Campus Battle YouTube Channel</a>   and join a movement
           that’s unapologetic.</h3>
 
         </motion.div>
