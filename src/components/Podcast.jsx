@@ -41,6 +41,8 @@ function Podcast() {
 bold podcast where real, raw stories are brought to life by voices from the community - a mum,
 dad, sister, brother, friend or mentor. Each episode creates space where silence breaks, healing
 begins, and every story is heard.
+<h2 className="text-3xl md:text-2xl font-poppins font-bold mb-8 text-customOrange">Speak your truth.Own your story </h2>
+
 </p>
           </div>
         </div>
@@ -51,8 +53,6 @@ begins, and every story is heard.
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <h2 className="text-3xl md:text-3xl font-poppins font-bold mb-8 text-customOrange">Speak your truth.Own your story </h2>
-          <p className='text-xl md:text-[18px] font-poppins text-gray-200 max-w-4xl mx-auto mb-8 glass-card p-6 rounded-lg'> Your story could  spark the next conversation that inspires change.</p>
           <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-customOrange">Got a story to share? </h2>
           <h3 className='md:text-[20px] font-poppins font-medium mb-8 text-white'> Send it to us through the link below</h3>
           
