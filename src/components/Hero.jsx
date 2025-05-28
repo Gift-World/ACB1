@@ -7,27 +7,27 @@ import 'swiper/css/effect-fade';
 
 const slides = [
   {
-    image: '/talentunleashed.jpg',
+    image: '/talentunleashed.avif',
     title: 'Talent Unleashed',
   },
   {
-    image: '/698.jpg',
+    image: '/698.avif',
     title: 'Stage Presence',
   },
   {
-    image: '/294.jpg',
+    image: '/294.avif',
     title: 'Musical Excellence',
   },
   {
-    image: '/kizudeh.jpg',
+    image: '/kizudeh.webp',
     title: 'Owning the Spotlight',
   },
   {
-    image: '/362.jpg',
+    image: '/362.avif',
     title: 'Dance Revolution',
   },
   {
-    image: '/mitchell.jpg',
+    image: '/mitchell.avif',
     title: 'Unstoppable Talent',
   }
 ];

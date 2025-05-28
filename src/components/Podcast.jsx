@@ -16,7 +16,7 @@ function Podcast() {
           {/* Podcast Container */}
           <div className="relative bg-black rounded-lg p-3">
             <img 
-              src="/micposter.jpeg" 
+              src="/micposter.webp" 
               alt="Africa's Campus Battle Season 7 Podcast" 
               className="w-[500px] rounded shadow-2xl transform transition-transform duration-300 hover:scale-105"
             />

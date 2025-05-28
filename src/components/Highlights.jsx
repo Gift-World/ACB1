@@ -7,44 +7,44 @@ import { motion } from 'framer-motion';
 const highlights = [
   {
     type: 'image',
-    url: '/705.jpg',
+    url: '/705.avif',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'image',
-    url: '/714.jpg',
+    url: '/714.avif',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'image',
-    url: '/721.jpg',
+    url: '/721.avif',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'image',
-    url: '/737.jpg',
+    url: '/737.avif',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'image',
-    url: '777.jpg',
+    url: '777.avif',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   {
     type: 'image',
-    url: '753.jpg',
+    url: '753.avif',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },
   
   {
     type: 'image',
-    url: '/763.jpg',
+    url: '/763.avif',
     title: 'Grand Finale 2024',
     description: 'Jackie takes the crown in an unforgettable performance'
   },

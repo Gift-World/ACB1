@@ -4,19 +4,19 @@ function Partners() {
   const partners = [
     {
       name: "Lush Hair",
-      logo: "/lush.jpg"
+      logo: "/lush.webp"
     },
     {
       name: "Uber",
-      logo: "/uber.jpg"
+      logo: "/uber.webp"
     },
     {
       name: "Karen Village",
-      logo: "/karen.jpg"
+      logo: "/karen.webp"
     },
     {
       name: "Ultra Events",
-      logo: "/ultra.jpg"
+      logo: "/ultra.webp"
     },
     {
       name: "Weston Hotel",
@@ -25,56 +25,56 @@ function Partners() {
    
     {
       name: "Legacy Arts ",
-      logo: "/legacy.jpg"
+      logo: "/legacy.webp"
     },
     
     {
       name: "KUDSA",
-      logo: "/kudsa.jpg"
+      logo: "/kudsa.webp"
     },
     {
       name: "Coca Cola",
-      logo: "/cola.jpg"
+      logo: "/cola.webp"
     },
     {
       name: "Youth Enterprise",
-      logo: "/youth.jpg"
+      logo: "/youth.webp"
     },
     {
       name: "SPM BUZZ",
-      logo: "/spm.png"
+      logo: "/spm.webp"
     },
     {
       name: "KCC",
-      logo: "/kcc.png"
+      logo: "/kcc.webp"
     },
     {
       name: "Le Capture Studios",
-      logo: "/lecapture.jpg"
+      logo: "/lecapture.webp"
     },
     {
       name: "KFCB",
-      logo: "/kfcb.jpg"
+      logo: "/kfcb.webp"
     },
     {
       name: "Sanaa Academy",
-      logo: "/academy.jpg"
+      logo: "/academy.webp"
     },
     {
       name: "Post Bank",
-      logo: "/postbank.jpg"
+      logo: "/postbank.webp"
     },
     {
       name: "Tropical Heat",
-      logo: "/tropical.jpg"
+      logo: "/tropical.webp"
     },
     {
       name: "Afrostreet",
-      logo: "/afrostreet.jpg"
+      logo: "/afrostreet.webp"
     },
     {
       name: "Blue Lilac Tours And Travel",
-      logo: "/lilac.jpeg"
+      logo: "/lilac.webp"
     },
     {
       name: "AASU",
@@ -83,11 +83,11 @@ function Partners() {
     
     {
       name: "Sanaa Post",
-      logo: "/post.png"
+      logo: "/post.webp"
     },
     {
         name: "Kaka Empire",
-        logo: "/kaka.jpg"
+        logo: "/kaka.webp"
       },
       
       {
