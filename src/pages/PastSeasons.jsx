@@ -29,7 +29,7 @@ const PastSeasons = () => {
       name: "Jackline Malavanu",
       year: "2024",
       category: "Spoken Word",
-      image: "/294.jpg",
+      image: "/294.avif",
       description: "Revolutionized urban dance with their fusion of African and contemporary styles",
       quote: "ACB changed our lives forever. We're now professional choreographers!",
       // achievement: "Secured a major dance residency in Paris"
@@ -38,7 +38,7 @@ const PastSeasons = () => {
       name: "Kizudeh",
       year: "2023",
       category: "Spoken Word",
-      image: "/kizudeh.jpg",
+      image: "/kizudeh.webp",
       description: "Blended traditional African instruments with modern pop sounds",
       quote: "From campus performances to international stages - dreams do come true!",
       // achievement: "Released debut album on major streaming platforms"

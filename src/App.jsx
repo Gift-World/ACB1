@@ -1,7 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { useEffect } from "react";
 import ReactGA from "react-ga4";
-import Clarity from "@microsoft/clarity"; // Import Clarity
 import ScrollToTop from "./components/ScrollToTop";
 import NavBar from "./components/NavBar";
 import Home from "./pages/Home";
@@ -21,7 +20,7 @@ import DataAccess from "./components/DataAccess";
 import Erasure from "./components/Erasure";
 
 ReactGA.initialize("G-8J85Q5Q4ME"); // Replace with your GA4 Measurement ID
-Clarity.init("qrt90bfpnx"); // Replace with your Clarity Project ID
+
 
 // Component to track page views
 const AnalyticsTracker = () => {
@@ -33,8 +32,7 @@ const AnalyticsTracker = () => {
     // Send pageview to Google Analytics
     ReactGA.send({ hitType: "pageview", page: pagePath });
 
-    // Send pageview to Microsoft Clarity
-    Clarity.event("pageview"); // Optionally track custom events
+    
 
   }, [location]);
 
