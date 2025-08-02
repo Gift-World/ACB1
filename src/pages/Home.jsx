@@ -7,6 +7,7 @@ import Poster from '../components/Poster'
 // import Terms from '../components/Terms'
 import Partners from  '../components/Partners'
 import Podcast from '../components/Podcast'
+import Tribe from "../components/Tribe.jsx";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
     <Hero />
     <AboutHome />
     {/* <Terms /> */}
+      <Tribe />
     <Poster />
     <Podcast />
     
