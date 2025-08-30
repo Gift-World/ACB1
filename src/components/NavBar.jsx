@@ -74,6 +74,15 @@ const Navbar = () => {
               </span>
             </Link>
             <Link
+                  to="/auditions"
+                  className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
+              >
+              <span className="relative">
+                Auditions
+                <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+              </span>
+              </Link>
+            <Link
               to="/pastseasons"
               className="font-montserrat font-semibold text-[17px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
             >
@@ -150,6 +159,16 @@ const Navbar = () => {
               >
                 <span className="relative">
                   About Us
+                  <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
+                </span>
+              </Link>
+                <Link
+                to="/auditions"
+                className="font-montserrat font-medium text-[15px] inline-flex items-center px-1 pt-1 text-white hover:text-orange-500 transition-colors focus:outline-none relative group"
+                onClick={() => setIsMenuOpen((prev) => !prev)}
+              >
+                <span className="relative">
+                  Auditions
                   <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
                 </span>
               </Link>
