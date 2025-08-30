@@ -6,6 +6,7 @@ import TalentSection from '../components/TalentSection';
 import SpotlightSection from '../components/SpotlightSection';
 import SuccessStories from '../components/SuccessStories';
 import VideoGalleryAudition from '../components/VideoGalleryAudition';
+import Footer from '../components/Footer/Footer'
 // import Footer from './components/Footer';
 
 function Auditions() {
@@ -18,7 +19,7 @@ function Auditions() {
             <SpotlightSection />
             <SuccessStories />
             <VideoGalleryAudition />
-            {/*<Footer />*/}
+            <Footer />
         </div>
     );
 }

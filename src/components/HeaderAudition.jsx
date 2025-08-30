@@ -26,7 +26,7 @@ const HeaderAudition = () => {
                         </div>
                         <div className="text-2xl font-bold">
                             <span className="text-white">ACB</span>
-                            <span className="text-blue-400 ml-2">AUDITIONS</span>
+                            <span className="text-orange-500 ml-2">AUDITIONS</span>
                         </div>
                     </div>
 

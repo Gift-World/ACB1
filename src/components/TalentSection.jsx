@@ -16,14 +16,14 @@ const TalentSection = () => {
             {/* Content */}
             <div className="relative z-10 container mx-auto px-4 text-center">
                 <h2 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
-                    AUDITIONING FOR <span className="text-blue-400">AFRICA'S CAMPUS BATTLE</span><br />
+                    AUDITIONING FOR <span className="text-orange-600">AFRICA'S CAMPUS BATTLE</span><br />
                     <span className="text-white">HAS NEVER BEEN EASIER!</span>
                 </h2>
 
                 <p className="text-xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-                    Africa's Campus Battle is a gymnastics, upload a video of your act during one of
-                    the special submission periods. If you've got what it takes to amaze our
-                    judges, you could be invited to audition in front of the ACB judges.
+                    Audition live in front of a producer, upload a video or share a YouTube link! That’s it! No stage, no travel, no excuses. If you’ve got talent, it’s time to show us!
+
+                    Sign up to audition today.
                 </p>
 
                 <button className="bg-white text-black px-12 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">

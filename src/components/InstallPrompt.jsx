@@ -42,7 +42,7 @@ export default function InstallPrompt() {
             zIndex: 1000
         }}>
             <span>Install Africa's Campus Battle App?</span>
-            <button onClick={handleInstall} style={{ background: "#fff", color: "#000", padding: "5px 10px", borderRadius: "5px" }}>
+            <button onClick={handleInstall} style={{ background: "#fff", color: "#000", padding: "4px 10px", borderRadius: "5px" }}>
                 Open in App
             </button>
         </div>

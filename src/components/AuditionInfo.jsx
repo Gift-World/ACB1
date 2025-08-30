@@ -14,7 +14,7 @@ const AuditionInfo = () => {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent rounded-2xl"></div>
                         <div className="absolute bottom-6 left-6 right-6">
-                            <div className="bg-red-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-3 inline-block">
+                            <div className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-bold mb-3 inline-block">
                                 SUBMIT YOUR VIDEO AUDITION HERE
                             </div>
                             <p className="text-white text-lg leading-relaxed">
@@ -32,7 +32,7 @@ const AuditionInfo = () => {
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent rounded-2xl"></div>
                         <div className="absolute bottom-6 left-6 right-6">
-                            <div className="bg-red-600 text-white px-4 py-2 rounded-full text-sm font-bold mb-3 inline-block">
+                            <div className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-bold mb-3 inline-block">
                                 KNOW TALENT? NOMINATE ACTS FOR ACB HERE
                             </div>
                             <p className="text-white text-lg leading-relaxed">
