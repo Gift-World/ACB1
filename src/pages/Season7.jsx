@@ -131,7 +131,8 @@ function Season7() {
           <h2 className="text-4xl md:text-5xl font-bold font-poppins mb-8 text-customBrown">Ready to Own the Stage?</h2>
           <p className="text-xl mb-8">Applications will soon be open for university students across Africa</p>
           <motion.a
-            href="#"
+            href="https://forms.gle/m3Z4PwdBirDyHBgc9"
+            target={ "_blank"}
             className="inline-block bg-customOrange text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}

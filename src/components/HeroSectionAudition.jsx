@@ -3,6 +3,7 @@ import { Play } from 'lucide-react';
 
 import 'swiper/css';
 import 'swiper/css/effect-cards';
+import {motion} from "framer-motion";
 const highlights = [
 
     {
@@ -36,7 +37,7 @@ const HeroSectionAudition = () => {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-                    Join the biggest young talent show in Africa. Submit your audition video and get discovered by millions.
+                    Join the biggest young talent show in Africa. Submit your audition video and get discovered by many.
                 </p>
 
                 {/* AGT Virtual Auditions */}
@@ -46,17 +47,17 @@ const HeroSectionAudition = () => {
                     </h2>
                     <div className="flex flex-wrap justify-center gap-6 mb-8">
                         <div className="text-center">
-                            <div className="text-orange-400 font-bold text-sm mb-1">MUSIC ACTS</div>
-                            <div className="text-3xl md:text-4xl font-bold text-white">OCT. 18</div>
+                            <div className="text-orange-400 font-bold text-sm mb-1"> Open From</div>
+                            <div className="text-3xl md:text-4xl font-bold text-white">OCT. 3</div>
                         </div>
-                        <div className="text-center">
-                            <div className="text-orange-400 font-bold text-sm mb-1">DANCE ACTS</div>
-                            <div className="text-3xl md:text-4xl font-bold text-white">NOV. 21</div>
-                        </div>
-                        <div className="text-center">
-                            <div className="text-orange-400 font-bold text-sm mb-1">VARIETY ACTS</div>
-                            <div className="text-3xl md:text-4xl font-bold text-white">JAN. 10</div>
-                        </div>
+                        {/*<div className="text-center">*/}
+                        {/*    <div className="text-orange-400 font-bold text-sm mb-1">DANCE ACTS</div>*/}
+                        {/*    <div className="text-3xl md:text-4xl font-bold text-white">NOV. 21</div>*/}
+                        {/*</div>*/}
+                        {/*<div className="text-center">*/}
+                        {/*    <div className="text-orange-400 font-bold text-sm mb-1">VARIETY ACTS</div>*/}
+                        {/*    <div className="text-3xl md:text-4xl font-bold text-white">JAN. 10</div>*/}
+                        {/*</div>*/}
                     </div>
                 </div>
 
@@ -110,14 +111,20 @@ const HeroSectionAudition = () => {
                 </div>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                    <button className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg">
-                        AUDITION NOW
-                    </button>
-                    <button className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105">
-                        LEARN MORE
-                    </button>
-                </div>
+                {/*<div className="flex flex-col sm:flex-row gap-4 justify-center">*/}
+                {/*    <motion.a*/}
+                {/*        href="https://forms.gle/m3Z4PwdBirDyHBgc9"*/}
+                {/*        target={ "_blank"}*/}
+                {/*        className="inline-block font-poppins bg-customBrown text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"*/}
+                {/*        whileHover={{ scale: 1.1 }}*/}
+                {/*        whileTap={{ scale: 0.9 }}*/}
+                {/*    >*/}
+                {/*        Audition now for ACB season 7 here!*/}
+                {/*    </motion.a>*/}
+                {/*    /!*<button className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105">*!/*/}
+                {/*    /!*    LEARN MORE*!/*/}
+                {/*    /!*</button>*!/*/}
+                {/*</div>*/}
             </div>
         </section>
     );

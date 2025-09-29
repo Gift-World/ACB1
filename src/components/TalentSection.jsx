@@ -1,4 +1,5 @@
 import React from 'react';
+import {motion} from "framer-motion";
 
 const TalentSection = () => {
     return (
@@ -21,14 +22,19 @@ const TalentSection = () => {
                 </h2>
 
                 <p className="text-xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-                    Audition live in front of a producer, upload a video or share a YouTube link! That’s it! No stage, no travel, no excuses. If you’ve got talent, it’s time to show us!
-
+                    Audition live in front of a producer by uploading a video. That’s it! No stage, no travel, no excuses. If you’ve got talent, it’s time to show us!
                     Sign up to audition today.
                 </p>
 
-                <button className="bg-white text-black px-12 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
-                    AUDITION NOW!
-                </button>
+                <motion.a
+                    href="https://forms.gle/m3Z4PwdBirDyHBgc9"
+                    target={ "_blank"}
+                    className="inline-block font-poppins bg-customBrown text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }}
+                >
+                    Audition for ACB Season 7
+                </motion.a>
             </div>
         </section>
     );
