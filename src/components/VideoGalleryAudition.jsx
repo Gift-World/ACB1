@@ -1,7 +1,9 @@
 import React from 'react';
 import { Play } from 'lucide-react';
+import { Link } from "react-router-dom";
 
 const VideoGallery = () => {
+
     const videos = [
         {
             id: 1,
@@ -49,9 +51,17 @@ const VideoGallery = () => {
                 </p>
 
                 <div className="text-center mb-16">
-                    <button className="bg-white text-black px-12 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
-                        MORE INFO
-                    </button>
+
+                    <Link
+                        to="/pastseasons"
+                        className="bg-white text-black px-12 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
+
+                    >
+                <span className="relative">
+                  MORE INFO
+                  {/*<span className="bg-white text-black px-12 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 hover:shadow-xl"></span>*/}
+                </span>
+                    </Link>
                 </div>
 
                 {/* Past Performance Videos */}

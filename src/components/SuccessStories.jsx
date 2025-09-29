@@ -1,3 +1,4 @@
+import {motion} from "framer-motion";
 
 const SuccessStories = () => {
     return (
@@ -22,13 +23,19 @@ const SuccessStories = () => {
 
                     <p className="text-xl text-gray-300 mb-12 leading-relaxed max-w-3xl ml-auto">
                         Africa's Campus Battle has launched the careers of countless performers who started
-                        just like you. From winners like Kodi Lee to fan favorites like Terry Crews, Sofia Vergara, Mel B, and Heidi Klum,
+                        just like you. From winners like Jackline Malavanu to fan favorites like Kizudeh, Moses Muya  and John S. Fille,
                         this is the stage where dreams become reality and superstars are born.
                     </p>
 
-                    <button className="bg-white text-black px-12 py-4 rounded-full font-bold text-lg hover:bg-gray-200 transition-all duration-300 transform hover:scale-105 hover:shadow-xl">
-                        GET TICKETS
-                    </button>
+                    <motion.a
+                        href="https://forms.gle/m3Z4PwdBirDyHBgc9"
+                        target={ "_blank"}
+                        className="inline-block font-poppins bg-white text-black px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
+                        whileHover={{ scale: 1.1 }}
+                        whileTap={{ scale: 0.9 }}
+                    >
+                        Apply Now!!
+                    </motion.a>
                 </div>
 
                 {/* Success Stats */}

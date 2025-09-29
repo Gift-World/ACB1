@@ -1,7 +1,7 @@
 import React from 'react';
 // import HeaderAudition from "../components/HeaderAudition.jsx";
 import HeroSectionAudition from "../components/HeroSectionAudition.jsx";
-import AuditionInfo from '../components/AuditionInfo';
+// import AuditionInfo from '../components/AuditionInfo';
 import TalentSection from '../components/TalentSection';
 // import SpotlightSection from '../components/SpotlightSection';
 import SuccessStories from '../components/SuccessStories';
@@ -14,7 +14,7 @@ function Auditions() {
         <div className="bg-black text-white">
             {/*<HeaderAudition />*/}
             <HeroSectionAudition />
-            <AuditionInfo />
+            {/*<AuditionInfo />*/}
             <TalentSection />
             {/*<SpotlightSection />*/}
             <SuccessStories />

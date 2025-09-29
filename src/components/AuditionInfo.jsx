@@ -5,9 +5,9 @@ const AuditionInfo = () => {
     return (
         <section className="py-16 bg-gradient-to-r from-gray-900 to-black">
             <div className="container mx-auto px-4">
-                <div className="grid md:grid-cols-2 gap-8 items-center">
-                    {/* Left Side - Submit Video */}
-                    <div className="relative group">
+                <div className="flex justify-center items-center">
+
+                    <div className="relative group ">
                         <img
                             src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=600&h=400&fit=crop"
                             alt="Submit your audition"

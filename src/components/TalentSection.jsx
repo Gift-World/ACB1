@@ -33,7 +33,7 @@ const TalentSection = () => {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }}
                 >
-                    Audition for ACB Season 7
+                    Submit your Audition Video here
                 </motion.a>
             </div>
         </section>
