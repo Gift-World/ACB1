@@ -5,8 +5,8 @@ import ContactForm from "../ContactForm";
 const links = {
   "Socials": [
     { name: "Facebook", url: "https://www.facebook.com/share/18HKPq3v6V/", icon: <FaFacebook /> },
-    { name: "Instagram", url: "https://www.instagram.com/africacampusbattle/", icon: <FaInstagram /> },
-    { name: "Youtube", url: "https://youtube.com/@africascampusbattle?si=8u2QjRRUbspKAIY0", icon: <FaYoutube /> }
+    { name: "Instagram", url: "https://www.instagram.com/acb_unapologetic?igsh=dmx1NGJpbHh5ZXl3", icon: <FaInstagram /> },
+    { name: "Youtube", url: "https://www.youtube.com/@acb_studios", icon: <FaYoutube /> }
   ],
  
   // "Contact Info": [

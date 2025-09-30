@@ -17,7 +17,7 @@ const TalentSection = () => {
             {/* Content */}
             <div className="relative z-10 container mx-auto px-4 text-center">
                 <h2 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
-                    AUDITION FOR <span className="text-orange-600">AFRICA'S BIGGEST STUDENT</span><br />
+                    AUDITION FOR <span className="text-customOrange">AFRICA'S BIGGEST STUDENT</span><br />
                     <span className="text-white">TALENT STAGE</span>
                 </h2>
 
