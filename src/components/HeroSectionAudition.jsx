@@ -20,7 +20,7 @@ const HeroSectionAudition = () => {
             {/* Background Video/Image */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=1920&h=1080&fit=crop"
+                    src="/294.avif"
                     alt="Stage performance"
                     className="w-full h-full object-cover"
                 />

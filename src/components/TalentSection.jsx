@@ -7,7 +7,7 @@ const TalentSection = () => {
             {/* Background */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=1920&h=800&fit=crop"
+                    src="https://i.imgur.com/Y1VkhUK.jpeg"
                     alt="Performer on stage"
                     className="w-full h-full object-cover"
                 />
