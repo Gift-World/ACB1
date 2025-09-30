@@ -48,7 +48,7 @@ const HeroSectionAudition = () => {
                     <div className="flex flex-wrap justify-center gap-6 mb-8">
                         <div className="text-center">
                             <div className="text-orange-400 font-bold text-sm mb-1"> Open From</div>
-                            <div className="text-3xl md:text-4xl font-bold text-white">OCT. 3</div>
+                            <div className="text-3xl md:text-4xl font-bold text-white">OCT. 3RD</div>
                         </div>
                         {/*<div className="text-center">*/}
                         {/*    <div className="text-orange-400 font-bold text-sm mb-1">DANCE ACTS</div>*/}
