@@ -17,7 +17,7 @@ const AuditionInfo = () => {
                         <div className="absolute bottom-6 left-6 right-6">
                             <div className="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-bold mb-3 inline-block">
                                 <motion.a
-                                    href="https://forms.gle/m3Z4PwdBirDyHBgc9"
+                                    href="#"
                                     target={ "_blank"}
                                     // className="inline-block font-poppins text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
                                     whileHover={{ scale: 1.1 }}
