@@ -31,7 +31,7 @@ const HeroSectionAudition = () => {
             <div className="relative z-10 text-center px-4 max-w-6xl mx-auto">
                 <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 animate-fade-in">
                     <span className="block text-white text-glow text-5xl mb-2">AUDITIONING FOR</span>
-                    <span className="block bg-gradient-to-r from-orange-400 text-6xl to-orange-500 bg-clip-text text-transparent">
+                    <span className="block bg-customOrange text-6xl bg-clip-text text-transparent">
             ACB HAS NEVER BEEN EASIER!
           </span>
                 </h1>
