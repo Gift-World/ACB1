@@ -37,7 +37,7 @@ const HeroSectionAudition = () => {
                 </h1>
 
                 <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-                    Join the biggest young talent show in Africa. Submit your audition video and get discovered by many.
+                    Join the biggest student talent stage in Africa. Submit your audition video and get discovered by many.
                 </p>
 
                 {/* AGT Virtual Auditions */}

@@ -17,13 +17,12 @@ const TalentSection = () => {
             {/* Content */}
             <div className="relative z-10 container mx-auto px-4 text-center">
                 <h2 className="text-4xl md:text-6xl font-bold mb-8 leading-tight">
-                    AUDITIONING FOR <span className="text-orange-600">AFRICA'S CAMPUS BATTLE</span><br />
-                    <span className="text-white">HAS NEVER BEEN EASIER!</span>
+                    AUDITION FOR <span className="text-orange-600">AFRICA'S BIGGEST STUDENT</span><br />
+                    <span className="text-white">TALENT STAGE</span>
                 </h2>
 
                 <p className="text-xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
-                    Audition live in front of a producer by uploading a video. That’s it! No stage, no travel, no excuses. If you’ve got talent, it’s time to show us!
-                    Sign up to audition today.
+                    Upload your audition video from anywhere, campus, hostel or abroad.No stage, no travel,, no excuses. If you've got the talent, this is your chance to shine. Don't just watch history, own it.
                 </p>
 
                 <motion.a

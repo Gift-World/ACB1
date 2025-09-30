@@ -17,8 +17,8 @@ function Auditions() {
             {/*<AuditionInfo />*/}
             <TalentSection />
             {/*<SpotlightSection />*/}
-            <SuccessStories />
-            <VideoGalleryAudition />
+            {/*<SuccessStories />*/}
+            {/*<VideoGalleryAudition />*/}
             <Footer />
         </div>
     );
