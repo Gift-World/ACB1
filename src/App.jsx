@@ -18,7 +18,8 @@ import Privacy from "./components/Privacy";
 import Consent from "./components/Consent";
 import DataAccess from "./components/DataAccess";
 import Erasure from "./components/Erasure";
-import InstallPrompt from "./components/InstallPrompt.jsx";
+// import InstallPrompt from "./components/InstallPrompt.jsx";
+import Auditions from "./pages/Auditions.jsx";
 
 ReactGA.initialize("G-8J85Q5Q4ME"); // Replace with your GA4 Measurement ID
 
@@ -45,7 +46,7 @@ function App() {
     <div>
       <ScrollToTop />
       <NavBar />
-      <InstallPrompt/>
+      {/*<InstallPrompt/>*/}
       <AnalyticsTracker />
       <Routes>
         <Route path="/news-and-insights" element={<Blogs />} />
@@ -63,6 +64,7 @@ function App() {
         <Route path="/season-6-magazine" element={<Magazine />} />
         <Route path="/acbhub" element={<VideoGallery />} />
         <Route path="/season-5-magazine" element={<Magazine2 />} />
+        <Route path="/auditions" element={<Auditions />} />
       </Routes>
     </div>
   );
