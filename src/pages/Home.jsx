@@ -16,7 +16,7 @@ function Home() {
         <Poster />
     <AboutHome />
     {/* <Terms /> */}
-      <Tribe />
+    {/*  <Tribe />*/}
 
     <Podcast />
     
