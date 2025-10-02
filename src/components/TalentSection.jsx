@@ -26,7 +26,7 @@ const TalentSection = () => {
                 </p>
 
                 <motion.a
-                    href="#"
+                    href="https://forms.gle/m3Z4PwdBirDyHBgc9"
                     target={ "_blank"}
                     className="inline-block font-poppins bg-customBrown text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
                     whileHover={{ scale: 1.1 }}

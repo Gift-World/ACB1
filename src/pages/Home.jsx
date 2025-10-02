@@ -13,10 +13,11 @@ function Home() {
   return (
     <div className="min-h-screen w-full bg-black overflow-hidden">
     <Hero />
+        <Poster />
     <AboutHome />
     {/* <Terms /> */}
       <Tribe />
-    <Poster />
+
     <Podcast />
     
     <Partners />

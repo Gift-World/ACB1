@@ -58,15 +58,15 @@ function Poster() {
           {/* Poster Container */}
           <div className="relative bg-black rounded-lg p-3">
             <img 
-              src="/magazines/season7.webp" 
+              src="/season7-auditions.jpeg"
               alt="Africa's Campus Battle Season 7 Poster" 
               className="w-[450px] rounded shadow-2xl transform transition-transform duration-300 hover:scale-105"
             />
             
             {/* Coming Soon Badge */}
-            <div className="absolute top-4 font-poppins right-4 bg-customOrange text-white px-3 py-2 rounded-full font-bold animate-bounce">
-              Coming Soon
-            </div>
+            {/*<div className="absolute top-4 font-poppins right-4 bg-customOrange text-white px-3 py-2 rounded-full font-bold animate-bounce">*/}
+            {/*  Coming Soon*/}
+            {/*</div>*/}
           </div>
         </div>
 
@@ -100,9 +100,9 @@ function Poster() {
           transition={{ duration: 0.8 }}
         >
           <h2 className="text-4xl md:text-5xl font-poppins font-bold mb-8 text-customOrange">Ready to Own the Stage?</h2>
-          <p className="text-xl font-poppins text-white mb-8">Applications will be open from 3rd October.</p>
+          {/*<p className="text-xl font-poppins text-white mb-8">Applications will be open from 3rd October.</p>*/}
           <motion.a
-            href="#"
+            href="https://forms.gle/m3Z4PwdBirDyHBgc9"
             target={ "_blank"}
             className="inline-block font-poppins bg-customBrown text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"
             whileHover={{ scale: 1.1 }}
