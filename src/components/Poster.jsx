@@ -108,7 +108,7 @@ function Poster() {
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.9 }}
           >
-            Apply for ACB Season 7
+            Apply for ACB Virtual Edition
           </motion.a>
         </motion.div>
       </section>
