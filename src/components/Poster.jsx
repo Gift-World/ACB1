@@ -58,7 +58,7 @@ function Poster() {
           {/* Poster Container */}
           <div className="relative bg-black rounded-lg p-3">
             <img 
-              src="/season7-auditions.jpeg"
+              src="/season7-auditions.avif"
               alt="Africa's Campus Battle Season 7 Poster" 
               className="w-[450px] rounded shadow-2xl transform transition-transform duration-300 hover:scale-105"
             />

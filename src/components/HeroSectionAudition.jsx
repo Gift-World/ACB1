@@ -4,6 +4,7 @@ import { Play } from 'lucide-react';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import {motion} from "framer-motion";
+import Poster2 from "./Poster2.jsx";
 const highlights = [
 
     {
@@ -24,7 +25,7 @@ const HeroSectionAudition = () => {
                     alt="Stage performance"
                     className="w-full h-full object-cover"
                 />
-                <div className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/50 to-black/70"></div>
+                <div className="absolute inset-0 "></div>
             </div>
 
             {/* Content */}
@@ -36,7 +37,7 @@ const HeroSectionAudition = () => {
           </span>
                 </h1>
 
-                <p className="text-xl md:text-2xl text-gray-300 mb-12 max-w-4xl mx-auto leading-relaxed">
+                <p className="text-xl md:text-2xl text-white mb-12 max-w-4xl mx-auto leading-relaxed">
                     Join the biggest student talent stage in Africa. Submit your audition video and get discovered by many.
                 </p>
 
@@ -50,38 +51,15 @@ const HeroSectionAudition = () => {
                             <div className="text-orange-400 font-bold text-sm mb-1"> Open From</div>
                             <div className="text-3xl md:text-4xl font-bold text-white">OCT. 3RD</div>
                         </div>
-                        {/*<div className="text-center">*/}
-                        {/*    <div className="text-orange-400 font-bold text-sm mb-1">DANCE ACTS</div>*/}
-                        {/*    <div className="text-3xl md:text-4xl font-bold text-white">NOV. 21</div>*/}
-                        {/*</div>*/}
-                        {/*<div className="text-center">*/}
-                        {/*    <div className="text-orange-400 font-bold text-sm mb-1">VARIETY ACTS</div>*/}
-                        {/*    <div className="text-3xl md:text-4xl font-bold text-white">JAN. 10</div>*/}
-                        {/*</div>*/}
-                    </div>
-                </div>
 
-                {/* Video Player */}
-                {/*<div className="relative max-w-4xl mx-auto mb-12 group">*/}
-                {/*    <div className="relative rounded-2xl overflow-hidden shadow-2xl">*/}
-                {/*        <img*/}
-                {/*            src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&h=450&fit=crop"*/}
-                {/*            alt="Performance stage"*/}
-                {/*            className="w-full h-64 md:h-96 object-cover"*/}
-                {/*        />*/}
-                {/*        <div className="absolute inset-0 bg-black/30 flex items-center justify-center">*/}
-                {/*            <button className="bg-red-600 hover:bg-red-700 text-white p-4 rounded-full transition-all duration-300 transform hover:scale-110 group-hover:scale-105">*/}
-                {/*                <Play className="w-8 h-8 ml-1" fill="currentColor" />*/}
-                {/*            </button>*/}
-                {/*        </div>*/}
-                {/*        <div className="absolute bottom-4 left-4 right-4">*/}
-                {/*            <div className="bg-black/60 rounded-lg p-3">*/}
-                {/*                <div className="text-white text-sm font-semibold">ACB 2024 Auditions Highlights</div>*/}
-                {/*                <div className="text-gray-300 text-xs">Watch the most amazing performances</div>*/}
-                {/*            </div>*/}
-                {/*        </div>*/}
-                {/*    </div>*/}
-                {/*</div>*/}
+
+                    </div>
+
+                </div>
+                <Poster2 />
+
+
+
                 <div className="space-y-8 relative max-w-4xl mx-auto group">
                     <h3 className="text-2xl font-bold text-white text-center mb-8"> Season 6 Experience</h3>
                     <div className="space-y-6">
@@ -110,21 +88,7 @@ const HeroSectionAudition = () => {
                     </div>
                 </div>
 
-                {/* CTA Buttons */}
-                {/*<div className="flex flex-col sm:flex-row gap-4 justify-center">*/}
-                {/*    <motion.a*/}
-                {/*        href="https://forms.gle/m3Z4PwdBirDyHBgc9"*/}
-                {/*        target={ "_blank"}*/}
-                {/*        className="inline-block font-poppins bg-customBrown text-white px-8 py-4 rounded-full text-xl font-bold hover:shadow-lg transform hover:scale-105 transition duration-300"*/}
-                {/*        whileHover={{ scale: 1.1 }}*/}
-                {/*        whileTap={{ scale: 0.9 }}*/}
-                {/*    >*/}
-                {/*        Audition now for ACB season 7 here!*/}
-                {/*    </motion.a>*/}
-                {/*    /!*<button className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-full font-bold text-lg transition-all duration-300 transform hover:scale-105">*!/*/}
-                {/*    /!*    LEARN MORE*!/*/}
-                {/*    /!*</button>*!/*/}
-                {/*</div>*/}
+
             </div>
         </section>
     );

@@ -7,13 +7,16 @@ import TalentSection from '../components/TalentSection';
 import SuccessStories from '../components/SuccessStories';
 import VideoGalleryAudition from '../components/VideoGalleryAudition';
 import Footer from '../components/Footer/Footer'
+
 // import Footer from './components/Footer';
 
 function Auditions() {
     return (
         <div className="bg-black text-white">
             {/*<HeaderAudition />*/}
+
             <HeroSectionAudition />
+
             {/*<AuditionInfo />*/}
             <TalentSection />
             {/*<SpotlightSection />*/}
