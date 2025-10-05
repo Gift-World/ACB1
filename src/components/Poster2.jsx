@@ -6,7 +6,7 @@ function Poster2() {
             <div className="max-w-6xl mx-auto">
 
 
-                <div className="relative max-w-[500px] mx-auto">
+                <div className="relative max-w-[5n00px] mx-auto">
                     {/* Decorative elements */}
                     <div className="absolute -inset-1 bg-gradient-to-r from-gray-800 to-white rounded-lg blur opacity-75 animate-pulse-slow"></div>
 
