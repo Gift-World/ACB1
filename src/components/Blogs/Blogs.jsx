@@ -36,24 +36,22 @@ function Blogs() {
     <div className="min-h-screen overflow-hidden bg-gray-50">
       {/* Hero Section */}
       <div 
+        className="relative flex h-[52svh] min-h-[420px] items-center justify-center px-4 sm:h-[65svh] md:h-[80vh]"
         style={{
           backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/262.jpg')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
-          height: '80vh',
-          width: '100%',
-          position: 'relative'
         }}
       >
-        <div className="absolute inset-0 flex items-center justify-center">
+        <div className="flex items-center justify-center">
           <motion.div 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1 }}
-            className="text-center text-white"
+            className="max-w-3xl rounded-2xl bg-black/25 px-4 py-6 text-center text-white backdrop-blur-[1px] sm:px-8 sm:py-10"
           >
-            <h1 className="text-5xl font-montserrat font-bold mb-4">Our News And Insights</h1>
-            <p className="text-xl font-montserrat max-w-2xl mx-auto">
+            <h1 className="mb-4 text-3xl font-montserrat font-bold sm:text-4xl md:text-5xl">Our News And Insights</h1>
+            <p className="mx-auto max-w-2xl text-base font-montserrat sm:text-xl">
             Discover exclusive stories, behind-the-scenes moments, and talent-packed blogs. Stay updated on ACB’s latest happenings, standout performances, and unforgettable journeys—all in one place!            </p>
           </motion.div>
         </div>

@@ -15,7 +15,7 @@ function About() {
     <div className="text-white overflow-hidden">
     
     <section className="hero-pattern relative">
-      <div className="hero-overlay min-h-screen flex items-center justify-center relative overflow-hidden">
+      <div className="hero-overlay relative flex h-[76svh] min-h-[560px] items-center justify-center overflow-hidden sm:h-[80svh] md:min-h-screen">
         <div className="absolute top-0 right-0 w-96 h-96 bg-primary opacity-10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-secondary opacity-10 rounded-full blur-3xl"></div>
         
@@ -23,7 +23,7 @@ function About() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1 }}
-          className="container mx-auto px-4 text-center"
+          className="container mx-auto rounded-2xl bg-black/20 px-4 py-6 text-center backdrop-blur-[1px] sm:px-6 sm:py-10 md:bg-transparent md:p-4"
         >
           <motion.div
             initial={{ scale: 0.5 }}
@@ -33,8 +33,8 @@ function About() {
           >
             SINCE 2014
           </motion.div>
-          <h1 className="text-5xl text-white font-poppins md:text-7xl font-bold mb-6">Africa's Campus Battle</h1>
-          <p className="text-xl md:text-[18px] font-poppins text-gray-200 max-w-4xl mx-auto mb-8 glass-card p-6 rounded-lg">
+          <h1 className="mb-6 text-4xl font-bold text-white font-poppins sm:text-5xl md:text-7xl">Africa's Campus Battle</h1>
+          <p className="mx-auto mb-8 max-w-4xl rounded-lg p-4 font-poppins text-base text-gray-100 glass-card sm:p-6 sm:text-xl md:text-[18px]">
             The premier continental stage where young talent becomes a force for change.
           
             Through dance, music, spoken word and performing arts, ACB is empowering Africa's youth to transform their creativity into real impact, rewriting the future with unapologetic authenticity.

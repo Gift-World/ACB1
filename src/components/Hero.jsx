@@ -60,7 +60,7 @@ function Hero() {
   }, []);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-[78svh] min-h-[620px] w-full overflow-hidden sm:h-[80svh] md:h-[85svh] lg:h-screen">
       <Swiper
         modules={[Autoplay, EffectFade]}
         effect="fade"
@@ -72,7 +72,7 @@ function Hero() {
         loop={true}
         preloadImages={false}
         onSlideChange={(swiper) => loadUpcomingSlide(swiper.realIndex)}
-        className="w-full h-screen sm:h-[80vh] md:h-[85vh] lg:h-full"
+        className="h-full w-full"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
@@ -82,7 +82,7 @@ function Hero() {
                   src={imageUrl(slide.image, 1920, 82)}
                   srcSet={responsiveImageSrcSet(slide.image, [640, 1024, 1600, 1920], 82)}
                   alt={slide.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                   sizes="100vw"
                   loading="eager"
                   decoding="async"
@@ -90,8 +90,8 @@ function Hero() {
                 />
               )}
               <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
-              <div className="absolute inset-0 flex flex-col items-center pt-24 sm:pt-0 justify-center text-white px-4 text-center">
-                <h2 className="text-[15px] lg:mt-4 md:mt-20 md:pt-16 sm:mt-36 sm:pt-24 mt-16 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl font-poppins font-semibold animate-fade-in bg-clip-text text-transparent bg-customOrange">
+              <div className="absolute inset-x-0 bottom-8 hidden justify-center px-4 md:flex">
+                <h2 className="rounded-full bg-black/55 px-4 py-2 text-sm font-poppins font-semibold text-white backdrop-blur-sm lg:text-base">
                   {slide.title}
                 </h2>
               </div>
@@ -100,9 +100,9 @@ function Hero() {
         ))}
       </Swiper>
 
-      <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
-        <div className="text-center text-white z-10 space-y-6">
-          <div className="space-y-2 px-4 py-6 sm:p-8 md:p-11">
+      <div className="absolute inset-0 flex flex-col items-center justify-center px-4 pt-12 sm:pt-0 pointer-events-none">
+        <div className="z-10 w-full max-w-4xl text-center text-white">
+          <div className="space-y-3 rounded-2xl bg-black/25 px-3 py-5 backdrop-blur-[1px] sm:space-y-4 sm:px-6 sm:py-8 md:bg-transparent md:p-11">
             <h1 className="text-4xl leading-tight sm:text-5xl md:text-6xl lg:text-7xl font-poppins font-black mb-2 break-words">
               AFRICA'S CAMPUS BATTLE
             </h1>
@@ -111,9 +111,9 @@ function Hero() {
             </p>
           </div>
           
-          <div className="w-full px-4 sm:px-6 md:px-8 lg:px-12 xl:px-0 max-w-4xl mx-auto mb-16">
+          <div className="mx-auto w-full max-w-3xl px-1 sm:px-6 md:px-8 lg:px-12 xl:px-0">
             <div className="text-center">
-              <p className="text-gray-200 font-poppins font-light text-base sm:text-[17px] md:text-[18px] leading-relaxed sm:leading-relaxed md:leading-relaxed px-4 sm:px-6 md:px-8 lg:px-0">
+              <p className="px-1 font-poppins text-sm font-light leading-relaxed text-gray-100 sm:px-6 sm:text-[17px] md:px-8 md:text-[18px] lg:px-0">
                 We are Africa's Campus Battle, the premier continental stage where young talent 
               becomes a force for change. Through dance, 
                 music, spoken word and performing arts. ACB is empowering Africa's youth to 
@@ -126,7 +126,7 @@ function Hero() {
       </div>
 
       <div
-        className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white transition-opacity duration-300 ${
+        className={`absolute bottom-5 left-1/2 hidden -translate-x-1/2 text-white transition-opacity duration-300 md:block ${
           isVisible ? 'opacity-100' : 'opacity-0'
         }`}
       >

@@ -13,7 +13,7 @@ function Season7() {
     <div className="min-h-screen overflow-hidden bg-white text-black">
       {/* Hero Section */}
       <motion.section 
-        className="min-h-screen flex flex-col items-center justify-center text-center p-4 relative"
+        className="relative flex h-[76svh] min-h-[560px] flex-col items-center justify-center overflow-hidden p-4 text-center sm:h-[80svh] md:min-h-screen"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1 }}
@@ -22,7 +22,7 @@ function Season7() {
         <div 
           className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
           style={{
-            backgroundImage: 'url("/761.jpg")',
+            backgroundImage: 'url("/.netlify/images?url=%2F761.jpg&w=1920&fm=webp&q=82")',
           }}
         >
           <div className="absolute inset-0 "></div>
@@ -31,7 +31,7 @@ function Season7() {
         {/* Content */}
         <div className="relative z-10">
           <motion.h1 
-            className="text-6xl md:text-8xl text-white font-bold mb-6 "
+            className="mb-6 text-4xl font-bold text-white sm:text-5xl md:text-8xl"
             animate={{ scale: [1, 1.1, 1] }}
             transition={{ duration: 2, repeat: Infinity }}
           >

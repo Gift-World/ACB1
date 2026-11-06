@@ -145,7 +145,7 @@ function PastHero() {
   }, []);
 
   return (
-    <div className="relative h-screen w-full overflow-hidden">
+    <div className="relative h-[68svh] min-h-[440px] w-full overflow-hidden sm:h-[75svh] md:h-[85svh] lg:h-screen">
       <Swiper
         modules={[Autoplay, EffectFade, Navigation]}
         effect="fade"
@@ -166,7 +166,7 @@ function PastHero() {
               <img
                 src={slide.image}
                 alt={`Slide ${index + 1}`}
-                className="h-full w-full object-cover"
+                className="h-full w-full object-cover object-center"
                 loading={index === 0 ? 'eager' : 'lazy'}
               />
               <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
@@ -178,13 +178,13 @@ function PastHero() {
       {/* Navigation Buttons */}
       <button
         onClick={() => swiperRef.current?.slidePrev()}
-        className="absolute left-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all duration-200"
+        className="absolute left-3 top-1/2 z-10 hidden -translate-y-1/2 rounded-full bg-white/10 p-3 transition-all duration-200 hover:bg-white/20 sm:block"
       >
         <BsChevronLeft className="w-6 h-6 text-white" />
       </button>
       <button
         onClick={() => swiperRef.current?.slideNext()}
-        className="absolute right-4 top-1/2 transform -translate-y-1/2 z-10 bg-white/10 hover:bg-white/20 p-3 rounded-full transition-all duration-200"
+        className="absolute right-3 top-1/2 z-10 hidden -translate-y-1/2 rounded-full bg-white/10 p-3 transition-all duration-200 hover:bg-white/20 sm:block"
       >
         <BsChevronRight className="w-6 h-6 text-white" />
       </button>
@@ -193,7 +193,7 @@ function PastHero() {
       </div>
 
       <div
-        className={`absolute bottom-8 left-1/2 transform -translate-x-1/2 text-white transition-opacity duration-300 ${
+        className={`absolute bottom-5 left-1/2 hidden -translate-x-1/2 text-white transition-opacity duration-300 md:block ${
           isVisible ? 'opacity-100' : 'opacity-0'
         }`}
       >
