@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, EffectFade } from 'swiper/modules';
 import { BsChevronDown } from 'react-icons/bs';
+import imageUrl, { responsiveImageSrcSet } from '../utils/netlifyImage';
 import 'swiper/css';
 import 'swiper/css/effect-fade';
 
@@ -78,9 +79,11 @@ function Hero() {
             <div className="relative w-full h-full">
               {loadedSlides.has(index) && (
                 <img
-                  src={slide.image}
+                  src={imageUrl(slide.image, 1920, 82)}
+                  srcSet={responsiveImageSrcSet(slide.image, [640, 1024, 1600, 1920], 82)}
                   alt={slide.title}
                   className="w-full h-full object-cover"
+                  sizes="100vw"
                   loading="eager"
                   decoding="async"
                   fetchPriority={index === 0 ? 'high' : 'auto'}
@@ -99,11 +102,11 @@ function Hero() {
 
       <div className="absolute inset-0 flex flex-col items-center justify-center pointer-events-none">
         <div className="text-center text-white z-10 space-y-6">
-          <div className="space-y-2 p-11">
-            <h1 className="text-7xl font-poppins font-black mb-2 ">
+          <div className="space-y-2 px-4 py-6 sm:p-8 md:p-11">
+            <h1 className="text-4xl leading-tight sm:text-5xl md:text-6xl lg:text-7xl font-poppins font-black mb-2 break-words">
               AFRICA'S CAMPUS BATTLE
             </h1>
-            <p className="text-3xl font-bold font-poppins ">
+            <p className="text-xl sm:text-2xl md:text-3xl font-bold font-poppins">
               UNAPOLOGETICALLY TALENTED
             </p>
           </div>

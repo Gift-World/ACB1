@@ -3,6 +3,7 @@ import { Autoplay, EffectCards } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/effect-cards';
 import { motion } from 'framer-motion';
+import imageUrl, { responsiveImageSrcSet } from '../utils/netlifyImage';
 
 const highlights = [
   {
@@ -83,11 +84,13 @@ function Highlights() {
                 <SwiperSlide key={index}>
                   <div className="relative rounded-2xl overflow-hidden aspect-square">
                     <img 
-                      src={highlight.url}
+                      src={imageUrl(highlight.url, 768)}
+                      srcSet={responsiveImageSrcSet(highlight.url, [360, 480, 768])}
                       alt={highlight.title}
                       className="w-full h-full object-cover"
                       loading="lazy"
                       decoding="async"
+                      sizes="(max-width: 768px) 100vw, 448px"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
                       <h4 className="text-xl font-bold text-white">{highlight.title}</h4>

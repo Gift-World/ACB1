@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { useEffect, useState } from 'react';
+import imageUrl, { responsiveImageSrcSet } from '../utils/netlifyImage';
 function CountdownTimer({ targetDate }) {
   const calculateTimeLeft = () => {
     const difference = +new Date(targetDate) - +new Date();
@@ -58,11 +59,13 @@ function Poster() {
           {/* Poster Container */}
           <div className="relative bg-black rounded-lg p-3">
             <img 
-              src="/season7-auditions.avif"
+              src={imageUrl('/season7-auditions.avif', 768)}
+              srcSet={responsiveImageSrcSet('/season7-auditions.avif', [320, 450, 768])}
               alt="Africa's Campus Battle Season 7 Poster" 
               className="w-[450px] rounded shadow-2xl transform transition-transform duration-300 hover:scale-105"
               loading="lazy"
               decoding="async"
+              sizes="(max-width: 640px) 100vw, 450px"
             />
             
             {/* Coming Soon Badge */}

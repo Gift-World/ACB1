@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import imageUrl, { responsiveImageSrcSet } from '../utils/netlifyImage';
 
 
 function Podcast() {
@@ -16,11 +17,13 @@ function Podcast() {
           {/* Podcast Container */}
           <div className="relative bg-black rounded-lg p-3">
             <img 
-              src="/micposter.webp" 
+              src={imageUrl('/micposter.webp', 768)}
+              srcSet={responsiveImageSrcSet('/micposter.webp', [320, 500, 768])}
               alt="Africa's Campus Battle Season 7 Podcast" 
               className="w-[500px] rounded shadow-2xl transform transition-transform duration-300 hover:scale-105"
               loading="lazy"
               decoding="async"
+              sizes="(max-width: 640px) 100vw, 500px"
             />
             
             {/* Coming Soon Badge */}
