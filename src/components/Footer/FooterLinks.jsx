@@ -10,7 +10,7 @@ const links = {
   ],
  
   // "Contact Info": [
-  //   { name: "info@africascampusbattle.org", sectionId: "email" },
+  //   { name: "info@acbafrica.com", sectionId: "email" },
   //   { name: "+254 715 695 363", sectionId: "phone" },
   //   { name: "Nairobi , Kenya", sectionId: "address-2" }
   // ]

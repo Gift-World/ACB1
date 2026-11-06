@@ -1,25 +1,27 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
-import { useEffect } from "react";
+import { lazy, Suspense, useEffect } from "react";
 import ReactGA from "react-ga4";
 import ScrollToTop from "./components/ScrollToTop";
 import NavBar from "./components/NavBar";
-import Home from "./pages/Home";
-import About from "./pages/About";
-import PastSeasons from "./pages/PastSeasons";
-import Season7 from "./pages/Season7";
-import FAQS from "./pages/FAQS";
-import Terms from "./components/Terms";
-import Magazine from "./components/Blogs/Magazine";
-import VideoGallery from "./components/VideoGallery";
-import Blogs from "./components/Blogs/Blogs";
-import Magazine2 from "./components/Blogs/Magazine2";
-import Communications from "./components/Communications";
-import Privacy from "./components/Privacy";
-import Consent from "./components/Consent";
-import DataAccess from "./components/DataAccess";
-import Erasure from "./components/Erasure";
-// import InstallPrompt from "./components/InstallPrompt.jsx";
-import Auditions from "./pages/Auditions.jsx";
+
+// Pages load only when a visitor opens them. This keeps code for the PDF, video,
+// magazine and policy pages out of the first homepage download.
+const Home = lazy(() => import("./pages/Home"));
+const About = lazy(() => import("./pages/About"));
+const PastSeasons = lazy(() => import("./pages/PastSeasons"));
+const Season7 = lazy(() => import("./pages/Season7"));
+const FAQS = lazy(() => import("./pages/FAQS"));
+const Terms = lazy(() => import("./components/Terms"));
+const Magazine = lazy(() => import("./components/Blogs/Magazine"));
+const VideoGallery = lazy(() => import("./components/VideoGallery"));
+const Blogs = lazy(() => import("./components/Blogs/Blogs"));
+const Magazine2 = lazy(() => import("./components/Blogs/Magazine2"));
+const Communications = lazy(() => import("./components/Communications"));
+const Privacy = lazy(() => import("./components/Privacy"));
+const Consent = lazy(() => import("./components/Consent"));
+const DataAccess = lazy(() => import("./components/DataAccess"));
+const Erasure = lazy(() => import("./components/Erasure"));
+const Auditions = lazy(() => import("./pages/Auditions.jsx"));
 
 ReactGA.initialize("G-8J85Q5Q4ME"); // Replace with your GA4 Measurement ID
 
@@ -48,6 +50,7 @@ function App() {
       <NavBar />
       {/*<InstallPrompt/>*/}
       <AnalyticsTracker />
+      <Suspense fallback={<main className="min-h-screen bg-black" aria-label="Loading page" />}>
       <Routes>
         <Route path="/news-and-insights" element={<Blogs />} />
         <Route path="/consent" element={<Consent />} />
@@ -66,6 +69,7 @@ function App() {
         <Route path="/season-5-magazine" element={<Magazine2 />} />
         <Route path="/auditions" element={<Auditions />} />
       </Routes>
+      </Suspense>
     </div>
   );
 }

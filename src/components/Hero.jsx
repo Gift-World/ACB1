@@ -34,6 +34,20 @@ const slides = [
 
 function Hero() {
   const [isVisible, setIsVisible] = useState(true);
+  // Only fetch the first slide and the next slide on first paint. The remaining
+  // high-resolution images are requested while the visitor views the carousel.
+  const [loadedSlides, setLoadedSlides] = useState(() => new Set([0, 1]));
+
+  const loadUpcomingSlide = (activeIndex) => {
+    const nextIndex = (activeIndex + 1) % slides.length;
+    setLoadedSlides((currentSlides) => {
+      if (currentSlides.has(nextIndex)) return currentSlides;
+
+      const nextSlides = new Set(currentSlides);
+      nextSlides.add(nextIndex);
+      return nextSlides;
+    });
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -55,17 +69,23 @@ function Hero() {
           disableOnInteraction: false,
         }}
         loop={true}
+        preloadImages={false}
+        onSlideChange={(swiper) => loadUpcomingSlide(swiper.realIndex)}
         className="w-full h-screen sm:h-[80vh] md:h-[85vh] lg:h-full"
       >
         {slides.map((slide, index) => (
           <SwiperSlide key={index}>
             <div className="relative w-full h-full">
-              <img
-                src={slide.image}
-                alt={slide.title}
-                className="w-full h-full object-cover"
-                loading={index === 0 ? 'eager' : 'lazy'}
-              />
+              {loadedSlides.has(index) && (
+                <img
+                  src={slide.image}
+                  alt={slide.title}
+                  className="w-full h-full object-cover"
+                  loading="eager"
+                  decoding="async"
+                  fetchPriority={index === 0 ? 'high' : 'auto'}
+                />
+              )}
               <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/50 to-black/70" />
               <div className="absolute inset-0 flex flex-col items-center pt-24 sm:pt-0 justify-center text-white px-4 text-center">
                 <h2 className="text-[15px] lg:mt-4 md:mt-20 md:pt-16 sm:mt-36 sm:pt-24 mt-16 sm:text-xl md:text-2xl lg:text-3xl xl:text-3xl font-poppins font-semibold animate-fade-in bg-clip-text text-transparent bg-customOrange">

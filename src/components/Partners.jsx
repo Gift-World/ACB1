@@ -114,6 +114,8 @@ function Partners() {
                   className="h-40 object-contain hover:opacity-75 transition-opacity duration-300"
                   src={partner.logo}
                   alt={partner.name}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             ))}

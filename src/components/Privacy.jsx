@@ -12,7 +12,7 @@ function Privacy() {
             Africa's Campus Battle (ACB) is a captivating talent competition traversing Universities in Africa with the goal of identifying the untapped talents among the students. The mission is to accelerate progress towards the Sustainable Development Goals (SDGs) by mobilizing the talented youth in universities and colleges. In promoting its services ACB is committed to ensuring that the data we process is handled in accordance with data protection law.
           </p>
           <p className="mb-6">
-            This privacy notice sets out how Africa's Campus Battle uses and protects any information that you give the ACB via our website: https://africascampusbattle.org/. In addition, this policy sets out the use of cookies on our website and how you can control the use of them.
+            This privacy notice sets out how Africa's Campus Battle uses and protects any information that you give the ACB via our website: https://acbafrica.com/. In addition, this policy sets out the use of cookies on our website and how you can control the use of them.
           </p>
 
           <h2 className="text-2xl font-semibold mb-4">2. Scope</h2>
@@ -31,7 +31,7 @@ function Privacy() {
             <li>Your IP address, including your Internet Service Provider</li>
             <li>Your browser, operating system and device model</li>
           </ul>
-          <p className="mb-4">When visiting https://africascampusbattle.org/ the ACB uses this information for the following reasons:</p>
+          <p className="mb-4">When visiting https://acbafrica.com/ the ACB uses this information for the following reasons:</p>
           <ul className="list-disc pl-8 mb-6">
             <li>To understand your individual talents and provide you with a better service</li>
             <li>To understand and improve our users' online experience</li>

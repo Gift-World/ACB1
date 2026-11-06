@@ -86,6 +86,8 @@ function Highlights() {
                       src={highlight.url}
                       alt={highlight.title}
                       className="w-full h-full object-cover"
+                      loading="lazy"
+                      decoding="async"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/80 to-transparent flex flex-col justify-end p-6">
                       <h4 className="text-xl font-bold text-white">{highlight.title}</h4>
@@ -108,6 +110,8 @@ function Highlights() {
             className="w-full aspect-video rounded-xl"
             controls
             src="/videos/acb season 6 experience.mp4" // Replace with the correct server path for your video
+            preload="none"
+            playsInline
           />
         ) : (
           <iframe
